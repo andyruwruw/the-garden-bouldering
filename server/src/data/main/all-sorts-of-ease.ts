@@ -38,7 +38,7 @@ const InTheShadowOfGiants: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 2,
       subgrade: 0,
     },
     mountainProject: {
@@ -48,7 +48,7 @@ const InTheShadowOfGiants: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 1,
     mountainProject: {
       average: 0,
       votes: 0,

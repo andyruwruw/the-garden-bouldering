@@ -12,7 +12,7 @@ const Vince: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 2,
       subgrade: 0,
     },
     mountainProject: {
@@ -39,5 +39,7 @@ export default {
   name: 'Crash Test Dummies Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'vince': Vince,
+  },
 } as Boulder;

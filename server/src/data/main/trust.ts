@@ -12,7 +12,7 @@ const Trust: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 2,
       subgrade: 0,
     },
     mountainProject: {
@@ -22,7 +22,7 @@ const Trust: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 3,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -38,7 +38,7 @@ const IronCross: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 2,
       subgrade: 0,
     },
     mountainProject: {
@@ -48,7 +48,7 @@ const IronCross: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -62,8 +62,11 @@ export default {
   },
   lat: 0,
   long: 0,
-  name: 'Iron Cross Boulder',
+  name: 'Trust Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'trust': Trust,
+    'iron-cross': IronCross,
+  },
 } as Boulder;

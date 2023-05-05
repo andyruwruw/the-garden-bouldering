@@ -22,7 +22,7 @@ const RaphaelCrack: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -38,7 +38,7 @@ const Donatello: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 1,
       subgrade: 0,
     },
     mountainProject: {
@@ -48,7 +48,7 @@ const Donatello: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -64,7 +64,7 @@ const Leonardo: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 3,
       subgrade: 0,
     },
     mountainProject: {
@@ -74,7 +74,7 @@ const Leonardo: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -91,5 +91,9 @@ export default {
   name: 'Turtle in a Half Shell Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'raphael-crack': RaphaelCrack,
+    'donatello': Donatello,
+    'leonardo': Leonardo,
+  },
 } as Boulder;

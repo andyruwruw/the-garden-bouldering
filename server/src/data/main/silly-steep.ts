@@ -12,7 +12,7 @@ const SillySteepMantle: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 4,
       subgrade: 0,
     },
     mountainProject: {
@@ -39,5 +39,7 @@ export default {
   name: 'Silly Steep Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'silly-steep-mantle': SillySteepMantle,
+  },
 } as Boulder;

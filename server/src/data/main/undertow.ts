@@ -12,7 +12,7 @@ const Undertow: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 3,
       subgrade: 0,
     },
     mountainProject: {
@@ -22,7 +22,7 @@ const Undertow: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 3,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -38,7 +38,7 @@ const SprayAgainstTheUndertow: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 6,
       subgrade: 0,
     },
     mountainProject: {
@@ -48,7 +48,7 @@ const SprayAgainstTheUndertow: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: -1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -64,7 +64,7 @@ const UndertowSitStart: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 7,
       subgrade: 0,
     },
     mountainProject: {
@@ -74,7 +74,7 @@ const UndertowSitStart: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 3,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -90,7 +90,7 @@ const Riptide: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 3,
       subgrade: 0,
     },
     mountainProject: {
@@ -108,15 +108,15 @@ const Riptide: Route = {
   },
 };
 
-const SImpleMath: Route = {
+const SimpleMath: Route = {
   href: {
     mountainProject: '',
   },
-  name: 'SImple Math',
+  name: 'Simple Math',
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 3,
       subgrade: 0,
     },
     mountainProject: {
@@ -126,7 +126,7 @@ const SImpleMath: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: -1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -142,7 +142,7 @@ const ShakeItOut: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 3,
       subgrade: 0,
     },
     mountainProject: {
@@ -152,7 +152,7 @@ const ShakeItOut: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -168,7 +168,7 @@ const Tidepool: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 3,
       subgrade: 0,
     },
     mountainProject: {
@@ -178,7 +178,7 @@ const Tidepool: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: -1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -195,5 +195,13 @@ export default {
   name: 'Undertow Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'undertow': Undertow,
+    'spray-against-the-undertow': SprayAgainstTheUndertow,
+    'undertow-sit-start': UndertowSitStart,
+    'riptide': Riptide,
+    'simple-math': SimpleMath,
+    'shake-it-out': ShakeItOut,
+    'tidepool': Tidepool,
+  },
 } as Boulder;

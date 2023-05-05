@@ -36,7 +36,7 @@ export default {
   },
   lat: 0,
   long: 0,
-  name: 'UNNAMED Boulder',
+  name: 'Swollen Member Boulder',
   elevation: 0,
   images: [],
   routes: {},

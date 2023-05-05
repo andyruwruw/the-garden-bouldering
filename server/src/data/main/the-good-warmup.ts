@@ -6,10 +6,12 @@ import {
 
 const TheGoodWarmup: Route = {
   href: {
-    mountainProject: '',
+    mountainProject: 'https://www.mountainproject.com/route/118701335/the-good-warm-up-shark-fin',
   },
   name: 'The Good Warmup',
-  altNames: [],
+  altNames: [
+    'Shark Fin',
+  ],
   grade: {
     child: {
       grade: 0,
@@ -22,22 +24,22 @@ const TheGoodWarmup: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 1,
     mountainProject: {
-      average: 0,
-      votes: 0,
+      average: 2.9,
+      votes: 7,
     },
   },
 };
 
 export default {
-  href:  {
-    mountainProject: '',
-  },
+  href:  {},
   lat: 0,
   long: 0,
   name: 'The Good Warmup Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'the-good-warmup': TheGoodWarmup,
+  },
 } as Boulder;

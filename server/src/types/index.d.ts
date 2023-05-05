@@ -2,6 +2,18 @@ export interface HrefObject {
   mountainProject?: string;
 }
 
+export interface FAObject {
+  name: string;
+  date?: string;
+}
+
+export interface DangerObject {
+  child?: number;
+  mountainProject?: number;
+  heartFlutters?: number;
+  old?: number;
+}
+
 export interface RatingObject {
   child?: number;
   old?: number;
@@ -55,7 +67,27 @@ export interface Route {
   name: string;
   altNames: string[];
   grade: GradeObject;
-  firstAscent: string | null;
+  firstAscent: FAObject | null;
   rating: RatingObject;
   variationOf?: number;
+  danger?: DangerObject;
+}
+
+export interface Coordinates {
+  lat: number;
+  long: number;
+}
+
+export interface MountainProjectItem {
+  elevation: number | null;
+  pageViews: number | null;
+  fa: string | null;
+  type: string | null;
+  name: string | null;
+  grade: string | null;
+  rating: number | null;
+  coords: Coordinates | null;
+  url: string | null;
+  isRoute: boolean;
+  isArea: boolean;
 }

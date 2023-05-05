@@ -12,8 +12,8 @@ const ProjectMayhem: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
-      subgrade: 0,
+      grade: 1,
+      subgrade: 1,
     },
     mountainProject: {
       grade: 0,
@@ -22,7 +22,7 @@ const ProjectMayhem: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -38,7 +38,7 @@ const TylerDurtenDyno: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: -1,
       subgrade: 0,
     },
     mountainProject: {
@@ -48,7 +48,7 @@ const TylerDurtenDyno: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: -1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -64,7 +64,7 @@ const AngelFace: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 6,
       subgrade: 0,
     },
     mountainProject: {
@@ -74,7 +74,7 @@ const AngelFace: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: -1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -90,7 +90,7 @@ const DurtenLayback: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 1,
       subgrade: 0,
     },
     mountainProject: {
@@ -100,7 +100,7 @@ const DurtenLayback: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: -1,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -117,5 +117,10 @@ export default {
   name: 'Tyler Durten Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'project-mayhem': ProjectMayhem,
+    'tyler-durten-dyno': TylerDurtenDyno,
+    'angel-face': AngelFace,
+    'durten-layback': DurtenLayback,
+  },
 } as Boulder;

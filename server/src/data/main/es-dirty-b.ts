@@ -12,7 +12,7 @@ const EsDirtyB: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 5,
       subgrade: 0,
     },
     mountainProject: {
@@ -39,5 +39,7 @@ export default {
   name: 'E\'s Dirty B Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'es-dirty-b': EsDirtyB,
+  },
 } as Boulder;

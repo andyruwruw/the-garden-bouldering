@@ -12,7 +12,7 @@ const MiniMe: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 3,
       subgrade: 0,
     },
     mountainProject: {
@@ -22,7 +22,7 @@ const MiniMe: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 0,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -34,11 +34,11 @@ const AustinPowers: Route = {
   href: {
     mountainProject: '',
   },
-  name: 'AustinP owers',
+  name: 'Austin Powers',
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 5,
       subgrade: 0,
     },
     mountainProject: {
@@ -64,7 +64,7 @@ const DrEvil: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 4,
       subgrade: 0,
     },
     mountainProject: {
@@ -90,7 +90,7 @@ const MrBigglesworth: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 1,
       subgrade: 0,
     },
     mountainProject: {
@@ -114,8 +114,13 @@ export default {
   },
   lat: 0,
   long: 0,
-  name: 'UNNAMED Boulder',
+  name: 'Mini Me Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'mini-me': MiniMe,
+    'austin-powers': AustinPowers,
+    'dr-evil': DrEvil,
+    'mr-bigglesworth': MrBigglesworth,
+  },
 } as Boulder;

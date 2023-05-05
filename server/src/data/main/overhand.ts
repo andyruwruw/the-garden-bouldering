@@ -12,7 +12,7 @@ const Overhand: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 7,
       subgrade: 0,
     },
     mountainProject: {
@@ -39,5 +39,7 @@ export default {
   name: 'Overhand Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'overhand': Overhand,
+  },
 } as Boulder;

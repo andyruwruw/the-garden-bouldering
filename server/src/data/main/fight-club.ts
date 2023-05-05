@@ -12,8 +12,8 @@ const TheEar: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
-      subgrade: 0,
+      grade: 2,
+      subgrade: 1,
     },
     mountainProject: {
       grade: 0,
@@ -22,7 +22,7 @@ const TheEar: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 3,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -38,7 +38,7 @@ const FightClub: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 8,
       subgrade: 0,
     },
     mountainProject: {
@@ -48,7 +48,7 @@ const FightClub: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 3,
     mountainProject: {
       average: 0,
       votes: 0,
@@ -64,7 +64,7 @@ const FightClub2: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 10,
       subgrade: 0,
     },
     mountainProject: {
@@ -90,7 +90,7 @@ const Brewmaster: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 5,
       subgrade: 0,
     },
     mountainProject: {
@@ -117,5 +117,10 @@ export default {
   name: 'Fight Club Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'the-ear': TheEar,
+    'fight-club': FightClub,
+    'fight-club-2': FightClub2,
+    'brewmaster': Brewmaster,
+  },
 } as Boulder;

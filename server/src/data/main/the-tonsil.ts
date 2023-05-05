@@ -8,11 +8,11 @@ const Tonsil: Route = {
   href: {
     mountainProject: '',
   },
-  name: 'UNNAMED',
+  name: 'Tonsil',
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 4,
       subgrade: 0,
     },
     mountainProject: {
@@ -38,21 +38,13 @@ const TonsilLowStart: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
-      subgrade: 0,
-    },
-    mountainProject: {
-      grade: 0,
+      grade: -1,
       subgrade: 0,
     },
   },
   firstAscent: null,
   rating: {
-    child: 2,
-    mountainProject: {
-      average: 0,
-      votes: 0,
-    },
+    child: -1,
   },
 };
 
@@ -64,21 +56,16 @@ const Prowed: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
-      subgrade: 0,
-    },
-    mountainProject: {
-      grade: 0,
+      grade: -1,
       subgrade: 0,
     },
   },
   firstAscent: null,
   rating: {
+    child: -1,
+  },
+  danger: {
     child: 2,
-    mountainProject: {
-      average: 0,
-      votes: 0,
-    },
   },
 };
 
@@ -91,5 +78,9 @@ export default {
   name: 'The Tonsil Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'tonsil': Tonsil,
+    'tonsil-low-start': TonsilLowStart,
+    'prowed': Prowed,
+  },
 } as Boulder;

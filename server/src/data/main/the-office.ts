@@ -12,7 +12,7 @@ const JimHalpert: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
+      grade: 1,
       subgrade: 0,
     },
     mountainProject: {
@@ -22,11 +22,14 @@ const JimHalpert: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 0,
     mountainProject: {
       average: 0,
       votes: 0,
     },
+  },
+  danger: {
+    child: 2,
   },
 };
 
@@ -38,8 +41,8 @@ const DarylPhilbin: Route = {
   altNames: [],
   grade: {
     child: {
-      grade: 0,
-      subgrade: 0,
+      grade: 2,
+      subgrade: -2,
     },
     mountainProject: {
       grade: 0,
@@ -48,11 +51,14 @@ const DarylPhilbin: Route = {
   },
   firstAscent: null,
   rating: {
-    child: 2,
+    child: 3,
     mountainProject: {
       average: 0,
       votes: 0,
     },
+  },
+  danger: {
+    child: 2,
   },
 };
 
@@ -65,5 +71,8 @@ export default {
   name: 'The Office Boulder',
   elevation: 0,
   images: [],
-  routes: {},
+  routes: {
+    'jim-halpert': JimHalpert,
+    'daryl-philbin': DarylPhilbin,
+  },
 } as Boulder;
