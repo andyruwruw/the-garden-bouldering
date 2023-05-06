@@ -1,0 +1,7 @@
+{
+  "name": "the-garden-guide",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

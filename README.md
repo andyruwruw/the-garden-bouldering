@@ -2,7 +2,11 @@
 
 # Why did I make this?
 
-I haven't been climbing at The Garden in the Willamette Valley long, but one of my biggest gripes with it is the barrier to entry for newer climbers. Newer climbers have to deal with the fact that Mountain Project only contains a few coordinate pins for hundreds of boulders and routes, all without definative trails. Without a map or trail, the easiest way to learn about The Garden is find a private guide that floats around or go with someone who knows the area. Without a trail or a map, my first sessions were spent pulling onto anything I thought looked interesting, which is a great way to start but should be by choice.
+I haven't been climbing at The Garden in the Willamette Valley long, but one of my biggest gripes with it is the **barrier to entry** for newer climbers.
+
+Newer climbers have to deal with the fact that [Mountain Project](https://www.mountainproject.com/map/105818219/the-garden-boulders) only contains a few coordinate pins for hundreds of boulders and routes, all without definative trails.
+
+Without a map or trail, the easiest way to learn about The Garden is find a private guide that floats around or go with someone who knows the area. My first sessions were spent pulling onto anything I thought looked interesting, which is a great way to start but should be by choice.
 
 I understand there can't be guidebooks for The Garden like other home crags, but I hope to gather everything I can about the place I love and make it accessable to more people.
 
