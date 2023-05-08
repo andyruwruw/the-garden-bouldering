@@ -4,7 +4,19 @@ import { UsedAbstractDatabaseError } from '../errors/used-abstract-database-erro
 
 // Types
 import {
+  Area,
+  Article,
+  Attempt,
+  Boulder,
+  Comment,
   Crag,
+  Description,
+  Interest,
+  Route,
+  Send,
+  Status,
+  User,
+  Request,
   NullableDataAccessObject,
 } from '../types';
 
@@ -13,22 +25,74 @@ import {
  */
 export class Database {
   /**
-   * Data access object for Crags.
+   * Data access object for areas.
+   */
+  area: NullableDataAccessObject<Area> = null;
+
+  /**
+   * Data access object for articles.
+   */
+  article: NullableDataAccessObject<Article> = null;
+
+  /**
+   * Data access object for attempts.
+   */
+  attempt: NullableDataAccessObject<Attempt> = null;
+
+  /**
+   * Data access object for boulders.
+   */
+  boulder: NullableDataAccessObject<Boulder> = null;
+
+  /**
+   * Data access object for comments.
+   */
+  comment: NullableDataAccessObject<Comment> = null;
+
+  /**
+   * Data access object for crags.
    */
   crag: NullableDataAccessObject<Crag> = null;
 
   /**
-   * Connects to database.
-   *
-   * @param {string | undefined} [databaseUrl=''] Database URL.
-   * @param {string | undefined} [databaseUser=''] Database username.
-   * @param {string | undefined} [databasePassword=''] Database password.
+   * Data access object for descriptions.
    */
-  async connect(
-    databaseUrl = '',
-    databaseUser = '',
-    databasePassword = '',
-  ): Promise<void> {
+  description: NullableDataAccessObject<Description> = null;
+
+  /**
+   * Data access object for interests.
+   */
+  interest: NullableDataAccessObject<Interest> = null;
+
+  /**
+   * Data access object for requests.
+   */
+  request: NullableDataAccessObject<Request> = null;
+
+  /**
+   * Data access object for routes.
+   */
+  route: NullableDataAccessObject<Route> = null;
+
+  /**
+   * Data access object for sends.
+   */
+  send: NullableDataAccessObject<Send> = null;
+
+  /**
+   * Data access object for status'.
+   */
+  status: NullableDataAccessObject<Status> = null;
+
+  /**
+   * Data access object for users.
+   */
+  user: NullableDataAccessObject<User> = null;
+
+  /**
+   * Connects to database.
+   */
+  async connect(): Promise<void> {
     throw new UsedAbstractDatabaseError();
   }
 

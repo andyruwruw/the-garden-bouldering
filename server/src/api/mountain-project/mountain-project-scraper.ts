@@ -1,52 +1,17 @@
 // Local Imports
 import { WebScraper } from '../web-scraper';
+import {
+  ADDITIONAL_LINES_SELECTOR,
+  MOUNTAIN_PROJECT_DETAIL_INTERESTS,
+  MOUNTAIN_PROJECT_SELECTORS,
+  NUMBER_SELECTOR,
+  PRIOR_SPACE_SELECTOR,
+  TWO_NUMBER_SELECTOR,
+} from '../../config';
 
 // Types
-import {
-  Coordinates,
-  MountainProjectItem,
-} from '../../types';
-
-/**
- * CSS selectors for Mountain Project.
- */
-const SELECTORS: Record<string, string> = {
-  name: 'h1',
-  grade: '.mr-2 .rateYDS',
-  rating: '#route-star-avg span',
-  descriptionDetails: '.description-details td',
-};
-
-/**
- * Details we care about.
- */
-const DETAIL_INTERESTS: Record<string, string> = {
-  'Elevation:': 'elevation',
-  'GPS:': 'coordinates',
-  'Page Views:': 'pageViews',
-  'FA:': 'fa',
-  'Type:': 'type',
-};
-
-/**
- * Regex for selecting numbers.
- */
-const NUMBER_SELECTOR = /([0-9,.]*[0-9]+)/gi;
-
-/**
- * Regex for selecting numbers.
- */
-const TWO_NUMBER_SELECTOR = /([\-0-9,.]+), ([\-0-9,.]+)/gi;
-
-/**
- * Selector for white space prior.
- */
-const PRIOR_SPACE_SELECTOR = /^\s+/g;
-
-/**
- * Selector for additional lines.
- */
-const ADDITIONAL_LINES_SELECTOR = /\n[a-zA-Z0-9\n\s]+$/g;
+import { Coordinates } from '../../types';
+import { MountainProjectItem } from '../../types/mountain-project';
 
 /**
  * Aids in retrieval and parsing of Mountain Project web pages..
@@ -255,34 +220,34 @@ export class MountainProjectScraper extends WebScraper {
       return null;
     }
 
-    this._name = this._dom(SELECTORS.name)
+    this._name = this._dom(MOUNTAIN_PROJECT_SELECTORS.name)
       .text()
       .replace(PRIOR_SPACE_SELECTOR, '')
       .replace(ADDITIONAL_LINES_SELECTOR, '');
 
     if (this.isRoute()) {
-      this._grade = this._dom(SELECTORS.grade).text().replace(' YDS', '');
+      this._grade = this._dom(MOUNTAIN_PROJECT_SELECTORS.grade).text().replace(' YDS', '');
 
-      const matches = this._dom(SELECTORS.rating).text().match(NUMBER_SELECTOR);
+      const matches = this._dom(MOUNTAIN_PROJECT_SELECTORS.rating).text().match(NUMBER_SELECTOR);
 
       if (matches && matches.length) {
         this._rating = parseFloat(matches[0]);
       }
     }
 
-    const elements = this._dom(SELECTORS.descriptionDetails).toArray();
+    const elements = this._dom(MOUNTAIN_PROJECT_SELECTORS.descriptionDetails).toArray();
 
     for (let i = 1; i < elements.length; i += 2) {
       const key = this._dom(elements[i - 1]).text().trim();
 
-      if (!(Object.keys(DETAIL_INTERESTS).includes(key))) {
+      if (!(Object.keys(MOUNTAIN_PROJECT_DETAIL_INTERESTS).includes(key))) {
         continue;
       }
 
       const value = this._dom(elements[i]).text().trim();
       let matches;
 
-      switch (DETAIL_INTERESTS[key]) {
+      switch (MOUNTAIN_PROJECT_DETAIL_INTERESTS[key]) {
         case 'elevation':
           matches = value.match(NUMBER_SELECTOR);
 

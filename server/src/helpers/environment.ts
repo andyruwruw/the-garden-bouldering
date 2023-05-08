@@ -8,6 +8,15 @@ dotenv.config();
  */
 export class Environment {
   /**
+   * Retrieves token for Github API.
+   *
+   * @returns {string} Token for Github API.
+   */
+  static getGithubToken(): string {
+    return process.env.GITHUB_TOKEN as string || '';
+  }
+
+  /**
    * Retrieves password for connecting with database if needed.
    *
    * @returns {string} Password for connecting with database if needed.
@@ -68,5 +77,14 @@ export class Environment {
    */
   static isUpdateLayerEnabled(): boolean {
     return process.env.DISABLE_UPDATE_LAYER !== 'true';
+  }
+
+  /**
+   * Retrieves encryption secret.
+   *
+   * @returns {string} Encryption secret.
+   */
+  static getSecret(): string {
+    return process.env.SECRET as string;
   }
 }

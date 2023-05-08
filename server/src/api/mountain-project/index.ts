@@ -21,7 +21,7 @@ export const getMountainProjectArea = async (url: string): Promise<MountainProje
     console.log(error);
   }
   return null;
-}
+};
 
 /**
  * Retrieves a Mountain Project route by URL.
@@ -40,7 +40,7 @@ export const getMountainProjectRoute = async (url: string): Promise<MountainProj
     console.log(error);
   }
   return null;
-}
+};
 
 export default {
   getMountainProjectArea,

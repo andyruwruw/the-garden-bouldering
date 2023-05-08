@@ -3,6 +3,7 @@
   "author": "ire510",
   "date": "2011",
   "transcriptor": "Andrew Young",
+  "transcribed": "05/2023",
   "children": [
     {
       "name": "Lower Garden",
@@ -46,7 +47,7 @@
               "name": "P-Lunger",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -108,7 +109,7 @@
               "name": "Donatello",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Sit start right of Michelangelo. Power pull start move to snatch right edges and crimps to top-out.",
               "transcription-notes": "Edits accepted. Abbreviation expanded."
@@ -217,7 +218,7 @@
               "name": "Left Corner",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Stand start on the left side of the south facing flank of the boulder avoiding holds of Bitchin Corners. A quicker top-out than Bitching Corners or Right Arête.",
               "transcription-notes": "Edits accepted. Abbreviation expanded. Route ID replaced with route name."
@@ -326,7 +327,7 @@
             {
               "id": 24,
               "name": "Project Cave",
-              "projectStatus": "open",
+              "project-status": "open",
               "grade": {
                 "grade": -2
               },
@@ -339,7 +340,7 @@
               "name": "Odd Undercling",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "arête"
@@ -366,7 +367,7 @@
               "name": "No Ledge Face",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -526,7 +527,7 @@
                   "name": "Leave it to Jesus",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "crimps",
@@ -545,7 +546,7 @@
                   "name": "Smack Down",
                   "grade": {
                     "grade": 6,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "tags": [
                     "steep",
@@ -560,7 +561,7 @@
                   "name": "Heisenberg",
                   "grade": {
                     "grade": 4,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "tags": [
                     "steep",
@@ -574,7 +575,7 @@
                   "name": "Meth Myth, (In Oregon There Is No)",
                   "grade": {
                     "grade": 6,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "tags": [
                     "steep"
@@ -588,7 +589,7 @@
                   "name": "Leary's Lunge",
                   "grade": {
                     "grade": 5,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "tags": [
                     "slopers"
@@ -615,13 +616,13 @@
                   "name": "Meth Lab Dyno Sit",
                   "grade": {
                     "grade": 5,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "tags": [
                     "dyno",
                     "mantle"
                   ],
-                  "isVariant": true,
+                  "variant": true,
                   "description": "Sit start or lay starting into the obvious lower cave ups the difficulty substantially. Finishing with a ? left or a ? right ? the ledge also changes the difficulty.",
                   "usable-description": "Sit start or lay starting into the obvious lower cave ups the difficulty substantially.",
                   "transcription-notes": "Edits accepted. Abbreviation expanded. Was unable to read a section of writing. Stand is separated out into a separate route."
@@ -657,12 +658,12 @@
                   "name": "Right Finish, Meth Lab Dyno Sit",
                   "grade": {
                     "grade": 5,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "tags": [
                     "dyno"
                   ],
-                  "isVariant": true,
+                  "variant": true,
                   "description": "Same as other right finish but start on Meth Lab Dyno Sit.",
                   "transcription-notes": "No description provided but it's clear it's simply other Right Finish with lower start on Meth Lab Dyno."
                 },
@@ -671,7 +672,7 @@
                   "name": "Acacia Berlandieri",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "wet"
@@ -775,7 +776,7 @@
               "name": "Chillum",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Stand start due to awkward bottom bloc. Better holds than The Bubbler.",
               "transcription-notes": "Route ID replaced with route name. Abbreviation expanded."
@@ -785,7 +786,7 @@
               "name": "Crawl Before You Walk",
               "grade": {
                 "grade": -1,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "warm-up",
@@ -871,7 +872,7 @@
                   "name": "Dwight",
                   "grade": {
                     "grade": 2,
-                    "subGrade": -1
+                    "sub-grade": -1
                   },
                   "tags": [
                     "slab"
@@ -891,7 +892,7 @@
                     "grade": 7
                   },
                   "tags": [
-                    "small-holds"
+                    "crimps"
                   ],
                   "description": "Test-piece sit start on very small holds. Angles seem conducive but holds are slight.",
                   "transcription-notes": "Abbreviation expanded."
@@ -901,7 +902,7 @@
                   "name": "Ryan \"the Temp\"",
                   "grade": {
                     "grade": 5,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "arête"
@@ -932,7 +933,7 @@
                   "name": "Jim Halbert",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "bad-landing"
@@ -944,7 +945,7 @@
                   "name": "Michael Scott",
                   "grade": {
                     "grade": 3,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "description": "More difficult line than Jim Halbert or Daryl Philbin, but with a better landing. Quality.",
                   "transcription-notes": "Route ID replaced with route name."
@@ -954,7 +955,7 @@
                   "name": "Daryl Philbin",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "high-ball"
@@ -986,7 +987,7 @@
               "name": "Vince",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -998,7 +999,7 @@
               "name": "Larry",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -1028,7 +1029,7 @@
               "name": "Bloody Knuckles Crack",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "crack"
@@ -1040,7 +1041,7 @@
               "name": "Bloody Knuckles",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "crack"
@@ -1083,7 +1084,7 @@
               "name": "Fight Club",
               "grade": {
                 "grade": 7,
-                "subGrade": 3
+                "sub-grade": 3
               },
               "description": "High quality area test-piece! Lay start separate from Cacophony Society, Übermensch and Über sit start. Stays on steep angled face with distinctive \"pop-corn\" holds. Heels can help but difficult holds up.",
               "transcription-notes": "Route ID replaced with route name."
@@ -1093,7 +1094,7 @@
               "name": "Fight Club 2",
               "grade": {
                 "grade": 7,
-                "subGrade": 3
+                "sub-grade": 3
               },
               "description": "Lay start, same face and steepness of Fight Club, different holds hedging left.",
               "transcription-notes": "Route ID replaced with route name."
@@ -1129,7 +1130,7 @@
               "name": "Durden Lie-back",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "arête",
@@ -1155,7 +1156,7 @@
               "name": "Project Mayhem",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -1186,7 +1187,7 @@
               "name": "Iron Cross",
               "grade": {
                 "grade": 1,
-                "subGrade": 3
+                "sub-grade": 3
               },
               "tags": [
                 "slopers"
@@ -1205,7 +1206,7 @@
               "name": "Mr. Bigglesworth",
               "grade": {
                 "grade": 0,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "arête"
@@ -1234,7 +1235,7 @@
                 "slopers",
                 "arête"
               ],
-              "isVariant": true,
+              "variant": true,
               "description": "Notable eliminate. Think SLOPERS! Sit start to big move to sloper on arête. Matching this out can be cruxy. So many eliminates on this face...",
               "transcription-notes": "Abbreviation expanded."
             },
@@ -1243,7 +1244,7 @@
               "name": "Number 2",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "mantle"
@@ -1256,7 +1257,7 @@
               "name": "Shagadellic Traverse",
               "grade": {
                 "grade": 1,
-                "subGrade": 3
+                "sub-grade": 3
               },
               "tags": [
                 "traverse"
@@ -1269,7 +1270,7 @@
               "name": "Austin Powers",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Same sit start as Shagadellic Traverse but head directly up. Quality moves, lip comes quickly.",
               "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
@@ -1292,7 +1293,7 @@
               "name": "Felicity Shagwell",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -1344,7 +1345,7 @@
               "name": "E's Dirty B",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "description": "Sit start in the hold. Different body types different feet, popcorn holds, both undercling and at the mouth of cave. Quick strenuous moves where steepness turns to vert. Easy top-out.",
               "transcription-notes": "Abbreviation expanded. Grade V2+/V3- will be simplified to V2/3"
@@ -1354,7 +1355,7 @@
               "name": "E's Dirty B (Right Finish)",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "description": "Same sit start as E's Dirty B, after vert is gained, veer right for different midpoint holds and different top-out. Changes difficulty little.",
               "transcription-notes": "Abbreviation expanded. Grade V2+/V3- will be simplified to V2/3"
@@ -1364,7 +1365,7 @@
               "name": "Blame It On The Rain",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Left side of the cave has diverse feet and hands to E's Dirty B (Right Finish), and naturally heads more centered left to a shelf shortly off the deck. From the shelf top-out is easy.",
               "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
@@ -1374,7 +1375,7 @@
               "name": "Green Hell",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing",
@@ -1394,7 +1395,7 @@
               "name": "Spray Skirt",
               "grade": {
                 "grade": 7,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "description": "Sit start extreme left of boulder almost under Silly Steep is actually easier than sit start for Undertow. Beyond intermediates 3-4 moves high it would seem holds end. A crimp at boulder's 3/4 height unlocked by large move leads to top-out.",
               "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
@@ -1425,7 +1426,7 @@
               "name": "Shake It Out",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "bad-landing"
@@ -1438,7 +1439,7 @@
               "name": "Simple Math",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "description": "Shared sit start with Shake It Out, following a line of positive holds and relieved angle.",
               "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
@@ -1448,7 +1449,7 @@
               "name": "Tide Pool",
               "grade": {
                 "grade": 6,
-                "subGrade": 3
+                "sub-grade": 3
               },
               "tags": [
                 "crimps",
@@ -1468,12 +1469,12 @@
               "name": "Silly Steep Mantle",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "mantle",
                 "campus",
-                "roof",
+                "overhung",
                 "short"
               ],
               "description": "No feet start. Couple ways to skin a cat, heading left or right, it all requires campus moves to start, then introduce high feet under roof. Physical mantle."
@@ -1489,7 +1490,7 @@
               "name": "150 Ram",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "arête"
@@ -1586,7 +1587,7 @@
               "name": "Meth Lab High-ball",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing",
@@ -1609,7 +1610,7 @@
               "tags": [
                 "mantle",
                 "short",
-                "roof"
+                "overhung"
               ],
               "description": "Lay start under contrived roof cave, slapping horizontally out and around bulge to quick mantle top-out. Difficulty simular to the physical nature of Silly Steep Mantle.",
               "transcription-notes": "Abbreviation expanded."
@@ -1625,7 +1626,7 @@
               "name": "MotorArête",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "slab"
@@ -1696,7 +1697,7 @@
               "name": "Early Exit",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Shared start with The Good V3. Beyond 1st crux, a reach out right reveals a wrong-way jug. Slowly hedging into the jug unlocks an easier second crux and quicker top-out.",
               "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
@@ -1706,7 +1707,7 @@
               "name": "Another V3",
               "grade": {
                 "grade": 3,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Rarely cleaned, this companion to The Good V3 suffers the same foothold breaking issues that The Good V3 suffers, resulting in variance to difficulty over the years.",
               "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
@@ -1787,7 +1788,7 @@
               "name": "Baldinator",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "crack"
@@ -1809,7 +1810,7 @@
               "name": "Baldo Sit",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "arête"
@@ -1827,7 +1828,7 @@
               "name": "Dan Dee's Phishing Buddy",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -1846,11 +1847,11 @@
               "name": "Dan Dee's Roof",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "arête",
-                "roof",
+                "overhung",
                 "mantle"
               ],
               "description": "Angle of kicker bloc makes for awkward sit start. Handholds just above break transition to blocky set of jugs just under roof. From jugs veer right and out steep roof with holds on arête. Top-out comes after mantling lip of roof. Scary mantle.",
@@ -1861,7 +1862,7 @@
               "name": "Dan Dee's Arête",
               "grade": {
                 "grade": 3,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "arête"
@@ -1880,7 +1881,7 @@
               "name": "Not So Hueco",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "crimps"
@@ -1893,7 +1894,7 @@
               "name": "A Cruel Dance",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "mantle"
@@ -1918,7 +1919,7 @@
               "name": "Hueco Wabo",
               "grade": {
                 "grade": 3,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "slopers",
@@ -2017,7 +2018,7 @@
                   "name": "Pockets",
                   "grade": {
                     "grade": 3,
-                    "subGrade": -1
+                    "sub-grade": -1
                   },
                   "tags": [
                     "slab"
@@ -2057,7 +2058,7 @@
                   "name": "Bruno",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "description": "Sit start powering to and past distinctive large positive hold. Center flank of wall with no arête relief.",
                   "usable-description": "Sit start powering to and past distinctive large positive hold visible in photo. Center flank of wall with no arête relief.",
@@ -2068,7 +2069,7 @@
                   "name": "Classique",
                   "grade": {
                     "grade": 2,
-                    "subGrade": -2
+                    "sub-grade": -2
                   },
                   "tags": [
                     "arête",
@@ -2119,7 +2120,7 @@
                   "name": "Sometimes a Great Motion",
                   "grade": {
                     "grade": 3,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "bad-landing"
@@ -2140,7 +2141,7 @@
                   "name": "Mini-Hydrotube",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "wet"
@@ -2162,7 +2163,7 @@
                   "name": "Becky's Roof Start",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "description": "Standing start stemming the cave, blending overhead jams and hand-holds. Once angle eases difficulty is done.",
                   "history": "Around the corner from Becky's Roof Start and before \"The Shed Off\" there lies two sit starts, to full lines that have been cleaned in the past by the author. Coinciding with this cleaning of said projects the author discovered the Druid Stons. These lines were never sent, see Druid Stones guidebook."
@@ -2172,7 +2173,7 @@
                   "name": "Off Vert Wall Warm-Up",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "warm-up"
@@ -2196,7 +2197,7 @@
                   "name": "Slopodon Milošević",
                   "grade": {
                     "grade": 4,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "traverse",
@@ -2212,7 +2213,7 @@
                   "name": "O Trice",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "high-ball"
@@ -2225,7 +2226,7 @@
                   "name": "Joey",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "description": "Starts with O Trice's stand start, veering drastic right into Shake It Out following opening crux. Follows bulge.",
                   "transcription-notes": "Abbreviation expanded. Route ID replaced with route name. Routes mentioned twice contradict with this ID."
@@ -2235,7 +2236,7 @@
                   "name": "Shake It Out",
                   "grade": {
                     "grade": 2,
-                    "subGrade": -1
+                    "sub-grade": -1
                   },
                   "description": "Simular in nature to O Trice and Joey, but with some of the more positive holds, especially at 8-10 feet height.",
                   "transcription-notes": "Route ID replaced with route name. Routes mentioned twice contradict with this ID."
@@ -2245,7 +2246,7 @@
                   "name": "Got Some Teeth",
                   "grade": {
                     "grade": 3,
-                    "subGrade": -1
+                    "sub-grade": -1
                   },
                   "tags": [
                     "slab"
@@ -2282,7 +2283,7 @@
                   "name": "Backside Baldo",
                   "grade": {
                     "grade": 2,
-                    "subGrade": -1
+                    "sub-grade": -1
                   },
                   "tags": [
                     "slab",
@@ -2310,7 +2311,7 @@
                   "name": "Ed's Arête",
                   "grade": {
                     "grade": 4,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "tags": [
                     "arête"
@@ -2322,7 +2323,7 @@
                   "name": "Wash the Dishes",
                   "grade": {
                     "grade": 3,
-                    "subGrade": -1
+                    "sub-grade": -1
                   },
                   "description": "Stand start, tucked between Ed's Arête and Picking-Pockets. Low, simular holds and difficult to Ed's but handholds are slightly more positive, with more positive-ness up high."
                 },
@@ -2331,7 +2332,7 @@
                   "name": "Picking-Pockets",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "description": "Stand into edges and crimps, only to be greeted with ultra positive pockets, jugs and a left veering seem. Staying with thin seam or not, top-out will continue on positive holds.",
                   "transcription-notes": "Abbreviation expanded. Mentioned twice with multiple IDs."
@@ -2341,7 +2342,7 @@
                   "name": "Kill Your Heros",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "bad-landing"
@@ -2383,7 +2384,7 @@
                   "name": "Mauritania",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "description": "Standing into easier angle and holds than neighboring Ed's Arête, this line can top-out Azain or veer slightly right after intial crux to utilize the false top of Blues From Down Here and Staring at the Sun.",
                   "transcription-notes": "Abbreviation expanded. Route ID replaced with route name. Azain mispelled and corrected."
@@ -2393,7 +2394,7 @@
                   "name": "Blues From Down Here",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "description": "This low angle portion of Azain offers a false top-out 11 feet off the deck. From this ledge climbing can continue on lower angle up to Azain's top and bolts for Crack and road-facing flank of Azain. Other than being approachable in its grade this problem stands out little.",
                   "transcription-notes": "Azain mispelled and corrected."
@@ -2403,7 +2404,7 @@
                   "name": "Staring at the Sun",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "description": "Simular to Blues form Down Here, with different holds. A distinct pocket makes for a great set-up hold. This line ends closer to small shrub.",
                   "transcription-notes": "Route ID replaced with route name."
@@ -2424,7 +2425,7 @@
                   "name": "Hula Chimney",
                   "grade": {
                     "grade": 0,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "chimney",
@@ -2453,7 +2454,7 @@
                   "name": "Psychodork",
                   "grade": {
                     "grade": 4,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "bad-landing",
@@ -2466,7 +2467,7 @@
                   "name": "Oregon Arête",
                   "grade": {
                     "grade": 3,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "bad-landing",
@@ -2481,7 +2482,7 @@
                   "name": "Eskimo Roll",
                   "grade": {
                     "grade": 6,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "description": "Head high holds are mcuh easier to transition into via Full Stroke's start, a la Dog Paddle problem Oregon Arête. Sit start and end of this focused problem, avoiding Oregon Arête and Full Stroke makes for extreme end difficulty. Rarely cleaned of moss, versus Full Stroke stays clean from frequent traffic.",
                   "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
@@ -2504,7 +2505,7 @@
                   "name": "Dog Paddle",
                   "grade": {
                     "grade": 3,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "description": "Start into Full Stroke's sit start and first move. Veer left into intermediate holds of Eskimo Roll finishing with Oregon Arête's top-out. Can seem contrived but is a good transition towards sending Eskimo Roll, gaining familiarity with holds.",
                   "transcription-notes": "Abbreviation expanded."
@@ -2536,7 +2537,7 @@
                   "name": "Soule Did It Off Width",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "off-width",
@@ -2629,7 +2630,7 @@
                   "name": "Eric and Ed Did It",
                   "grade": {
                     "grade": 7,
-                    "subGrade": 3
+                    "sub-grade": 3
                   },
                   "tags": [
                     "arête",
@@ -2643,7 +2644,7 @@
                   "name": "Bat Cave T/R Left",
                   "grade": {
                     "grade": 0,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "roped",
@@ -2657,7 +2658,7 @@
                   "name": "Bat Cave T/R Right",
                   "grade": {
                     "grade": 0,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "roped",
@@ -2700,7 +2701,7 @@
               "name": "Soul Wars",
               "grade": {
                 "grade": 0,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "warm-up",
@@ -2720,7 +2721,7 @@
               "name": "Chockstone High-ball",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "high-ball",
@@ -2734,7 +2735,7 @@
               "name": "Chockstone Crack",
               "grade": {
                 "grade": 0,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "high-ball",
@@ -2748,7 +2749,7 @@
               "name": "Chockstone Arête Steep",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "high-ball",
@@ -2763,7 +2764,7 @@
               "name": "Chockstone Arête Slab",
               "grade": {
                 "grade": -1,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "high-ball",
@@ -2776,7 +2777,7 @@
               "name": "We Own The Sky",
               "grade": {
                 "grade": -1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Stem problem, with pillar of Chockstone Arête Slab to the left and positivity to the right.",
               "transcription-notes": "Route ID replaced with route name."
@@ -2847,7 +2848,7 @@
               "name": "Angry Mom",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "description": "Quality problem. Standing into just off dead vert wall. First good holds are halfway up. Connect to Ridge for longer top-out.",
               "transcription-notes": "Abbreviation expanded."
@@ -2857,7 +2858,7 @@
               "name": "Hop on Grand-pop",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "high-ball"
@@ -2921,7 +2922,7 @@
               "name": "Rabid Squirrel",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "slopers",
@@ -3164,7 +3165,7 @@
               "name": "Mouth Arête",
               "grade": {
                 "grade": 1,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "arête",
@@ -3178,7 +3179,7 @@
               "name": "Cracked Lump Crack",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "crack",
@@ -3260,7 +3261,7 @@
               "name": "Cracked Lump Stem",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "description": "Good problem. Sit start is awkward. Stem moves from standing height to top-out.",
               "transcription-notes": "Abbreviation expanded."
@@ -3333,7 +3334,7 @@
               "name": "Wolf Like Me",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "arête"
@@ -3377,7 +3378,7 @@
               "name": "Jim Ward",
               "grade": {
                 "grade": 5,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "high-ball"
@@ -3390,7 +3391,7 @@
               "name": "Doug Malloy",
               "grade": {
                 "grade": 3,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "high-ball"
@@ -3403,7 +3404,7 @@
               "name": "Fakir Musafar",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "arête",
@@ -3447,7 +3448,7 @@
               "name": "Deforestation",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "arête",
@@ -3461,7 +3462,7 @@
               "name": "Screaming at A Wall",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "slopers"
@@ -3485,7 +3486,7 @@
               "name": "Young Folks",
               "grade": {
                 "grade": 3,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "bad-landing"
@@ -3516,7 +3517,7 @@
               "name": "Ya Ya Crack",
               "grade": {
                 "grade": 3,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "crack"
@@ -3529,7 +3530,7 @@
               "name": "Ya Ya Steep Left",
               "grade": {
                 "grade": 4,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "steep"
@@ -3542,7 +3543,7 @@
               "name": "Ya Ya Steep Right",
               "grade": {
                 "grade": 6,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "steep"
@@ -3564,7 +3565,7 @@
               "name": "Ya Ya Warm-up",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "warm-up"
@@ -3583,7 +3584,7 @@
               "name": "Myrtle",
               "grade": {
                 "grade": 2,
-                "subGrade": -1
+                "sub-grade": -1
               },
               "tags": [
                 "short"
@@ -3596,7 +3597,7 @@
               "name": "Terrapin Traverse",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "traverse",
@@ -3627,7 +3628,7 @@
               "name": "Jaws",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "description": "Sit start below flank facing road. Good holds, good moves. Primary problem.",
               "transcription-notes": "Abbreviation expanded."
@@ -3637,7 +3638,7 @@
               "name": "Fresh Tuna",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "description": "Different sit start and mid holds than Jaws, this line runs up the left side from the same cave. Much less enduro-power than Jaws, as steepness ends faster.",
               "transcription-notes": "Abbreviation expanded."
@@ -3660,7 +3661,7 @@
               "name": "Chopped Suey",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -3881,7 +3882,7 @@
               "name": "Grand",
               "grade": {
                 "grade": 3,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Kick start onto lifted bloc transitioning past steepness into smallest holds of boulder, through the center flank. Sit start undone as of 2011.",
               "transcription-notes": "Abbreviation expanded."
@@ -3900,7 +3901,7 @@
               "name": "No Easy Bail",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "description": "Start on Eva Julie, veering drastically right to secondary roof provides a step-off opportunity in upper section, but difficulty retains.",
               "transcription-notes": "Route ID replaced with route name. V2+/3- grade will be simplified to V2/3."
@@ -3960,7 +3961,7 @@
               "name": "Crystalline Mantle",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "warm-up",
@@ -4073,7 +4074,7 @@
               "name": "Hook",
               "grade": {
                 "grade": 6,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "high-ball"
@@ -4152,7 +4153,7 @@
                   "name": "Scratch and Spliff Traverse",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "traverse",
@@ -4178,7 +4179,7 @@
                   "name": "Spliff",
                   "grade": {
                     "grade": 4,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "bad-landing"
@@ -4191,7 +4192,7 @@
                   "name": "Zig-Zag Papers",
                   "grade": {
                     "grade": 1,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "traverse",
@@ -4236,7 +4237,7 @@
                   "name": "Stoned Age",
                   "grade": {
                     "grade": 2,
-                    "subGrade": -1
+                    "sub-grade": -1
                   },
                   "tags": [
                     "bad-landing"
@@ -4306,7 +4307,7 @@
                   "name": "Dukkha",
                   "grade": {
                     "grade": 2,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "bad-landing"
@@ -4319,7 +4320,7 @@
                   "name": "Buddha's Belly",
                   "grade": {
                     "grade": 4,
-                    "subGrade": 2
+                    "sub-grade": 2
                   },
                   "tags": [
                     "mantle",
@@ -4333,7 +4334,7 @@
                   "name": "Anattā",
                   "grade": {
                     "grade": 0,
-                    "subGrade": 1
+                    "sub-grade": 1
                   },
                   "tags": [
                     "warm-up",
@@ -4446,7 +4447,7 @@
               "name": "Oak Sucks",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "overhung",
@@ -4470,7 +4471,7 @@
               "name": "East Coast Ivy",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Semi-stuff low sit start with ample holds through middle and top-out. Start is crux.",
               "transcription-notes": "Abbreviation expanded. Not sure what \"Semi-stuff\" implies."
@@ -4480,7 +4481,7 @@
               "name": "Poison Oak Crack",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "crack",
@@ -4495,7 +4496,7 @@
               "name": "Pectin Treatment",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Squat start on decent holds, unlocks positive holds through upper portion to easy top-out.",
               "transcription-notes": "Abbreviation expanded."
@@ -4543,7 +4544,7 @@
               "name": "Hittin' All Bases",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Standing into low angle face that scoops into a roof offers more options than can be listed for middle and end of problems. A bee line straight up offers stiffish holds, but never breaching V2 difficulty."
             },
@@ -4603,7 +4604,7 @@
               "name": "Giant Killers",
               "grade": {
                 "grade": 4,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "slab",
@@ -4687,7 +4688,7 @@
               "name": "Wet Bail",
               "grade": {
                 "grade": 0,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "down-climb",
@@ -4744,7 +4745,7 @@
               "name": "Slavov Left",
               "grade": {
                 "grade": 6,
-                "subGrade": 3
+                "sub-grade": 3
               },
               "description": "Similar in style and difficulty as Slavov Problem, but taking on a slightly shorter flank climber's left of the primary problem.",
               "transcription-notes": "Minor grammar error assumed and corrected. Route ID replaced with route name. ID referenced to self, assuming main route."
@@ -4754,7 +4755,7 @@
               "name": "Slavov Problem",
               "grade": {
                 "grade": 6,
-                "subGrade": 3
+                "sub-grade": 3
               },
               "description": "Difficult problem with sit / squat start on small holds, linking a short roof, and low angle top-out in equally small a holds, Stand starting into the undercling offers more manageable stand start problem.",
               "transcription-notes": "Abbreviation expanded."
@@ -4764,7 +4765,7 @@
               "name": "Slavov Arête",
               "grade": {
                 "grade": 4,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "arête"
@@ -4776,7 +4777,7 @@
               "name": "Squatty Slavov",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "warm-up"
@@ -4835,7 +4836,7 @@
               "grade": {
                 "grade": 1
               },
-              "isVariant": true,
+              "variant": true,
               "description": "See Lucky Day",
               "transcription-notes": "Added since stand was given a suggested grade."
             },
@@ -4865,7 +4866,7 @@
               "name": "Ned Nederlander",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "mantle",
@@ -4963,7 +4964,7 @@
               "name": "Mickey Mantle",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "slopers",
@@ -5051,7 +5052,7 @@
               "name": "Ducks Suck",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Good problem, sit start is slightly more awkward than the fluid start to Eager Beaver, but a series of underclings followed by pinches and crimps make for interesting mid to top-out. Traversing right into Eager Beaver, or finishing Ducks Suck following a start an Eager Beaver or right creates a series of varlants. Eliminates also present on this and neighboring line.",
               "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
@@ -5088,7 +5089,7 @@
               "name": "Watch Me Dude",
               "grade": {
                 "grade": 2,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "bad-landing",
@@ -5151,7 +5152,7 @@
               "name": "Viper Room",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "warm-up",
@@ -5375,7 +5376,7 @@
               "name": "Out Left Sonya",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "traverse"
@@ -5400,7 +5401,7 @@
               "name": "Orion",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Similar to Sonya, but slightly easier as second and third set of feet dimes unfold less awkwardly."
             },
@@ -5427,7 +5428,7 @@
               "name": "Cracked Egg Roof Crack",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "steep",
@@ -5459,7 +5460,7 @@
               "name": "Rollin' Out the Carpet",
               "grade": {
                 "grade": 1,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "bad-landing"
@@ -5478,7 +5479,7 @@
               "name": "Don't Fear the Reaper",
               "grade": {
                 "grade": 2,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "traverse",
@@ -5511,7 +5512,7 @@
               "name": "Gimle",
               "grade": {
                 "grade": 0,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "description": "Visible en route to Bilbo from Sonya, this singular line on an off flank of Gandalf doesn't require topping out with a ledge before larger formations summit. Decent problem that never remains clean of moss."
             },
@@ -5659,7 +5660,7 @@
               "name": "Chepenefa",
               "grade": {
                 "grade": 1,
-                "subGrade": 1
+                "sub-grade": 1
               },
               "tags": [
                 "bad-landing"
@@ -5686,7 +5687,7 @@
               "name": "Little Ben",
               "grade": {
                 "grade": 0,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "description": "Singular line, sit start into underclings and crimps. At vert, or less makes for ease, and a plethora of holds at lip for easy top-out.",
               "transcription-notes": "Abbreviation expanded."
@@ -5702,7 +5703,7 @@
               "name": "Awesome",
               "grade": {
                 "grade": 4,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "tags": [
                 "bad-landing",
@@ -5716,7 +5717,7 @@
               "name": "Also Awesome",
               "grade": {
                 "grade": 4,
-                "subGrade": 2
+                "sub-grade": 2
               },
               "description": "The same type of cruxy start as Awesome, but mid-problem a set of more positive holds and quality foot stances ease the end.",
               "transcription-notes": "Route ID replaced with route name."
@@ -5903,1776 +5904,6 @@
           "id": 116,
           "name": "Gem In The Woods",
           "transcription-notes": "No climbs were provided."
-        }
-      ]
-    },
-    {
-      "name": "Druid Stones",
-      "children": [
-        {
-          "id": 0,
-          "name": "Bouldering is Still Honest",
-          "description": "Bouldering is Still Honest is a roadside boulder splitting the distance between the two primary parking lots for the greatest concentration of Druid Stones. Opposite the road of Bouldering is Still Honest and downhill is three pillars: The Temptation Pillar, Major Tom Pillar and the Magical Mystery Pillar.",
-          "transcription-notes": "Minor grammar error assumed and corrected.",
-          "children": [
-            {
-              "id": 1,
-              "name": "Bouldering is Still Honest",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "description": "The primary line center of the boulder, start with jugs and a crimp crack, good holds, good moves. Top-out is dirty.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Handwritting unclear and meaning is guessed."
-            },
-            {
-              "id": 2,
-              "name": "Soap Creek Throw",
-              "grade": {
-                "grade": 2,
-                "subGrade": -1
-              },
-              "tags": [
-                "slopers"
-              ],
-              "description": "A stand start on a left sloper handhold and small edges in the crack. Power. Located left of Bouldering is Still Honest.",
-              "transcription-notes": "Edits accepted. Handwritting unclear and meaning is guessed."
-            },
-            {
-              "id": 3,
-              "name": "Just Less Than Meaty",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "tags": [
-                "arête"
-              ],
-              "description": "Avoiding the steepness of Soap Creek Throw by starting further left and getting the best of the arête.",
-              "transcription-notes": "Edits accepted. Handwritting unclear and meaning is guessed."
-            },
-            {
-              "id": 4,
-              "name": "Greenberry Warm-up",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "warm-up"
-              ],
-              "description": "Other than the looseness, and the poor walk-off, a fine warm-up.",
-              "transcription-notes": "Edits accepted. Handwritting unclear and meaning is guessed."
-            },
-            {
-              "id": 5,
-              "name": "Bouldering Still Needs Warming Up",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "warm-up"
-              ],
-              "description": "Simular to Greenberry Warm-up but further right with varients. Looseness.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Handwritting unclear and meaning is guessed."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Lumpy Britches",
-          "description": "Lumpy Britches is included as the second in the Druids line as a land-marker making your way to the primary group. Three VBs are available and Lumpy Britches makes a great kids boulder, the boulder is visible from the road. The current climbers scramble is over 150 feet east of Lumpy Britches, but the boulder is visible travelling the trail and if you were to head directly over the hill starting at Lumpy Britches you will still find yourself at the primary group, only walking tighter to the Satellite Tower as you breach the Western Spur Summit.",
-          "children": [
-            {
-              "id": 0,
-              "name": "Lumpy Britches 1",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "kid-friendly"
-              ],
-              "description": "One of three VBs available on Lumpy Britches.",
-              "transcription-notes": "Not included but mentioned. Added for searchability."
-            },
-            {
-              "id": 0,
-              "name": "Lumpy Britches 2",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "kid-friendly"
-              ],
-              "description": "One of three VBs available on Lumpy Britches.",
-              "transcription-notes": "Not included but mentioned. Added for searchability."
-            },
-            {
-              "id": 0,
-              "name": "Lumpy Britches 3",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "kid-friendly"
-              ],
-              "description": "One of three VBs available on Lumpy Britches.",
-              "transcription-notes": "Not included but mentioned. Added for searchability."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Rope De Dope",
-          "description": "Working your way to the goods Rope De Dope offers a warm-up, a kid manageable slab and one good sit-start Left Handed Looney.",
-          "children": [
-            {
-              "id": 6,
-              "name": "Stings Like A Bee",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "kid-friendly",
-                "warm-up",
-                "slab"
-              ],
-              "description": "Great kid's slab, warm-up.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 7,
-              "name": "Left Handed Looney",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "mantle"
-              ],
-              "description": "Sit-start problem with left handhold intensive move to quick mantle."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Medusa Boulder",
-          "description": "Tucked behind Athena Boulder and close to Sublime, Medusa pairs with Rope De Dope for kid's problems and warm-ups.",
-          "transcription-notes": "Minor grammar error assumed and corrected.",
-          "children": [
-            {
-              "id": 8,
-              "name": "Medusa's Mantle",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "short",
-                "kid-friendly",
-                "slab",
-                "warm-up"
-              ],
-              "description": "Great kid's one or two move then slab, warm-up.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 9,
-              "name": "Medusa's Haircut",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "short",
-                "kid-friendly",
-                "slab",
-                "warm-up"
-              ],
-              "description": "Great kid's one or two move then slab, warm-up.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Athena Boulder",
-          "children": [
-            {
-              "id": 10,
-              "name": "Athena's Lieback",
-              "grade": {
-                "grade": 1
-              },
-              "description": "Sit start to the left of the roof. One power reach moves unlocks lie-back to the top.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 11,
-              "name": "Athena's Squat and Reach",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "traverse"
-              ],
-              "description": "Sit start Athena's Lieback, after butt is off the ground, traverse right and finish on Athena's Butt.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected. Route ID replaced with route name."
-            },
-            {
-              "id": 12,
-              "name": "Athena's Butt",
-              "grade": {
-                "grade": 0,
-                "subGrade": 1
-              },
-              "tags": [
-                "crack"
-              ],
-              "description": "Sit or stand start, burying your left arm in wide crack. Try facing out, right arm in.",
-              "transcription-notes": "Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 13,
-              "name": "Athena's Tail End",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "warm-up"
-              ],
-              "description": "Stand start, easy warm-up."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Sublime Boulder",
-          "children": [
-            {
-              "id": 14,
-              "name": "Louie",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "tags": [
-                "slopers"
-              ],
-              "description": "Sit start through great sloper and edge holds. Tackle left corner. Pure line.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 15,
-              "name": "What Happened",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "description": "Sit start through good holds. Crack system at mid-height makes for an easy end.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 16,
-              "name": "Smoke Two Joints",
-              "grade": {
-                "grade": 1,
-                "subGrade": 2
-              },
-              "description": "Variant finish to What Happened start. Flake can be stood to, or connected from Bradley Nowell's Ghost.",
-              "transcription-notes": "Route ID replaced with route name."
-            },
-            {
-              "id": 17,
-              "name": "Bradley Nowell's Ghost",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Undone, harder sit start. Completed from stand, the problem is a sit.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 18,
-              "name": "Gasoline Alley",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "warm-up"
-              ],
-              "description": "Stand start, easy warm-up.",
-              "transcription-notes": "Abbreviation expanded."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Cobra Commander",
-          "description": "When the Druid Stones were discovered / rediscovered in recent years, the Cobra Commander was the starting point. The jaw-dropper, da business! Hosting high quality lines from sits to stands VB to V3+, and potential for a problem in the V<7 range, this boulder ranks in the Druids top bunch. CC's backside offers pocket and sloper intensive slab prablems while problems like B(e)aroness Wrestling, Major Bludd and Copperhead toe the line between steep and slab.",
-          "transcription-notes": "Minor grammar error assumed and corrected.",
-          "children": [
-            {
-              "id": 19,
-              "name": "Destro",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "dyno",
-                "classic"
-              ],
-              "description": "Classic sit start, to a fun deadpoint / dyno (avoiding tree) to an easy top-out. Sit start may be <V2.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 20,
-              "name": "CC Sit Project",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Foot holds for Cobra Commander are small, sloping handholds through V? project. Avoid Destro.",
-              "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
-            },
-            {
-              "id": 21,
-              "name": "Cobra Commander",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "slab"
-              ],
-              "description": "Standard. Walk into slab, follow jugs left to easy ridge top-out."
-            },
-            {
-              "id": 22,
-              "name": "Knowing Is Half the Battle",
-              "grade": {
-                "grade": 3
-              },
-              "tags": [
-                "slab",
-                "pockets",
-                "mantle"
-              ],
-              "description": "Slab start shared with Cobra Commander links to edges and pockets to an obvious large pocket at the lip. Mantling safely is the crux beyond good pocket on slopers onto the slab.",
-              "transcription-notes": "Route ID replaced with route name."
-            },
-            {
-              "id": 23,
-              "name": "Storm Shadow",
-              "grade": {
-                "grade": 3,
-                "subGrade": 1
-              },
-              "tags": [
-                "slab"
-              ],
-              "description": "Shorter but stiffer than Knowing Is Half the Battle, similar concept.",
-              "transcription-notes": "Route ID replaced with route name. Was unable to read a section of writing."
-            },
-            {
-              "id": 24,
-              "name": "Slither",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "mantle",
-                "slab"
-              ],
-              "description": "Squat start spending little time under the lip and quickly mantling onto slab."
-            },
-            {
-              "id": 25,
-              "name": "Venamous Lip",
-              "grade": {
-                "grade": 1,
-                "subGrade": 3
-              },
-              "tags": [
-                "traverse"
-              ],
-              "description": "Traverse the lip starting on the right edge. Difficulty based on top-out.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 26,
-              "name": "B(e)aroness Wrestling",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "tags": [
-                "mantle"
-              ],
-              "description": "Sit start moves can be awkward, but interesting holds, leads to reach and mantle.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 27,
-              "name": "Major Bludd",
-              "grade": {
-                "grade": 1
-              },
-              "description": "Standing into a corner with smooth feet, small holds unlock large crack. Easy top-out.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 28,
-              "name": "Copperhead",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "slab",
-                "pockets"
-              ],
-              "description": "Largest portion of slab, linking great pockets leftward after initial moves."
-            },
-            {
-              "id": 29,
-              "name": "Zartan",
-              "grade": {
-                "grade": 0
-              },
-              "description": "Smaller, smoother holds than Thumbs Up but less moves.",
-              "transcription-notes": "Route ID replaced with route name."
-            },
-            {
-              "id": 30,
-              "name": "The Little Enemy",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "down-climb",
-                "kid-friendly"
-              ],
-              "description": "Descent. Easy up. Good kids problem."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Libra Slab",
-          "children": [
-            {
-              "id": 31,
-              "name": "Thumbs Up",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "slab",
-                "pockets"
-              ],
-              "description": "Stand start with back to tree. Odd thumbs up in pockets connect to top.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 32,
-              "name": "Libra Ridge",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "slab"
-              ],
-              "description": "Easy"
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Ole' Boulder",
-          "children": [
-            {
-              "id": 33,
-              "name": "Ole', Ole', Ole', Ole'",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "slopers"
-              ],
-              "description": "Awkward sit start with slopey holds staying to the left flank relief from steep.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 34,
-              "name": "Cyclone Pop-in",
-              "grade": {
-                "grade": 2,
-                "subGrade": 2
-              },
-              "tags": [
-                "pockets"
-              ],
-              "description": "Truest sit start utilizing small sharp pockets, hedging left after initial moves.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 35,
-              "name": "Punk and Lindy",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "slab"
-              ],
-              "description": "Stand start, few moves on slab with difficult holds."
-            },
-            {
-              "id": 36,
-              "name": "Cyclone Pop-in Direct",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Open project utilizing Cyclone Pop-in's start, ending direct right center.",
-              "transcription-notes": "Minor grammar error assumed and corrected. Route ID replaced with route name."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "The Norseman",
-          "children": [
-            {
-              "id": 37,
-              "name": "Odin's Slope",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "slopers"
-              ],
-              "description": "Easy sit start up and right links to blank face. Crux sloper and one long move to finish.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 38,
-              "name": "Stairway to Valhalla",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "traverse"
-              ],
-              "description": "Sit start on jugs left of Thor's Crack. Long easy traverse, to ridge on left edge.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 39,
-              "name": "Thor's Crack",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "crack"
-              ],
-              "description": "Sit start or stand into wide crack accepting jams. Handholds and footholds help jams.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 40,
-              "name": "Loki's Lurch",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "short",
-                "steep"
-              ],
-              "description": "Testpiece power problem sit starting tonsil in middie bewteen two larger blocks. Short, steep, fun! Top-out small bloc.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 41,
-              "name": "Varshnar",
-              "grade": {
-                "grade": 0
-              },
-              "description": "Tall wall of holds. Eliminates and variants. Fun, positive holds give confidence."
-            },
-            {
-              "id": 42,
-              "name": "Lucifer's Lean",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "pockets"
-              ],
-              "description": "Tricky stand start utilizes side pulls to gain pockets and balancing top-out.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 43,
-              "name": "Eric the Northman",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "slopers",
-                "mantle"
-              ],
-              "description": "Ledge with slopers gained from sit, provides early mantle and easy top-out."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Tantric Boulder",
-          "children": [
-            {
-              "id": 44,
-              "name": "Tantric Bouldering",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "short",
-                "warm-up"
-              ],
-              "description": "Sit start with good pocket. Short problem, decent warm-up.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 45,
-              "name": "Daddlin' a Druid",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "arête",
-                "eliminate"
-              ],
-              "description": "Climber's right arête, no pocket.",
-              "transcription-notes": "Minor grammar error assumed and corrected."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Cult Boulder",
-          "children": [
-            {
-              "id": 46,
-              "name": "Branch Davidian",
-              "grade": {
-                "grade": 0
-              },
-              "description": "Awkward but doable sit start into good holds and ledges. Avoid left crack.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 47,
-              "name": "Jim Jones, The Reverend",
-              "grade": {
-                "grade": 1
-              },
-              "description": "Quality steep line with good holds. Avoid loose gaston jug. Must climb!"
-            },
-            {
-              "id": 48,
-              "name": "Jeffersonian Movement",
-              "grade": {
-                "grade": 2
-              },
-              "description": "Best on boulder! sit start, right hand crux lock-off comes soon.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 49,
-              "name": "Brown Stain",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "During initial cleaning, large flake with jugs pulled loose. V-hard open project.",
-              "transcription-notes": "Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 50,
-              "name": "Get Your White Nikes",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "slopers",
-                "steep"
-              ],
-              "description": "Avoid Heaven's Gate. Lay start starts on slopey dish through steepness.",
-              "transcription-notes": "Route ID replaced with route name."
-            },
-            {
-              "id": 51,
-              "name": "Heaven's Gate",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "steep"
-              ],
-              "description": "Sit start. Fun steep problem with big holds and heel hooks early.",
-              "transcription-notes": "Abbreviation expanded."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Pistol Grip",
-          "children": [
-            {
-              "id": 52,
-              "name": "Pistol Grip",
-              "grade": {
-                "grade": 4
-              },
-              "tags": [
-                "slopers",
-                "pockets",
-                "mantle",
-                "classic"
-              ],
-              "description": "Area classic. Sit start undercling start to one or both jugs, then right through slopers and crux pockets, through mantle.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 53,
-              "name": "Lock Stock and Two Smoking Barrels",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Using the same jugs as Pistol Grip, then head left to alternate top-out.",
-              "transcription-notes": "Grade unclear. Abbreviation expanded. Route ID replaced with route name."
-            },
-            {
-              "id": 54,
-              "name": "Sharma Problem",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project",
-                "pockets"
-              ],
-              "description": "Pockets presents upper range project."
-            },
-            {
-              "id": 55,
-              "name": "Tymun's Campus Start",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "campus"
-              ],
-              "description": "Standing to a matched edge and campus starting to smaller holds."
-            },
-            {
-              "id": 56,
-              "name": "Raised Eyebrows",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Open, undone, untried project."
-            },
-            {
-              "id": 57,
-              "name": "Hair Trigger",
-              "grade": {
-                "grade": 1
-              },
-              "description": "Sit start utilizing some of the better more positive holds on the boulder to top.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 58,
-              "name": "AwolnatioN",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "description": "Steeper and shorter than Hair Trigger. Simular to Pistola Backside with slightly smaller holds.",
-              "transcription-notes": "Route ID replaced with route name. ID referenced to self, assuming next route."
-            },
-            {
-              "id": 59,
-              "name": "Pistola Backside",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "tags": [
-                "mantle"
-              ],
-              "description": "Steep sit start with positive holds. Can be more awkward than difficult to mantle.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 60,
-              "name": "Pistola Arête",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "mantle"
-              ],
-              "description": "Sit start on corner of block with holds on either side, powering to mantle.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 61,
-              "name": "Third Base",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "pockets"
-              ],
-              "description": "From awkward sit start, three powerful moves through distinctive pockets. Quality",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Archdruid",
-          "children": [
-            {
-              "id": 62,
-              "name": "Archdruid",
-              "grade": {
-                "grade": 2,
-                "subGrade": -1
-              },
-              "tags": [
-                "arête",
-                "slopers",
-                "classic"
-              ],
-              "description": "Area classic. Sit start to large hold on left arête. Steep on right, balancing to arête left the problem combines sloper holds with high steps and delicate feet to top. Quality line.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 63,
-              "name": "Beekeeper",
-              "grade": {
-                "grade": 2,
-                "subGrade": 2
-              },
-              "tags": [
-                "slopers"
-              ],
-              "description": "Harder sit start than Archdruid, stay on right face avoiding crack of Barbeque the Druid. Small but positive holds link to a sloper lock-off top-out that can be slightly heart-pumping. Quality line.",
-              "transcription-notes": "Abbreviation expanded. Grade V2+/V3- will be simplified to V2/3."
-            },
-            {
-              "id": 64,
-              "name": "Barbeque the Druid",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "tags": [
-                "crack"
-              ],
-              "description": "Climb the crack hidden by tree. Sit start vs. stand makes no difficulty change. More positive holds throught top-out than Beekeeper.",
-              "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
-            },
-            {
-              "id": 65,
-              "name": "Mark Sandman's Ghost",
-              "grade": {
-                "grade": 2,
-                "subGrade": -1
-              },
-              "isEliminate": true,
-              "tags": [
-                "eliminate"
-              ],
-              "description": "Eliminate type problem, avoiding jugs of Cure For Pain and crack of Barbeque the Druid. Interesting holds and moves worth the eliminate.",
-              "transcription-notes": "Route ID replaced with route name."
-            },
-            {
-              "id": 66,
-              "name": "Cure For Pain",
-              "grade": {
-                "grade": 0,
-                "subGrade": 2
-              },
-              "description": "Positive holds from sit start through end. Many variants and ways of going about the problem.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 67,
-              "name": "Crowley's Crack",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "crack"
-              ],
-              "description": "Sit start is awkward and not harder than standing through positive holds and crack.",
-              "transcription-notes": "Abbreviation expanded."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Mountaineer Boulder",
-          "children": [
-            {
-              "id": 68,
-              "name": "Walk",
-              "grade": {
-                "grade": -1
-              },
-              "description": "Steep pocket sit start spoiled by large horizontal fracture and crack easing difficulty quickly.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 69,
-              "name": "Don't Run",
-              "grade": {
-                "grade": -1
-              },
-              "description": "Sit start to large jug linking into same horizontal fracture as Walk.",
-              "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Guinness Boulder",
-          "children": [
-            {
-              "id": 70,
-              "name": "Guinness Roof",
-              "grade": {
-                "grade": 3
-              },
-              "tags": [
-                "traverse",
-                "mantle"
-              ],
-              "description": "Lip traverse heading left to right, then mantle the lip at its apex. Quality."
-            },
-            {
-              "id": 71,
-              "name": "Pints of Guinness Make You Strong",
-              "grade": {
-                "grade": -1
-              },
-              "description": "Sit start through a couple power and stabilize moves leading to large move up and right to obvious pocket. From pocket, problem eases.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 72,
-              "name": "Not Done Yet",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Route starts between two large blocs heading left.",
-              "transcription-notes": "Problems left blank, description assumed from topo and naming left consistant."
-            },
-            {
-              "id": 73,
-              "name": "Not Done Yet",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Route climbs right center block over center and up slab.",
-              "transcription-notes": "Problems left blank, description assumed from topo and naming left consistant."
-            },
-            {
-              "id": 74,
-              "name": "Not Done Yet",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Route climbs under right center block and traverses to top-out above.",
-              "transcription-notes": "Problems left blank, description assumed from topo and naming left consistant."
-            },
-            {
-              "id": 75,
-              "name": "Not Done Yet",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Route traverses the left of the far right block to top-out on the next face.",
-              "transcription-notes": "Problems left blank, description assumed from topo and naming left consistant."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Cavalier Eternal",
-          "children": [
-            {
-              "id": 76,
-              "name": "Cavalier Eternal",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "pockets",
-                "steep"
-              ],
-              "description": "Sit start with all feet, steep start and power pull to pockets 3/4 height. From pockets, easy top-out.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 77,
-              "name": "Strength Beyond Strength",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "pockets",
-                "steep"
-              ],
-              "description": "Taking away cheater foot in bottom of cave for Cavalier Eternal. Same finish. Quality problem with comparable power and quality to difficulty of Loki's Lurch.",
-              "transcription-notes": "Route ID replaced with route name."
-            },
-            {
-              "id": 78,
-              "name": "Pharm Phed Phish",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "crack",
-                "short"
-              ],
-              "description": "Stand with crack to quick top-out.",
-              "transcription-notes": "Abbreviation expanded."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Mothership",
-          "children": [
-            {
-              "id": 79,
-              "name": "Earth to Mothership Traverse",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "slopers",
-                "pinches",
-                "wet",
-                "mantle",
-                "slab",
-                "traverse"
-              ],
-              "description": "High quality. Sit start left of Beam Me Up Scotty, into jugs at standing height. Moving right to left, through a series of slopers, crucial delicate feet, the problem's difficulty eases beyond a pinch and cross-over to a sloper pinch gains a ledge. From this ledge a jug (often full of water) mantles out onto the slab face with easy top-out. A must climb for the Druids. Stand start retains difficulty.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected. Route ID replaced with route name."
-            },
-            {
-              "id": 80,
-              "name": "Mothership Direct",
-              "grade": {
-                "grade": 1,
-                "subGrade": 2
-              },
-              "tags": [
-                "steep"
-              ],
-              "description": "A steep but hold friendly sit start links to the last crux moves of Earth to Mothership Traverse.",
-              "transcription-notes": "Abbreviation expanded. Route ID replaced with route name. Grade V1+/V2- will be simplified to V1/2."
-            },
-            {
-              "id": 81,
-              "name": "Paranoid Android",
-              "grade": {
-                "grade": 1,
-                "subGrade": 2
-              },
-              "tags": [
-                "slopers",
-                "mantle"
-              ],
-              "description": "Full line with good holds from the sit start until slopers at the mantle.",
-              "transcription-notes": "Abbreviation expanded. Grade V1+/V2- will be simplified to V1/2."
-            },
-            {
-              "id": 82,
-              "name": "Beam Me Up Scotty",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "cave",
-                "overhung",
-                "crack",
-                "mantle",
-                "slab"
-              ],
-              "description": "A power problem opposed to the balance and finesse of Earth to Mothership Traverse. Starting under the cave on good holds, power through the roof and gain a finger crack on the face to mantle onto slab finish. Quality in a different way from the traverse.",
-              "transcription-notes": "Edits accepted.  Minor grammar error assumed and corrected. Route ID replaced with route name."
-            },
-            {
-              "id": 83,
-              "name": "Fitter, Stronger, Happier Project",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Steep sit start, early finish. No one has put any time into it.",
-              "transcription-notes": "Abbreviation expanded."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Snakecharmer",
-          "children": [
-            {
-              "id": 84,
-              "name": "Snakecharmer",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Unsent from stand or sit. There are holds. There is a sloping ledge 3/4 height."
-            },
-            {
-              "id": 85,
-              "name": "Snake Under a Tree",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Unsent. Holds and moves slightly blocked by tree against boulder."
-            },
-            {
-              "id": 86,
-              "name": "Andrew's Arête",
-              "grade": {
-                "grade": 1,
-                "subGrade": 2
-              },
-              "tags": [
-                "arête"
-              ],
-              "description": "Stand start utilizing holds on left steepness and right slab.",
-              "transcription-notes": "Grade V1+/V2- will be simplified to V1/2."
-            },
-            {
-              "id": 87,
-              "name": "Bring the Ruckus",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "steep",
-                "mantle"
-              ],
-              "description": "Sit start Ruckus Ride and move to or stand into large pockets left of tree. Steep moves lead to powerful mantle. Visible crack up and right is not helpful for top-out.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Route ID replaced with route name."
-            },
-            {
-              "id": 88,
-              "name": "Ruckus Ride",
-              "grade": {
-                "grade": 1
-              },
-              "description": "Primary line. Sit start through cracks and good holds. Avoid left slab and Ruckus Romp.",
-              "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
-            },
-            {
-              "id": 89,
-              "name": "Ruckus Ramp",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "slab"
-              ],
-              "description": "Sit start quickly gains slab. Simular to Ruckus Ride but easier.",
-              "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Against Me!",
-          "children": [
-            {
-              "id": 90,
-              "name": "Against",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "short"
-              ],
-              "description": "Sit start through positive holds to walk top. Good holds, short boulder.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 91,
-              "name": "Me!",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "short"
-              ],
-              "description": "Sit start through positive holds to walk top. Slightly harder than Against.",
-              "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Scotch on the Rocks",
-          "children": [
-            {
-              "id": 92,
-              "name": "Not Done Yet",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Route climbing tallest face to top of boulder.",
-              "transcription-notes": "Problems left blank, description assumed from topo and naming left consistant."
-            },
-            {
-              "id": 93,
-              "name": "Not Done Yet",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Route climbing the corner between the tall and short face.",
-              "transcription-notes": "Problems left blank, description assumed from topo and naming left consistant."
-            },
-            {
-              "id": 94,
-              "name": "Not Done Yet",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Route climbing the shortest face.",
-              "transcription-notes": "Problems left blank, description assumed from topo and naming left consistant."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Flogging Murphey's",
-          "children": [
-            {
-              "id": 95,
-              "name": "Celtic Mating Ritual",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "mantle"
-              ],
-              "description": "Sit start through holds on left flank. Mantle from starting hands as feet.",
-              "transcription-notes": "Abbreviation expanded."
-
-            },
-            {
-              "id": 96,
-              "name": "Pissing on the Trinity",
-              "grade": {
-                "grade": 2
-              },
-              "description": "Sit start through holds on right flank. Smaller holds than Celtic Mating Ritual.",
-              "transcription-notes": "Abbreviation expanded. Route ID replaced with route name."
-            },
-            {
-              "id": 97,
-              "name": "Quit Flogging Your Molly Warm-Up",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "short",
-                "warm-up"
-              ],
-              "description": "Stand start. Ends too fast."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Sessions Boulder",
-          "children": [
-            {
-              "id": 98,
-              "name": "Roots Man U V A Warm-up",
-              "grade": {
-                "grade": 0
-              },
-              "tags": [
-                "slab",
-                "mantle",
-                "warm-up"
-              ],
-              "description": "Stand into decent holds and slab, quickly gaining mantle on the lip.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 99,
-              "name": "Sessions, Lessons, Blessings",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "steep"
-              ],
-              "description": "Sit start with positive flake jug, powerfully moving through steepness with choice for holds. Mid-boulder Sessions veers right into more positive holds and friendlier angles to finish.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Was unable to read a section of writing."
-            },
-            {
-              "id": 100,
-              "name": "Firing These Things Called TNT",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "tags": [
-                "steep"
-              ],
-              "description": "Shares sit start with Sessions. From good holds, veer left through cleft roof ? right to easier holds. More moves and steeper than Sessions, but ? not much.",
-              "usable-description": "Shares sit start with Sessions. From good holds, veer left through cleft roof. More moves and steeper than Session, but not much harder.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Was unable to read a section of writing."
-            },
-            {
-              "id": 101,
-              "name": "Till the Elephant Comes",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "traverse"
-              ],
-              "description": "Shared sit start with Snyder's Pocket, immediately traversing right instead of up. Link into the finish of Sessions or TNT.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Was unable to read a section of writing."
-            },
-            {
-              "id": 102,
-              "name": "Snyder's Pocket",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "slopers",
-                "pocket",
-                "mantle"
-              ],
-              "description": "Sit start using good right hand hold and with the sloper left, attacking the roof, utilizing an edge pocket that is hidden in the rear of the roof. Mantling to the top from here has positive holds.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 103,
-              "name": "I Don't Want To Be (Sam) I Am",
-              "grade": {
-                "grade": 2,
-                "subGrade": 1
-              },
-              "tags": [
-                "slopers",
-                "mantling"
-              ],
-              "description": "Quality line. Sit start with a distinct sloper for a left hand, making a large move to a right hand mini-jug visible where the horizontal crack meets a vertical line. Locking this right, the left hand then goes all the way to two wrong-way sloper holds up and left ? Balancing off these slopers the problem moves slightly back right to positive mantling holds above the roof.",
-              "usable-description": "Quality line. Sit start with a distinct sloper for a left hand, making a large move to a right hand mini-jug visible where the horizontal crack meets a vertical line. Locking this right, the left hand then goes all the way to two wrong-way sloper holds up and left. Balancing off these slopers the problem moves slightly back right to positive mantling holds above the roof.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Was unable to read a section of writing."
-            },
-            {
-              "id": 104,
-              "name": "In For a Penny, In For a Pound",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "short"
-              ],
-              "description": "Stand or squat an easy angle left of stand into easy finish. Problem quickly tops-out.",
-              "transcription-notes": "Edits accepted. Handwritting unclear and meaning is guessed."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Bowling Ball",
-          "children": [
-            {
-              "id": 105,
-              "name": "Bowling Ball",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "slopers",
-                "warmup",
-                "arête"
-              ],
-              "description": "A less than worthy warm-up for Los Tres. Sit start on slopers and move to one pocket, then link to a second, then a third continuously traversing leftward. When the left arête is gained, top-out easily.",
-              "transcription-notes": "Edits accepted. Handwritting unclear and meaning is guessed. Abbreviation expanded."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Jim Anglin Memorial Boulder",
-          "children": [
-            {
-              "id": 106,
-              "name": "Descent",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "down-climb"
-              ],
-              "description": "Pocket and jug holds to get down.",
-              "transcription-notes": "Edits accepted."
-            },
-            {
-              "id": 107,
-              "name": "Anglin Warm-up",
-              "grade": {
-                "grade": -1
-              },
-              "tags": [
-                "warm-up"
-              ],
-              "description": "Positive holds to ledge and top-out.",
-              "transcription-notes": "Abbreviation expanded."
-            },
-            {
-              "id": 108,
-              "name": "Hooked Line and Sinker",
-              "grade": {
-                "grade": 1
-              },
-              "description": "This problem sticks to right most face avoiding both arêtes ?.",
-              "usable-description": "This problem sticks to right most face avoiding both arêtes.",
-              "transcription-notes": "Edits accepted. Handwritting unclear and meaning is guessed. Was unable to read a section of writing."
-            },
-            {
-              "id": 109,
-              "name": "Anglin Em In",
-              "grade": {
-                "grade": 0,
-                "subGrade": 2
-              },
-              "tags": [
-                "arête"
-              ],
-              "description": "Potentially the proudest arête on the boulder with good easy moves from bottom to top.",
-              "transcription-notes": "Edits accepted."
-            },
-            {
-              "id": 110,
-              "name": "Dedication Dyno",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "dyno"
-              ],
-              "description": "Awkardly sit start or stand into sheer face, avoiding left arête. Face holds set up one big deadpoint or dyno (depending on how much fun you are looking for) to a jug and ledge at 3/4 height.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Handwritting unclear and meaning is guessed. Was unable to read a section of writing."
-            },
-            {
-              "id": 111,
-              "name": "Rooster Love",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "arête"
-              ],
-              "description": "Same difficulty as Dedication Dyno, but sticking to arête maintains static moves to jug ledge.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 112,
-              "name": "Loving 51",
-              "grade": {
-                "grade": 1
-              },
-              "description": "Independent line on far left flank. Sit start awkward with vertical nature, but doable.",
-              "transcription-notes": "Edits accepted. Minor grammar error assumed and corrected."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Japhy Ryder",
-          "children": [
-            {
-              "id": 113,
-              "name": "Sean Monahan",
-              "grade": {
-                "grade": 1
-              },
-              "description": "Sit start may be harder than Dharma Bum or Japhy Ryder but jug holds and easy top-out follows.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 114,
-              "name": "Dharma Bum",
-              "grade": {
-                "grade": 1,
-                "subGrade": 1
-              },
-              "description": "Sit start to a longer problem than Sean Monahan.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            },
-            {
-              "id": 115,
-              "name": "Japhy Ryder",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "traverse",
-                "crimps"
-              ],
-              "description": "A high quality line, yet overlooked. Sit start gains a series of crimp holds on left flank. A few moves up the spire leads to a traverse on the lip and moves on some crimps. Physical crossing through moves eventually leads to top-out with positive holds.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded. Handwritting unclear and meaning is guessed. Was unable to read a section of writing."
-            },
-            {
-              "id": 116,
-              "name": "Japhy Direct",
-              "grade": {
-                "grade": 1
-              },
-              "description": "A few stand moves lead into Japhy Ryder's finish. Sit start awkward compared to natural sit start on Japhy Ryder.",
-              "transcription-notes": "Edits accepted. Abbreviation expanded."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Moby Dick",
-          "description": "While the moss was removed in 2011 from Moby Dick, no problems have been set as of August 2011. The above photo features the widest, largest slab expanse of the boulder. While this boulder shares its texture and look with Japhy Ryder, the small pebble crimps on Moby Dick have yet to yield lines of ascent, even on such a low angle. To the climber's right of the tree dividing the boulder, the angle turns to vertical and slightly overhanging for an aesthetic and hold prone arête on the boulder's right most flank. While stand starts on the uphill side have in fact been topped out, the true line of the boulder, both its right arête and left slab have not seen true scents of good pure lines.",
-          "transcription-notes": "Edits accepted.  Minor grammar error assumed and corrected."
-        },
-        {
-          "id": 0,
-          "name": "The Wave",
-          "description": "Featuring the same highly textured, pebble riddled facade as Moby Dick and Japhy Ryder, The Wave suprisingly has not yielded ascents. A descent line, needed to finish the cleaning process, and a VB on the uphill flank has seen the only sends. A front face problem, steep on small holds is undone, moving away from Moby Dick and towards Low Tide, the climber's left flank of The Wave yields a bear-huge arête problem, also undone.",
-          "transcription-notes": "Edits accepted.  Minor grammar error assumed and corrected."
-        },
-        {
-          "id": 0,
-          "name": "Low Tide",
-          "description": "Adjacent and to the west of The Wave is a short slab climbed in the winter of 2011 by the Trevathians, Kati and Wade. At the same time Wade climbed a VB on the backside of the Wave. Between Low Tide and Rivals, level on the hillside to Rivals, there exists some other small boulders. They have recieved the monikers Humpty Dumpty, Truck Dump and The Good, The Bad and The Ugly. These boulders are small, and are most useful indicators and markers in finding Rivals, The Wave and Moby Dick. On the topo for this guide The Bad and The Ugly are labeled.",
-          "transcription-notes": "Edits accepted.  Minor grammar error assumed and corrected. Boulder labels are left out given that no boulders actually have IDs.",
-          "children": [
-            {
-              "id": 117,
-              "name": "Low Tide",
-              "grade": {
-                "grade": -1
-              },
-              "description": "Description and topo are excluded. The Trevathian's know something about this."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "The Dirties",
-          "children": [
-            {
-              "id": 118,
-              "name": "Dirty Diana",
-              "grade": {
-                "grade": 2
-              },
-              "tags": [
-                "pockets",
-                "mantle"
-              ],
-              "description": "Block isn't huge, but the problem is nice. Standing to good start holds, kick your feet onto dime feet. Powerful moves go pocket to edge to pockets, for an outstanding power to physical mantle problem.",
-              "transcription-notes": "Edits accepted."
-            },
-            {
-              "id": 119,
-              "name": "Dirty Arête Project",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "pockets",
-                "arête",
-                "project"
-              ],
-              "description": "Obvious sit start wrapping both sides of the arête. Wrong-way pocket holds yield no upward movement to date. Quality project.",
-              "transcription-notes": "Edits accepted."
-            },
-            {
-              "id": 120,
-              "name": "Wipe that Dirty Face",
-              "grade": {
-                "grade": 0
-              },
-              "description": "Awkward yet easy sit start moving quickly to holds in and around the crack.",
-              "transcription-notes": "Abbreviation expanded. Minor grammar error assumed and corrected."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Rivals Boulder",
-          "children": [
-            {
-              "id": 121,
-              "name": "Auspicious Occasion Crack",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "crack"
-              ],
-              "description": "The boulder shortens uphill ? to a crack that offers great jams, with scattered hand and footholds surrounding. Many variants and eliminates are presented.",
-              "usable-descriptions": "The boulder shortens uphill to a crack that offers great jams, with scattered hand and footholds surrounding. Many variants and eliminates are presented.",
-              "transcription-notes": "Edits accepted. Was unable to read a section of writing."
-            },
-            {
-              "id": 122,
-              "name": "Endless Quest to be Cool",
-              "grade": {
-                "grade": 1
-              },
-              "tags": [
-                "mantle"
-              ],
-              "description": "Lowest point yet highest point of boulder. Sit starting below bulbous corner with some power to a standing height mantle, folowed by 5.8 climbing to the top.",
-              "transcription-notes": "Edits accepted.  Abbreviation expanded. Minor grammar error assumed and corrected."
-            },
-            {
-              "id": 123,
-              "name": "Not Yet Done",
-              "grade": {
-                "grade": -2
-              },
-              "tags": [
-                "project"
-              ],
-              "description": "Cleaned to a maintanable degree and never been climbed.",
-              "transcription-notes": "Edits accepted. Was unable to read a section of writing. Handwritting unclear and meaning is guessed."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Major Tom Pillar",
-          "description": "Following a climber's trail out of Pillar Parking Lot zig-zagging north, avoiding a Temptation Pillar off-shoot trail heading north by north-east, Major Tom's top bloc and backside is minutes off the road. With the addition of new top bolts in 2012 on the northern most point two opportunites to rappel the route were presented. Below the summit a stance accessed from trail. The bolted anchors are just out of reach (stick clip) and a short leap away. A set of Chockstones at this stance also offers a top-roping or rappelling opportunity. Which anchors are best for drag is to be determined.",
-          "transcription-notes": "Edits accepted. Minor grammar error assumed and corrected. Handwritting unclear and meaning is guessed. Was unable to read a section of writing.",
-          "children": [
-            {
-              "id": 0,
-              "name": "Ground Control to (Major Tom)",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Nightmare to transcribe, if you're looking for details on this roped route originally lead in 2009 (5.7), contact transcriber."
-            },
-            {
-              "id": 0,
-              "name": "Dionysus",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Nightmare to transcribe, if you're looking for details on this roped route originally lead in 2012 (5.7), contact transcriber."
-            },
-            {
-              "id": 0,
-              "name": "Solo",
-              "grade": {
-                "grade": 0
-              },
-              "description": "Nightmare to transcribe, if you're looking for details on this roped route (5.6), contact transcriber."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Temptation Pillar",
-          "children": [
-            {
-              "id": 0,
-              "name": "Leap of Faith",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Nightmare to transcribe, if you're looking for details on this roped route (5.7), contact transcriber."
-            },
-            {
-              "id": 0,
-              "name": "Not Yet Done",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Nightmare to transcribe, if you're looking for details on this roped route (5.9), contact transcriber."
-            },
-            {
-              "id": 0,
-              "name": "The Temptations of Two Marys",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Nightmare to transcribe, if you're looking for details on this roped route (5.7), contact transcriber."
-            },
-            {
-              "id": 0,
-              "name": "Tempting Fate",
-              "grade": {
-                "grade": -2
-              },
-              "description": "Nightmare to transcribe, if you're looking for details on this roped route (5.8), contact transcriber."
-            }
-          ]
-        },
-        {
-          "id": 0,
-          "name": "Magical Mystery Pillar",
-          "description": "The lackluster non-summit block for the Magical Mystery Pillar can be decieving, for how much climbing can be found below.",
-          "transcription-notes": "Edits accepted. Simply a depiction of the top of Magical Mystery Pillar vs. what lies beneath."
-        },
-        {
-          "id": 0,
-          "name": "Ranger Bob Boulder",
-          "description": "From the Pillar Parking Lot walking downhill to Major Tom, Ranger Bob is on the right hand side and it's top-out will become visable. If you scramble down to reach the base of Major Tom you will pass it's primary bouldering face. If you traverse east to the Temptation Pillar after starting the trail to Major Tom, you will see Ranger Bob en-route. The primary face line is split with a huge crack between boulders and ledge. Crus is in upper portion of the climb, unless top-roping, us extreme caution climbing this problem, it presents a high fall, and a steep down-hill drop-off on the landing. A very aesthetic line.",
-          "transcription-notes": "Edits accepted. Minor grammar error assumed and corrected. Handwritting unclear and meaning is guessed. Was unable to read a section of writing."
-        },
-        {
-          "id": 0,
-          "name": "Unnamed Boulder",
-          "description": "This boulder is located as close to the car, as it is to the Pillars, splitting the walk to Major Tom. Distinctive sloper holds, and a sloped edge hand jug at torso height stood out. Minimal time has been spent cleaning and no time spent climbing this boulder as of February 2012.",
-          "transcription-notes": "Edits accepted. Minor grammar error assumed and corrected. Handwritting unclear and meaning is guessed. Was unable to read a section of writing. Date updated based on assumed handwriting."
         }
       ]
     }

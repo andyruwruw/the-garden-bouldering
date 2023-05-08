@@ -51,20 +51,16 @@ export class WebScraper {
       return;
     }
 
-    try {
-      const response = await axios.get(
-        this._url,
-        {
-          headers: {
-            'Connection': 'Keep-Alive',
-          },
+    const response = await axios.get(
+      this._url,
+      {
+        headers: {
+          'Connection': 'Keep-Alive',
         },
-      );
-    
-      this._dom = cheerio.load(response.data);
-    } catch (error) {
-      throw error;
-    }
+      },
+    );
+  
+    this._dom = cheerio.load(response.data);
   }
 
   /**

@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     redirect: '/tabs/tab1'
   },
   {
-    path: '/tabs/',
+    path: '/area/',
     component: TabsPage,
     children: [
       {
