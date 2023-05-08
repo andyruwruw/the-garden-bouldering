@@ -14,6 +14,7 @@ import {
   GradeObject,
   RatingObject,
   AscentObject,
+  DangerObject,
 } from '../../../types';
 
 /**
@@ -40,6 +41,7 @@ export class Route
     rating = {} as RatingObject,
     tags = [] as string[],
     ascents = [] as AscentObject[],
+    danger = {} as DangerObject,
   ): Promise<RouteInterface> {
     return this._create({
       crag,
@@ -55,6 +57,7 @@ export class Route
       rating,
       tags,
       ascents,
+      danger,
     });
   }
 

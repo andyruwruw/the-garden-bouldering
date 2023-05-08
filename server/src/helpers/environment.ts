@@ -87,4 +87,22 @@ export class Environment {
   static getSecret(): string {
     return process.env.SECRET as string;
   }
+
+  /**
+   * Retrieves origin for CORS.
+   *
+   * @returns {string} Origin URL.
+   */
+  static getOrigin(): string {
+    return process.env.PRODUCTION_ORIGIN || '';
+  }
+
+  /**
+   * Retrieves REST API port.
+   *
+   * @returns {number} REST API port.
+   */
+  static getPort(): number {
+    return parseInt(process.env.PORT as string, 10) || 3000;
+  }
 }

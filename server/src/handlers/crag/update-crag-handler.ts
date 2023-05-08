@@ -8,7 +8,7 @@ import {
 } from '../../types';
 
 /**
- * Updates an crag.
+ * Updates a crag.
  */
 export class UpdateCragHandler extends AbstractHandler {
   /**

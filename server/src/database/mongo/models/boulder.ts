@@ -54,6 +54,11 @@ const schema = new mongoose.Schema({
       default: 0,
     },
   },
+
+  danger: {
+    type: Object,
+    default: {},
+  },
 });
 
 export const Boulder = mongoose.model('Boulder', schema);

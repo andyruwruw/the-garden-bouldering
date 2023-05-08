@@ -2,7 +2,7 @@
 import { MountainProjectScraper } from './mountain-project-scraper';
 
 // Types
-import { MountainProjectItem } from '../../types';
+import { MountainProjectItem } from '../../types/mountain-project';
 
 /**
  * Retrieves a Mountain Project area by URL.

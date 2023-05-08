@@ -4,6 +4,7 @@ import { Description } from './description';
 // Types
 import {
   AscentObject,
+  DangerObject,
   ExternalHrefs,
   ExternalIds,
   GradeObject,
@@ -83,6 +84,11 @@ export class Route {
    * Notable sends.
    */
   _ascents: AscentObject[] = [];
+
+  /**
+   * Danger object.
+   */
+  _danger: DangerObject = {};
 
   /**
    * Children of this route.
@@ -352,6 +358,24 @@ export class Route {
   }
 
   /**
+   * Sets the danger for the route.
+   *
+   * @param {DangerObject} danger Danger of the route. 
+   */
+  setDanger(danger: DangerObject): void {
+    this._danger = danger;
+  }
+
+  /**
+   * Retrieves danger for the route.
+   *
+   * @returns {DangerObject} Danger for the route.
+   */
+  getDanger(): DangerObject {
+    return this._danger;
+  }
+
+  /**
    * Sets this item's children.
    *
    * @param {(Route | Description)[]} children Item's children.
@@ -415,5 +439,18 @@ export class Route {
    */
   getChildren(): (Route | Description)[] {
     return this._children;
+  }
+
+  /**
+   * Prints object as string.
+   */
+  log(depth: number = 0): void {
+    const spacing = new Array(depth).fill(' ');
+
+    console.log(spacing.join(), 'Route:', this._name, this._grade, this._rating, this._danger);
+
+    for (let i = 0; i < this._children.length; i += 1) {
+      this._children[i].log(depth + 1);
+    }
   }
 }

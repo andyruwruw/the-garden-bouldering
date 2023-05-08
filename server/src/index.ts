@@ -1,14 +1,12 @@
-import request from './api/github/request';
-import { TexProcessor } from './process/process-tex';
+// Local Imports
+import { Environment } from './helpers/environment';
+import { Server } from './server';
 
-const makeThing = async () => {
-  const response = await request.get('/repos/AndrewChild/The-Garden-Guidebook/contents/sections/The Garden Main.tex');
+/**
+ * Desired port from environmental variables.
+ */
+const PORT = Environment.getPort();
 
-  const processer = new TexProcessor();
-
-  processer.load(Buffer.from(response.data.content, 'base64'));
-
-  processer.start();
-};
-
-makeThing();
+// Start it up!
+const server = new Server(PORT);
+server.start();

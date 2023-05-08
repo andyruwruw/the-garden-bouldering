@@ -6,6 +6,7 @@ import {
   ClimbingRequest,
   ClimbingResponse,
 } from '../types';
+import { NOOP } from '../config';
 
 /**
  * Does CORS stuff.
@@ -16,8 +17,8 @@ import {
 export const handleCors = (
   req: ClimbingRequest,
   res: ClimbingResponse,
+  next: (req: ClimbingRequest, res: ClimbingResponse) => null | void = NOOP,
 ): void => {
-  console.log(Environment.getOrigin());
   res.setHeader(
     'Access-Control-Allow-Origin',
     Environment.getOrigin(),
@@ -26,4 +27,6 @@ export const handleCors = (
     'Access-Control-Allow-Headers',
     'Origin, X-Requested-With, Content-Type, Accept',
   );
+
+  next(req, res);
 };

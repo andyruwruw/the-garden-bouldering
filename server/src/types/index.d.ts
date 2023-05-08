@@ -3,10 +3,14 @@ import {
   VercelRequest,
   VercelResponse,
 } from '@vercel/node';
+import { 
+  Request as ExpressRequest,
+  Response as ExpressResponse,
+} from 'express';
 
-export type ClimbingRequest = VercelRequest;
+export type ClimbingRequest = VercelRequest | ExpressRequest;
 
-export type ClimbingResponse = VercelResponse;
+export type ClimbingResponse = VercelResponse | ExpressResponse;
 
 export type ItemType = 'area' | 'boulder' | 'route';
 
@@ -39,7 +43,7 @@ export interface ExternalHrefs extends Record<string, string> {
 export interface GradeOpinion {
   grade: number;
 
-  subGrade: number;
+  subGrade?: number;
 }
 
 export interface AscentObject {
@@ -68,12 +72,20 @@ export interface RatingOpinion {
   votes: number;
 }
 
+export interface DangerObject extends Record<string, number> {
+  voted?: number;
+
+  child?: number;
+
+  mountainProject?: number;
+}
+
 export interface RatingObject extends Record<string, RatingOpinion> {
-  voted?: GradeOpinion;
+  voted?: RatingOpinion;
 
-  child?: GradeOpinion;
+  child?: RatingOpinion;
 
-  mountainProject?: GradeOpinion;
+  mountainProject?: RatingOpinion;
 }
 
 export interface Coordinates {
@@ -152,6 +164,8 @@ export interface Route {
   tags: string[];
 
   ascents: AscentObject[];
+
+  danger: DangerObject;
 }
 
 export interface Description {
@@ -170,6 +184,8 @@ export interface Description {
   date: string;
 
   updated: Date;
+
+  href: string;
 }
 
 export type RequestType = 'name' | 'alt-names' | 'description' | 'grade' | 'tags';
@@ -254,6 +270,12 @@ export interface Attempt {
   notes?: string;
 
   date: String;
+}
+
+export interface Process {
+  versions: Record<string, string>;
+
+  updated: Date;
 }
 
 export type InterestType = 'project' | 'long-term-project' | 'interest';
@@ -403,85 +425,3 @@ export interface DataAccessObject<T> {
  * Nullable type for abstract class.
  */
 export type NullableDataAccessObject<T> = DataAccessObject<T> | null;
-
-// export interface HrefObject {
-//   mountainProject?: string;
-// }
-
-// export interface FAObject {
-//   name: string;
-//   date?: string;
-// }
-
-// export interface DangerObject {
-//   child?: number;
-//   mountainProject?: number;
-//   heartFlutters?: number;
-//   old?: number;
-// }
-
-// export interface RatingObject {
-//   child?: number;
-//   old?: number;
-//   mountainProject?: {
-//     average: number;
-//     votes: number;
-//   }
-// }
-
-// export interface GradeOpinion {
-//   grade: number;
-//   subgrade: number;
-// }
-
-// export interface GradeObject {
-//   child?: GradeOpinion;
-//   old?: GradeOpinion;
-//   mountainProject?: GradeOpinion;
-// }
-
-// export type ImageType = 'topo' | 'action' | 'historical' | 'overview';
-
-// export interface Image {
-//   description: string;
-//   href: string;
-//   type: ImageType;
-// }
-
-// export interface Area {
-//   href: HrefObject | null;
-//   lat: number;
-//   long: number;
-//   name: string;
-//   elevation: number;
-//   boulders: Boulder[];
-// }
-
-// export interface Boulder {
-//   href: HrefObject | null;
-//   lat: number;
-//   long: number;
-//   name: string;
-//   elevation: number;
-//   images: Image[];
-//   routes: Record<string, Route>;
-// }
-
-// export interface Route {
-//   id?: number;
-//   href: HrefObject | null;
-//   name: string;
-//   altNames: string[];
-//   grade: GradeObject;
-//   firstAscent: FAObject | null;
-//   rating: RatingObject;
-//   variationOf?: number;
-//   danger?: DangerObject;
-// }
-
-// export interface Coordinates {
-//   lat: number;
-//   long: number;
-// }
-
-

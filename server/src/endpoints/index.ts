@@ -1,5 +1,7 @@
-// Local Imports
-import { Handler } from './handler';
+// Packages
+import { Router } from 'express';
+
+// Local Exports
 import area from './area';
 import article from './article';
 import attempt from './attempt';
@@ -28,4 +30,4 @@ export default {
   route,
   send,
   user,
-} as Record<string, Record<string, typeof Handler>>;
+} as Record<string, Router>;

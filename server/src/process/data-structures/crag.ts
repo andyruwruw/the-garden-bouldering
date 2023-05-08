@@ -338,4 +338,17 @@ export class Crag {
   getChildren(): (Area | Boulder | Route | Description)[] {
     return this._children;
   }
+
+  /**
+   * Prints object as string.
+   */
+  log(depth: number = 0): void {
+    const spacing = new Array(depth).fill(' ');
+
+    console.log(spacing.join(), 'Crag:', this._name);
+
+    for (let i = 0; i < this._children.length; i += 1) {
+      this._children[i].log(depth + 1);
+    }
+  }
 }

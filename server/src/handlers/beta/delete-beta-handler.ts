@@ -8,7 +8,7 @@ import {
 } from '../../types';
 
 /**
- * Deletes a beta.
+ * Deletes beta.
  */
 export class DeleteBetaHandler extends AbstractHandler {
   /**

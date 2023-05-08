@@ -46,6 +46,11 @@ const schema = new mongoose.Schema({
     type: Date,
     required: new Date(),
   },
+
+  href: {
+    type: String,
+    default: '',
+  },
 });
 
 export const Description = mongoose.model('Description', schema);

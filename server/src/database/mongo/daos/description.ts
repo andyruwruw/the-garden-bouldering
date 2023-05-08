@@ -31,6 +31,7 @@ export class Description
     type = 'description' as DescriptionType,
     guide = '',
     updated = new Date(),
+    href = '',
   ): Promise<DescriptionInterface> {
     return this._create({
       link,
@@ -40,6 +41,7 @@ export class Description
       type,
       guide,
       updated,
+      href,
     });
   }
 

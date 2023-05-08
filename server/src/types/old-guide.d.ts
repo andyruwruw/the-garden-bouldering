@@ -5,27 +5,32 @@ export interface OldGuide {
   /**
    * Name of the guidebook.
    */
-  name: string;
+  name?: string;
 
   /**
    * Author of the guidebook.
    */
-  author: string;
+  author?: string;
 
   /**
    * Suggested date the guidebook was written.
    */
-  date: string;
+  date?: string;
 
   /**
    * Transcriptor of the guidebook to JSON.
    */
-  transcriptor: string;
+  transcriptor?: string;
+
+  /**
+   * Link to mountain project page.
+   */
+  'mountain-project'?: string;
 
   /**
    * All items in guidebook.
    */
-  children: Area[];
+  children?: Area[];
 }
 
 /**

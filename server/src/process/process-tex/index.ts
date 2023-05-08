@@ -1,4 +1,5 @@
 // Local Imports
+import { Area } from '../data-structures';
 import { TexReader } from './tex-reader';
 
 /**
@@ -26,7 +27,14 @@ export class TexProcessor {
     this._reader.setData(data);
   }
 
-  start() {
-    console.log(this._reader._data.toString().split('\\'));
+  /**
+   * Parses the file for an area object.
+   *
+   * @returns {Area} Resulting area object.
+   */
+  start(): Area {
+    this._reader.parse();
+
+    return this._reader.getArea() as Area;
   }
 }

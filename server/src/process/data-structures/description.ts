@@ -52,36 +52,41 @@ export class Description {
   _updated: Date = new Date();
 
   /**
-   * Sets the ID for the crag.
+   * Associated link.
+   */
+  _href:string  = '';
+
+  /**
+   * Sets the ID for the description.
    *
-   * @param {string} id Id of the crag. 
+   * @param {string} id Id of the description. 
    */
   setId(id: string): void {
     this._id = id;
   }
 
   /**
-   * Retrieves the ID for the crag.
+   * Retrieves the ID for the description.
    *
-   * @returns {string} ID for the crag.
+   * @returns {string} ID for the description.
    */
   getId(): string {
     return this._id;
   }
 
   /**
-   * Sets the guide for the crag.
+   * Sets the guide for the description.
    *
-   * @param {string} guide Guide of the crag. 
+   * @param {string} guide Guide of the description. 
    */
   setGuide(guide: string): void {
     this._guide = guide;
   }
 
   /**
-   * Retrieves guide for the crag.
+   * Retrieves guide for the description.
    *
-   * @returns {string} Guide for the crag.
+   * @returns {string} Guide for the description.
    */
   getGuide(): string {
     return this._guide;
@@ -98,110 +103,137 @@ export class Description {
   }
 
   /**
-   * Sets the link for the crag.
+   * Sets the link for the description.
    *
-   * @param {ItemLink} link Link of the crag. 
+   * @param {ItemLink} link Link of the description. 
    */
   setLink(link: ItemLink): void {
     this._link = link;
   }
 
   /**
-   * Retrieves link for the crag.
+   * Retrieves link for the description.
    *
-   * @returns {ItemLink} Link for the crag.
+   * @returns {ItemLink} Link for the description.
    */
   getLink(): ItemLink {
     return this._link;
   }
 
   /**
-   * Sets the type for the crag.
+   * Sets the type for the description.
    *
-   * @param {DescriptionType} type Type of the crag. 
+   * @param {DescriptionType} type Type of the description. 
    */
   setType(type: DescriptionType): void {
     this._type = type;
   }
 
   /**
-   * Retrieves type for the crag.
+   * Retrieves type for the description.
    *
-   * @returns {DescriptionType} Type for the crag.
+   * @returns {DescriptionType} Type for the description.
    */
   getType(): DescriptionType {
     return this._type;
   }
 
   /**
-   * Sets the text for the crag.
+   * Sets the text for the description.
    *
-   * @param {string} text Text of the crag. 
+   * @param {string} text Text of the description. 
    */
   setText(text: string): void {
     this._text = text;
   }
 
   /**
-   * Retrieves text for the crag.
+   * Retrieves text for the description.
    *
-   * @returns {string} Text for the crag.
+   * @returns {string} Text for the description.
    */
   getText(): string {
     return this._text;
   }
 
   /**
-   * Sets the owner for the crag.
+   * Sets the owner for the description.
    *
-   * @param {string} owner Owner of the crag. 
+   * @param {string} owner Owner of the description. 
    */
   setOwner(owner: string): void {
     this._owner = owner;
   }
 
   /**
-   * Retrieves owner for the crag.
+   * Retrieves owner for the description.
    *
-   * @returns {string} Owner for the crag.
+   * @returns {string} Owner for the description.
    */
   getOwner(): string {
     return this._owner;
   }
 
   /**
-   * Sets the date for the crag.
+   * Sets the date for the description.
    *
-   * @param {string} date Date of the crag. 
+   * @param {string} date Date of the description. 
    */
   setDate(date: string): void {
     this._date = date;
   }
 
   /**
-   * Retrieves date for the crag.
+   * Retrieves date for the description.
    *
-   * @returns {string} Date for the crag.
+   * @returns {string} Date for the description.
    */
   getDate(): string {
     return this._date;
   }
 
   /**
-   * Sets the updated for the crag.
+   * Sets the updated for the description.
    *
-   * @param {Date} updated Updated of the crag. 
+   * @param {Date} updated Updated of the description. 
    */
   setUpdated(updated: Date): void {
     this._updated = updated;
   }
 
   /**
-   * Retrieves updated for the crag.
+   * Retrieves updated for the description.
    *
-   * @returns {Date} Updated for the crag.
+   * @returns {Date} Updated for the description.
    */
   getUpdated(): Date {
     return this._updated;
+  }
+
+  /**
+   * Sets the HREF for the description.
+   *
+   * @param {string} href HREF of the description. 
+   */
+  setHref(href: string): void {
+    this._href = href;
+  }
+
+  /**
+   * Retrieves the HREF for the description.
+   *
+   * @returns {string} HREF for the description.
+   */
+  getHref(): string {
+    return this._href;
+  }
+  
+  /**
+   * Prints object as string.
+   */
+  log(depth: number = 0): void {
+    const spacing = new Array(depth).fill(' ');
+
+    console.log(spacing.join(), 'Description:', this._text);
   }
 }
