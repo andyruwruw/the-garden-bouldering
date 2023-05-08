@@ -129,6 +129,8 @@ export interface Route {
 
   guides: string[];
 
+  crag: string;
+
   areas: string[];
 
   boulders: string[];

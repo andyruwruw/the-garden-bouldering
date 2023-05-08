@@ -23,6 +23,11 @@ const schema = new mongoose.Schema({
     default: [],
   },
 
+  crag: {
+    type: String,
+    default: 'Unknown',
+  },
+
   name: {
     type: String,
     default: 'Unknown',

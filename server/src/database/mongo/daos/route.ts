@@ -27,6 +27,7 @@ export class Route
    * @returns {RouteInterface} The route created.
    */
   async create(
+    crag = 'Unknown',
     areas = [] as string[],
     boulders = [] as string[],
     guides = [] as string[],
@@ -41,6 +42,7 @@ export class Route
     ascents = [] as AscentObject[],
   ): Promise<RouteInterface> {
     return this._create({
+      crag,
       areas,
       boulders,
       guides,
