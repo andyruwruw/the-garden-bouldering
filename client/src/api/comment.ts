@@ -35,12 +35,12 @@ const postComment = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes a comment.
  *
- * @param {string} id ID of the comment. 
+ * @param {string} id ID of the comment.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteComment = async (id: string): Promise<RequestConfirmation> => {
@@ -61,7 +61,7 @@ const deleteComment = async (id: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates a comment.
@@ -87,7 +87,7 @@ const updateComment = async (
     return null;
   }
   return null;
-}
+};
 
 export default {
   postComment,

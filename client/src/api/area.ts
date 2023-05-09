@@ -34,12 +34,12 @@ const approveAreaEditRequest = async (id: string): Promise<RequestConfirmation> 
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes an area.
  *
- * @param {string} id ID of the area. 
+ * @param {string} id ID of the area.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteArea = async (id: string): Promise<RequestConfirmation> => {
@@ -60,12 +60,12 @@ const deleteArea = async (id: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Retrieves an area.
  *
- * @param {string} id ID of the area. 
+ * @param {string} id ID of the area.
  * @returns {Promise<Area | null>} Promise of an area.
  */
 const getArea = async (id: string): Promise<Area | null> => {
@@ -82,12 +82,12 @@ const getArea = async (id: string): Promise<Area | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves areas.
  *
- * @param {string[]} ids IDs of the areas. 
+ * @param {string[]} ids IDs of the areas.
  * @returns {Promise<Area[] | null>} Promise of areas.
  */
 const getAreas = async (ids: string[]): Promise<Area[] | null> => {
@@ -104,12 +104,12 @@ const getAreas = async (ids: string[]): Promise<Area[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves a areas for a given crag.
  *
- * @param {string} id ID of the crag. 
+ * @param {string} id ID of the crag.
  * @returns {Promise<Area[] | null>} Promise of areas.
  */
 const getCragAreas = async (id: string): Promise<Area[] | null> => {
@@ -126,7 +126,7 @@ const getCragAreas = async (id: string): Promise<Area[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Updates an area's information.
@@ -171,7 +171,7 @@ const updateArea = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates an area's status.
@@ -204,7 +204,7 @@ const postAreaStatus = async (
   return {
     success: false,
   };
-}
+};
 
 export default {
   approveAreaEditRequest,

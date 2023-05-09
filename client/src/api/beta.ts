@@ -18,8 +18,8 @@ import {
  */
 const postBeta = async (
   link: ItemLink,
-  text: string = '',
-  href: string = '',
+  text = '',
+  href = '',
 ): Promise<RequestConfirmation> => {
   try {
     const response = await request.post('/beta/log', {
@@ -39,12 +39,12 @@ const postBeta = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes beta.
  *
- * @param {string} id ID of the beta. 
+ * @param {string} id ID of the beta.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteBeta = async (id: string): Promise<Article | null> => {
@@ -61,12 +61,12 @@ const deleteBeta = async (id: string): Promise<Article | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Updates beta.
  *
- * @param {string} id ID of the beta. 
+ * @param {string} id ID of the beta.
  * @param {ItemLink} link Item the beta is linked to.
  * @param {string} text Text of the beta.
  * @param {string} href HREF for beta.
@@ -75,8 +75,8 @@ const deleteBeta = async (id: string): Promise<Article | null> => {
 const updateBeta = async (
   id: string,
   link: ItemLink,
-  text: string = '',
-  href: string = '',
+  text = '',
+  href = '',
 ): Promise<Article[] | null> => {
   try {
     const response = await request.put('/beta/update', {
@@ -93,7 +93,7 @@ const updateBeta = async (
     return null;
   }
   return null;
-}
+};
 
 export default {
   postBeta,

@@ -21,9 +21,9 @@ export class TexProcessor {
   /**
    * Loads a new TEX file to process.
    *
-   * @param {Buffer} data TEX data. 
+   * @param {string} data TEX data. 
    */
-  load(data: Buffer) {
+  load(data: string) {
     this._reader.setData(data);
   }
 

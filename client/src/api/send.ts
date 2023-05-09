@@ -10,7 +10,7 @@ import {
 
 /**
  * Logs a new send.
- * 
+ *
  * @param {number} attempts Number of attempts.
  * @param {number} laps Laps on the boulder.
  * @param {SendType} type Type of send.
@@ -45,12 +45,12 @@ const logSend = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes a send.
  *
- * @param {string} id ID of the comment. 
+ * @param {string} id ID of the comment.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteSend = async (id: string): Promise<RequestConfirmation> => {
@@ -71,7 +71,7 @@ const deleteSend = async (id: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates a send.
@@ -109,7 +109,7 @@ const updateSend = async (
     return null;
   }
   return null;
-}
+};
 
 export default {
   logSend,

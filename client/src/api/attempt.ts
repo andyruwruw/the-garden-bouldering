@@ -45,12 +45,12 @@ const logAttempt = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes an attempt.
  *
- * @param {string} id ID of the attempt. 
+ * @param {string} id ID of the attempt.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteAttempt = async (id: string): Promise<Article | null> => {
@@ -67,7 +67,7 @@ const deleteAttempt = async (id: string): Promise<Article | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Updates an attempt.
@@ -103,7 +103,7 @@ const updateAttempt = async (
     return null;
   }
   return null;
-}
+};
 
 export default {
   logAttempt,

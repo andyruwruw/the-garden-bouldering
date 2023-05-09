@@ -1,5 +1,6 @@
 // Local Imports
 import {
+  GUIDE_IDS,
   TEX_AREA_HEADING,
   TEX_BOULDER,
   TEX_CHAPTER_HEADING,
@@ -40,19 +41,19 @@ export class TexReader {
   /**
    * Creates a new TEX reader.
    *
-   * @param {Buffer} data Tex data.
+   * @param {string} data Tex data.
    */
-  constructor(data: Buffer = Buffer.from('')) {
+  constructor(data: string = '') {
     this.setData(data);
   }
 
   /**
    * Loads tex data into reader.
    *
-   * @param {Buffer} data Tex data.
+   * @param {string} data Tex data.
    */
-  setData(data: Buffer): void {
-    const sanitized = data.toString().replace(/[\u000A\u0009\u000B\u000C\u000D]/g, '');
+  setData(data: string): void {
+    const sanitized = data.replace(/[\u000A\u0009\u000B\u000C\u000D]/g, '');
 
     this._data = sanitized.split('\\').filter((line: string) => {
       if (line.length === 0) {
@@ -89,6 +90,9 @@ export class TexReader {
         this._area = new Area();
         curr = this._area;
         this._area.setName(title);
+        this._area.setGuides([
+          GUIDE_IDS.child,
+        ]);
       }
 
       if (TEX_QR_CODE.test(line)) {
@@ -102,6 +106,7 @@ export class TexReader {
         description = new Description();
         description.setText(text);
         description.setHref(href);
+        description.setGuide(GUIDE_IDS.child);
 
         curr?.push(description);
       }
@@ -123,6 +128,9 @@ export class TexReader {
         area.setExternalIds({
           child: id,
         });
+        area.setGuides([
+          GUIDE_IDS.child,
+        ]);
       }
 
       if (TEX_LABEL.test(line)) {
@@ -135,6 +143,7 @@ export class TexReader {
 
         description = new Description();
         description.setText(text);
+        description.setGuide(GUIDE_IDS.child);
 
         curr?.push(description);
       }
@@ -148,6 +157,9 @@ export class TexReader {
         boulder = new Boulder();
         curr = boulder;
         boulder.setName(title);
+        boulder.setGuides([
+          GUIDE_IDS.child,
+        ]);
 
         area?.push(boulder);
       }
@@ -168,7 +180,10 @@ export class TexReader {
         });
         route.setGrade({
           child: parseStringGrade(grade),
-        })
+        });
+        route.setGuides([
+          GUIDE_IDS.child,
+        ]);
 
         boulder?.push(route);
       }
@@ -224,6 +239,7 @@ export class TexReader {
 
         description = new Description();
         description.setText(text);
+        description.setGuide(GUIDE_IDS.child);
 
         curr?.push(description);
       }

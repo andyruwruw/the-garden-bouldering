@@ -14,6 +14,7 @@ import {
   Crag,
   Description,
   Interest,
+  Process,
   Request,
   Route,
   Send,
@@ -70,6 +71,11 @@ export class MongoDatabase extends Database {
   interest: Interest;
 
   /**
+   * Data access object for process.
+   */
+  process: Process;
+
+  /**
    * Data access object for requests.
    */
   request: Request;
@@ -107,6 +113,7 @@ export class MongoDatabase extends Database {
     this.comment = new Comment();
     this.crag = new Crag();
     this.description = new Description();
+    this.process = new Process();
     this.interest = new Interest();
     this.request = new Request();
     this.route = new Route();

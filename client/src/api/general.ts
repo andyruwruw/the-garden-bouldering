@@ -36,12 +36,12 @@ const linkItems = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Searchs for areas, routes or users.
  *
- * @param {string} query Query to search for. 
+ * @param {string} query Query to search for.
  * @returns {Promise<SearchResponse | RequestConfirmation>} Promise of the action.
  */
 const serach = async (query: string): Promise<SearchResponse | RequestConfirmation> => {
@@ -62,7 +62,7 @@ const serach = async (query: string): Promise<SearchResponse | RequestConfirmati
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates data with route guides.
@@ -84,7 +84,7 @@ const update = async (): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 export default {
   linkItems,

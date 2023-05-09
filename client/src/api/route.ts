@@ -39,12 +39,12 @@ const approveRouteEditRequest = async (id: string): Promise<RequestConfirmation>
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes a route.
  *
- * @param {string} id ID of the route. 
+ * @param {string} id ID of the route.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteRoute = async (id: string): Promise<RequestConfirmation> => {
@@ -65,12 +65,12 @@ const deleteRoute = async (id: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Retrieves a route.
  *
- * @param {string} id ID of the route. 
+ * @param {string} id ID of the route.
  * @returns {Promise<Route | null>} Promise of a route.
  */
 const getRoute = async (id: string): Promise<Route | null> => {
@@ -87,12 +87,12 @@ const getRoute = async (id: string): Promise<Route | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves routes.
  *
- * @param {string[]} ids IDs of the routes. 
+ * @param {string[]} ids IDs of the routes.
  * @returns {Promise<Route[] | null>} Promise of routes.
  */
 const getRoutes = async (ids: string[]): Promise<Route[] | null> => {
@@ -109,7 +109,7 @@ const getRoutes = async (ids: string[]): Promise<Route[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves a random route.
@@ -127,12 +127,12 @@ const getRandomRoute = async (): Promise<Route | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves routes for a given area.
  *
- * @param {string} id ID of the area. 
+ * @param {string} id ID of the area.
  * @returns {Promise<Route[] | null>} Promise of routes.
  */
 const getAreaRoutes = async (id: string): Promise<Route[] | null> => {
@@ -149,12 +149,12 @@ const getAreaRoutes = async (id: string): Promise<Route[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves route for a given boulder.
  *
- * @param {string} id ID of the boulder. 
+ * @param {string} id ID of the boulder.
  * @returns {Promise<Route[] | null>} Promise of routes.
  */
 const getBoulderRoutes = async (id: string): Promise<Route[] | null> => {
@@ -171,12 +171,12 @@ const getBoulderRoutes = async (id: string): Promise<Route[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves routes for a given crag.
  *
- * @param {string} id ID of the crag. 
+ * @param {string} id ID of the crag.
  * @returns {Promise<Route[] | null>} Promise of routes.
  */
 const getCragRoutes = async (id: string): Promise<Route[] | null> => {
@@ -193,7 +193,7 @@ const getCragRoutes = async (id: string): Promise<Route[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Updates a route.
@@ -252,7 +252,7 @@ const updateRoute = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates a route's status.
@@ -285,7 +285,7 @@ const postRouteStatus = async (
   return {
     success: false,
   };
-}
+};
 
 export default {
   approveRouteEditRequest,

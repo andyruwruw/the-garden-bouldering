@@ -1,17 +1,3 @@
-// Types
-import {
-  VercelRequest,
-  VercelResponse,
-} from '@vercel/node';
-import { 
-  Request as ExpressRequest,
-  Response as ExpressResponse,
-} from 'express';
-
-export type ClimbingRequest = VercelRequest | ExpressRequest;
-
-export type ClimbingResponse = VercelResponse | ExpressResponse;
-
 export type ItemType = 'area' | 'boulder' | 'route';
 
 export type DescriptionType = 'beta' | 'description' | 'location' | 'ethics' | 'history' | 'protection';
@@ -28,7 +14,7 @@ export interface ItemLink {
   id: string;
 }
 
-export interface ExternalIds extends Record<string, string> {
+export interface ExternalIds extends Record<string, string | undefined> {
   child?: string;
 
   oldGuide?: string;
@@ -36,7 +22,7 @@ export interface ExternalIds extends Record<string, string> {
   mountainProject?: string;
 }
 
-export interface ExternalHrefs extends Record<string, string> {
+export interface ExternalHrefs extends Record<string, string | undefined> {
   mountainProject?: string;
 }
 
@@ -56,7 +42,7 @@ export interface AscentObject {
   date?: string;
 }
 
-export interface GradeObject extends Record<string, GradeOpinion> {
+export interface GradeObject extends Record<string, GradeOpinion | undefined> {
   voted?: GradeOpinion;
 
   child?: GradeOpinion;
@@ -72,7 +58,7 @@ export interface RatingOpinion {
   votes: number;
 }
 
-export interface DangerObject extends Record<string, number> {
+export interface DangerObject extends Record<string, number | undefined> {
   voted?: number;
 
   child?: number;
@@ -80,7 +66,7 @@ export interface DangerObject extends Record<string, number> {
   mountainProject?: number;
 }
 
-export interface RatingObject extends Record<string, RatingOpinion> {
+export interface RatingObject extends Record<string, RatingOpinion | undefined> {
   voted?: RatingOpinion;
 
   child?: RatingOpinion;
@@ -98,7 +84,7 @@ export interface ShapeLinks {
   shape: string;
 
   type: ShapeLinkType;
-  
+
   link: string;
 }
 
@@ -253,7 +239,7 @@ export interface Send {
 
   notes?: string;
 
-  date: String;
+  date: string;
 }
 
 export interface Attempt {
@@ -269,7 +255,7 @@ export interface Attempt {
 
   notes?: string;
 
-  date: String;
+  date: string;
 }
 
 export interface Process {
@@ -289,13 +275,13 @@ export interface Interest {
 
   type: InterestType;
 
-  date: String;
+  date: string;
 }
 
 export interface Status {
   link: ItemLink;
 
-  type: String;
+  type: string;
 
   value: string[];
 
@@ -447,7 +433,7 @@ export interface SearchResponse {
 
   article?: Article[];
 
-  beta?: Beta[];
+  beta?: Description[];
 
   user?: User[];
 }

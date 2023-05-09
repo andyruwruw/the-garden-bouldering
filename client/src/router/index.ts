@@ -1,6 +1,9 @@
+// Packages
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
+
+// Local Imports
+import Home from '../views/home/home-view.vue';
 
 Vue.use(VueRouter);
 
@@ -8,15 +11,37 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'home',
-    component: HomeView,
+    component: Home,
   },
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
+    component: () => import('../views/about/about-view.vue'),
+  },
+  {
+    path: '/area/:id',
+    name: 'area',
+    component: () => import('../views/area/area-view.vue'),
+  },
+  {
+    path: '/boulder/:id',
+    name: 'boulder',
+    component: () => import('../views/boulder/boulder-view.vue'),
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/login/login-view.vue'),
+  },
+  {
+    path: '/route/:id',
+    name: 'route',
+    component: () => import('../views/route/route-view.vue'),
+  },
+  {
+    path: '/user/:username',
+    name: 'user',
+    component: () => import('../views/user/user-view.vue'),
   },
 ];
 

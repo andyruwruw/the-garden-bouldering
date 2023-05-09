@@ -31,7 +31,7 @@ const getUser = async (username: string): Promise<User | RequestConfirmation> =>
   return {
     success: false,
   };
-}
+};
 
 /**
  * Checks for a user session.
@@ -53,7 +53,7 @@ const checkUser = async (): Promise<User | RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Logs a user in.
@@ -83,7 +83,7 @@ const login = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Logs out a user.
@@ -105,7 +105,7 @@ const logout = async (): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Registers a new user.
@@ -135,7 +135,7 @@ const register = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes a user.
@@ -161,7 +161,7 @@ const deleteUser = async (username: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Bans a user.
@@ -187,7 +187,7 @@ const banUser = async (username: string): Promise<User | RequestConfirmation> =>
   return {
     success: false,
   };
-}
+};
 
 /**
  * Removes ban from a user.
@@ -213,7 +213,7 @@ const unbanUser = async (username: string): Promise<User | RequestConfirmation> 
   return {
     success: false,
   };
-}
+};
 
 /**
  * Promotes a user to an admin.
@@ -239,7 +239,7 @@ const promoteUser = async (username: string): Promise<User | RequestConfirmation
   return {
     success: false,
   };
-}
+};
 
 /**
  * Revokes admin privilages.
@@ -265,7 +265,7 @@ const demoteUser = async (username: string): Promise<User | RequestConfirmation>
   return {
     success: false,
   };
-}
+};
 
 export default {
   getUser,

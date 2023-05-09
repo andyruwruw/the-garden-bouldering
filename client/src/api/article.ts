@@ -13,7 +13,7 @@ import {
 /**
  * Deletes an article.
  *
- * @param {string} id ID of the article. 
+ * @param {string} id ID of the article.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteArticle = async (id: string): Promise<RequestConfirmation> => {
@@ -34,12 +34,12 @@ const deleteArticle = async (id: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Retrieves an article.
  *
- * @param {string} id ID of the article. 
+ * @param {string} id ID of the article.
  * @returns {Promise<Article | null>} Promise of an article.
  */
 const getArticle = async (id: string): Promise<Article | null> => {
@@ -56,12 +56,12 @@ const getArticle = async (id: string): Promise<Article | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves articles.
  *
- * @param {string[]} ids IDs of the articles. 
+ * @param {string[]} ids IDs of the articles.
  * @returns {Promise<Article[] | null>} Promise of articles.
  */
 const getArticles = async (ids: string[]): Promise<Article[] | null> => {
@@ -78,12 +78,12 @@ const getArticles = async (ids: string[]): Promise<Article[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves articles for a given area.
  *
- * @param {string} id ID of the area. 
+ * @param {string} id ID of the area.
  * @returns {Promise<Article[] | null>} Promise of articles.
  */
 const getAreaArticles = async (id: string): Promise<Article[] | null> => {
@@ -100,12 +100,12 @@ const getAreaArticles = async (id: string): Promise<Article[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves articles for a given boulder.
  *
- * @param {string} id ID of the boulder. 
+ * @param {string} id ID of the boulder.
  * @returns {Promise<Article[] | null>} Promise of articles.
  */
 const getBoulderArticles = async (id: string): Promise<Article[] | null> => {
@@ -122,12 +122,12 @@ const getBoulderArticles = async (id: string): Promise<Article[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves articles for a given crag.
  *
- * @param {string} id ID of the crag. 
+ * @param {string} id ID of the crag.
  * @returns {Promise<Article[] | null>} Promise of articles.
  */
 const getCragArticles = async (id: string): Promise<Article[] | null> => {
@@ -144,12 +144,12 @@ const getCragArticles = async (id: string): Promise<Article[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves articles for a given route.
  *
- * @param {string} id ID of the route. 
+ * @param {string} id ID of the route.
  * @returns {Promise<Article[] | null>} Promise of articles.
  */
 const getRouteArticles = async (id: string): Promise<Article[] | null> => {
@@ -166,7 +166,7 @@ const getRouteArticles = async (id: string): Promise<Article[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Posts an article.
@@ -199,7 +199,7 @@ const postArticle = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates an article.
@@ -229,7 +229,7 @@ const updateArticle = async (
   return {
     success: false,
   };
-}
+};
 
 export default {
   deleteArticle,

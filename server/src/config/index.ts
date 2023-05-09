@@ -202,7 +202,8 @@ export const TEX_UNDESIRED_ELEMENTS = [
  */
 export const GUIDE_IDS = {
   'child': 'child',
-  'old-guidebook': 'ire510',
+  'old-guidebook-the-garden': 'ire510-ga',
+  'old-guidebook-druid-stones': 'ire510-ds',
   'mountain-project': 'mp',
   'young': 'young',
 };

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc --build",
     "start": "nodemon --config nodemon.json src/index.ts",
+    "start:process": "nodemon --config nodemon.json src/process.ts",
     "clean": "rimraf ./dist && echo 'All clean now!'",
     "test": "jest --colors",
     "test:verbose": "jest --verbose --colors",

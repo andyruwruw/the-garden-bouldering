@@ -31,7 +31,7 @@ const logInterest = async (link: ItemLink): Promise<Interest | RequestConfirmati
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes interest in a route.
@@ -57,7 +57,7 @@ const deleteInterest = async (route: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates interest in a route.
@@ -67,7 +67,7 @@ const deleteInterest = async (route: string): Promise<RequestConfirmation> => {
  */
 const updateInterest = async (type: InterestType): Promise<Interest | RequestConfirmation> => {
   try {
-    const response = await request.put('/interest/update', { type});
+    const response = await request.put('/interest/update', { type });
 
     if (response.status === 200) {
       return response.data.interest;
@@ -80,7 +80,7 @@ const updateInterest = async (type: InterestType): Promise<Interest | RequestCon
   return {
     success: false,
   };
-}
+};
 
 export default {
   logInterest,

@@ -18,6 +18,7 @@ import {
   User,
   Request,
   NullableDataAccessObject,
+  Process,
 } from '../types';
 
 /**
@@ -63,6 +64,11 @@ export class Database {
    * Data access object for interests.
    */
   interest: NullableDataAccessObject<Interest> = null;
+
+  /**
+   * Data access object for process history.
+   */
+  process: NullableDataAccessObject<Process> = null;
 
   /**
    * Data access object for requests.

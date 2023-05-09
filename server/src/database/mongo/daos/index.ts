@@ -7,6 +7,7 @@ export { Comment } from './comment';
 export { Crag } from './crag';
 export { Description } from './description';
 export { Interest } from './interest';
+export { Process } from './process';
 export { Request } from './request';
 export { Route } from './route';
 export { Send } from './send';

@@ -34,12 +34,12 @@ const approveBoulderEditRequest = async (id: string): Promise<RequestConfirmatio
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes a boulder.
  *
- * @param {string} id ID of the boulder. 
+ * @param {string} id ID of the boulder.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteBoulder = async (id: string): Promise<RequestConfirmation> => {
@@ -60,12 +60,12 @@ const deleteBoulder = async (id: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Retrieves boulders for a given area.
  *
- * @param {string} id ID of the area. 
+ * @param {string} id ID of the area.
  * @returns {Promise<Boulder | null>} Promise of boulders.
  */
 const getAreaBoulders = async (id: string): Promise<Boulder | null> => {
@@ -82,12 +82,12 @@ const getAreaBoulders = async (id: string): Promise<Boulder | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves a boulder.
  *
- * @param {string} id ID of the boulder. 
+ * @param {string} id ID of the boulder.
  * @returns {Promise<Boulder | null>} Promise of a boulder.
  */
 const getBoulder = async (id: string): Promise<Boulder | null> => {
@@ -104,12 +104,12 @@ const getBoulder = async (id: string): Promise<Boulder | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves boulders.
  *
- * @param {string[]} ids IDs of the boulders. 
+ * @param {string[]} ids IDs of the boulders.
  * @returns {Promise<Boulder[] | null>} Promise of boulders.
  */
 const getBoulders = async (ids: string[]): Promise<Boulder[] | null> => {
@@ -126,12 +126,12 @@ const getBoulders = async (ids: string[]): Promise<Boulder[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves boulders for a given crag.
  *
- * @param {string} id ID of the crag. 
+ * @param {string} id ID of the crag.
  * @returns {Promise<Boulder[] | null>} Promise of boulders.
  */
 const getCragBoulders = async (id: string): Promise<Boulder[] | null> => {
@@ -148,12 +148,12 @@ const getCragBoulders = async (id: string): Promise<Boulder[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Retrieves a random boulder.
  *
- * @param {string} id ID of the crag. 
+ * @param {string} id ID of the crag.
  * @returns {Promise<Boulder[] | null>} Promise of a boulder.
  */
 const getRandomBoulder = async (id: string): Promise<Boulder[] | null> => {
@@ -170,7 +170,7 @@ const getRandomBoulder = async (id: string): Promise<Boulder[] | null> => {
     return null;
   }
   return null;
-}
+};
 
 /**
  * Updates a boulder.
@@ -215,7 +215,7 @@ const updateBoulder = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates a boulder's status.
@@ -248,7 +248,7 @@ const postBoulderStatus = async (
   return {
     success: false,
   };
-}
+};
 
 export default {
   approveBoulderEditRequest,

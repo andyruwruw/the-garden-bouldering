@@ -18,8 +18,8 @@ import {
  */
 const postDescription = async (
   link: ItemLink,
-  text: string = '',
-  href: string = '',
+  text = '',
+  href = '',
 ): Promise<Description | RequestConfirmation> => {
   try {
     const response = await request.post('/description/post', {
@@ -39,12 +39,12 @@ const postDescription = async (
   return {
     success: false,
   };
-}
+};
 
 /**
  * Deletes a description.
  *
- * @param {string} id ID of the description. 
+ * @param {string} id ID of the description.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const deleteDescription = async (id: string): Promise<RequestConfirmation> => {
@@ -65,7 +65,7 @@ const deleteDescription = async (id: string): Promise<RequestConfirmation> => {
   return {
     success: false,
   };
-}
+};
 
 /**
  * Updates a description.
@@ -79,8 +79,8 @@ const deleteDescription = async (id: string): Promise<RequestConfirmation> => {
 const updateDescription = async (
   id: string,
   link: ItemLink,
-  text: string = '',
-  href: string = '',
+  text = '',
+  href = '',
 ): Promise<Description | null> => {
   try {
     const response = await request.put('/description/update', {
@@ -95,7 +95,7 @@ const updateDescription = async (
     return null;
   }
   return null;
-}
+};
 
 export default {
   postDescription,
