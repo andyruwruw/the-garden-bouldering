@@ -12,6 +12,21 @@ import handlers from '../handlers/area';
 const router = Router();
 
 /**
+ * Checks for a user session.
+ */
+router.get('/check', handleCors, async (
+  req: Request,
+  res: Response,
+) => {
+  const handler = await new handlers['check']();
+
+  await handler.execute(
+    req,
+    res,
+  );
+});
+
+/**
  * Retrieves a user.
  */
 router.get('/get', handleCors, async (
@@ -132,7 +147,7 @@ router.put('/promote', handleCors, async (
 });
 
 /**
- * Removes admin privilages.
+ * Revokes admin privilages.
  */
 router.put('/demote', handleCors, async (
   req: Request,

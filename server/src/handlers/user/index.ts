@@ -1,6 +1,7 @@
 // Local Imports
 import { Handler } from '../handler';
 import { BanUserHandler } from './ban-user-handler';
+import { CheckUserHandler } from './check-user-handler';
 import { DeleteUserHandler } from './delete-user-handler';
 import { DemotesUserHandler } from './demote-user-handler';
 import { GetUserHandler } from './get-user-handler';
@@ -11,6 +12,7 @@ import { RegisterHandler } from './register-handler';
 import { UnbanUserHandler } from './unban-user-handler';
 
 export default {
+  'check': CheckUserHandler,
   'get': GetUserHandler,
   'login': LoginHandler,
   'logout': LogoutHandler,

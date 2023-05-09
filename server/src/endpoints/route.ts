@@ -72,6 +72,51 @@ router.get('/get-many', handleCors, async (
 });
 
 /**
+ * Retrieves area's routes.
+ */
+router.get('/get-area', handleCors, async (
+  req: Request,
+  res: Response,
+) => {
+  const handler = await new handlers['get-area']();
+
+  await handler.execute(
+    req,
+    res,
+  );
+});
+
+/**
+ * Retrieves crag's routes.
+ */
+router.get('/get-crag', handleCors, async (
+  req: Request,
+  res: Response,
+) => {
+  const handler = await new handlers['get-crag']();
+
+  await handler.execute(
+    req,
+    res,
+  );
+});
+
+/**
+ * Retrieves boulder's routes.
+ */
+router.get('/get-boulder', handleCors, async (
+  req: Request,
+  res: Response,
+) => {
+  const handler = await new handlers['get-boulder']();
+
+  await handler.execute(
+    req,
+    res,
+  );
+});
+
+/**
  * Retrieves a random route.
  */
 router.get('/random', handleCors, async (
