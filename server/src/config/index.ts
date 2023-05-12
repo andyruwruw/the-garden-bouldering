@@ -89,6 +89,13 @@ export const MOUNTAIN_PROJECT_SELECTORS: Record<string, string> = {
 };
 
 /**
+ * Mountain project links.
+ */
+export const MOUNTAIN_PROJECT_HREFS: Record<string, string> = {
+  'the-garden': 'https://www.mountainproject.com/area/105818193/the-garden',
+};
+
+/**
  * Details we care about.
  */
 export const MOUNTAIN_PROJECT_DETAIL_INTERESTS: Record<string, string> = {

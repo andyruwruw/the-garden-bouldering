@@ -34,6 +34,11 @@ export interface OldGuide {
 }
 
 /**
+ * Type of item.
+ */
+export type OldGuideType = 'area' | 'boulder' | 'route' | 'face';
+
+/**
  * Old guidebook area.
  */
 export interface OldGuideArea {
@@ -41,6 +46,11 @@ export interface OldGuideArea {
    * Name of the climbing area.
    */
   name: string;
+
+  /**
+   * Type of item.
+   */
+  type: OldGuideType;
 
   /**
    * Alternate names provided by guidebook for area.
@@ -51,6 +61,11 @@ export interface OldGuideArea {
    * Description of the area.
    */
   'description'?: string | string[];
+
+  /**
+   * Description of the area.
+   */
+  'usable-description'?: string | string[];
 
   /**
    * Transcriptor's notes about transcription choices made or questions.
@@ -73,6 +88,11 @@ export interface OldGuideBoulder {
   id: number;
 
   /**
+   * Type of item.
+   */
+  type: OldGuideType;
+
+  /**
    * Name of the boulder.
    */
   name: string;
@@ -81,6 +101,11 @@ export interface OldGuideBoulder {
    * Description of the boulder.
    */
   description?: string;
+
+  /**
+   * Description of the area.
+   */
+  'usable-description'?: string;
 
   /**
    * Transcriptor's notes about transcription choices made or questions.
@@ -164,6 +189,11 @@ export interface OldGuideRoute {
   name: string;
 
   /**
+   * Type of item.
+   */
+  type: OldGuideType;
+
+  /**
    * Grade of the route.
    */
   grade?: OldGuideGrade;
@@ -222,6 +252,21 @@ export interface OldGuideBoulderFace {
    * Name of the face.
    */
   name: string;
+
+  /**
+   * Type of item.
+   */
+  type: OldGuideType;
+
+  /**
+   * Description of the boulder.
+   */
+  description?: string;
+
+  /**
+   * Description of the area.
+   */
+  'usable-description'?: string;
 
   /**
    * All items on the face.

@@ -93,6 +93,9 @@ export class TexReader {
         this._area.setGuides([
           GUIDE_IDS.child,
         ]);
+        this._area.setExternalIds({
+          child: `${GUIDE_IDS.child}.${title.replace(/\s/g, '-').toLowerCase()}`,
+        });
       }
 
       if (TEX_QR_CODE.test(line)) {
@@ -126,7 +129,7 @@ export class TexReader {
         curr = area;
         area.setName(title);
         area.setExternalIds({
-          child: id,
+          child: `${GUIDE_IDS.child}.${id}`,
         });
         area.setGuides([
           GUIDE_IDS.child,
@@ -157,6 +160,9 @@ export class TexReader {
         boulder = new Boulder();
         curr = boulder;
         boulder.setName(title);
+        boulder.setExternalIds({
+          child: `${GUIDE_IDS.child}.${title.replace(/\s/g, '-').toLowerCase()}`,
+        });
         boulder.setGuides([
           GUIDE_IDS.child,
         ]);
@@ -176,7 +182,7 @@ export class TexReader {
         curr = route;
         route.setName(name);
         route.setExternalIds({
-          child: id,
+          child: `${GUIDE_IDS.child}.${id}`,
         });
         route.setGrade({
           child: parseStringGrade(grade),

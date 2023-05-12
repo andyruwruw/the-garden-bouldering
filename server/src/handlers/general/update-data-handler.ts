@@ -7,7 +7,10 @@ import {
   ClimbingResponse,
   Process,
 } from '../../types';
-import { GUIDE_IDS } from '../../config';
+import {
+  GUIDE_IDS,
+  MOUNTAIN_PROJECT_HREFS,
+} from '../../config';
 import { JsonProcessor } from '../../process/json-processor';
 import { TexProcessor } from '../../process/tex-processor';
 import api from '../../api';
@@ -57,7 +60,10 @@ export class UpdateDataHandler extends AbstractHandler {
     try {
       const response = await api.github.transcribed.getGardenJson();
 
-      const processor = new JsonProcessor();
+      const processor = new JsonProcessor(
+        null,
+        GUIDE_IDS['old-guidebook-the-garden'],
+      );
       processor.load(response);
 
       const area = processor.start();
@@ -71,6 +77,12 @@ export class UpdateDataHandler extends AbstractHandler {
   }
 
   async _processMountainProject(history: Process | null) {
+    try {
+      const response = await api.mountainProject.getMountainProjectArea(MOUNTAIN_PROJECT_HREFS['the-garden']);
 
+      console.log(response);
+    } catch (error) {
+      return history?.versions[GUIDE_IDS['mountain-project']] || '';
+    }
   }
 }
