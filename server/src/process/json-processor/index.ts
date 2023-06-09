@@ -1,5 +1,11 @@
 // Local Imports
-import { Area, Boulder, Crag, Description, Route } from '../data-structures';
+import {
+  Area,
+  Boulder,
+  Crag,
+  Description,
+  Route,
+} from '../data-structures';
 
 // Types
 import {

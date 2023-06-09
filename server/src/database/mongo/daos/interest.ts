@@ -26,13 +26,15 @@ export class Interest
     route: string,
     climber: string,
     type = 'project' as InterestType,
-    date = '',
+    created = new Date(),
+    notes = '',
   ): Promise<InterestInterface> {
     return this._create({
       route,
       climber,
       type,
-      date,
+      created,
+      notes,
     });
   }
 

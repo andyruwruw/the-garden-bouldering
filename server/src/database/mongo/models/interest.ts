@@ -20,7 +20,12 @@ const schema = new mongoose.Schema({
     default: 'project',
   },
 
-  date: {
+  created: {
+    type: Date,
+    default: new Date(),
+  },
+
+  notes: {
     type: String,
     default: '',
   },

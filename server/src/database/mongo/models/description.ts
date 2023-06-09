@@ -5,16 +5,14 @@ import mongoose from 'mongoose';
  * Climbing descriptions.
  */
 const schema = new mongoose.Schema({
-  link: {
-    type: {
-      type: String,
-      required: true,
-    },
+  of: {
+    type: String,
+    required: true,
+  },
 
-    id: {
-      type: String,
-      required: true,
-    },
+  ref: {
+    type: String,
+    required: true,
   },
 
   type: {
@@ -23,8 +21,9 @@ const schema = new mongoose.Schema({
   },
 
   text: {
-    type: String,
-    required: true,
+    type: Array,
+    of: String,
+    default: [],
   },
   
   guide: {
@@ -32,14 +31,19 @@ const schema = new mongoose.Schema({
     default: '',
   },
 
-  owner: {
+  version: {
+    type: String,
+    default: '',
+  },
+
+  author: {
     type: String,
     required: true,
   },
 
-  date: {
+  created: {
     type: String,
-    required: true,
+    default: '',
   },
 
   updated: {

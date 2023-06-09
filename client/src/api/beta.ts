@@ -4,7 +4,7 @@ import request from './request';
 // Types
 import {
   Article,
-  ItemLink,
+  LinkType,
   RequestConfirmation,
 } from '../types';
 
@@ -17,13 +17,15 @@ import {
  * @returns {Promise<Attempt | RequestConfirmation>} Promise of the action.
  */
 const postBeta = async (
-  link: ItemLink,
+  of: LinkType,
+  ref: string,
   text = '',
   href = '',
 ): Promise<RequestConfirmation> => {
   try {
     const response = await request.post('/beta/log', {
-      link,
+      of,
+      ref,
       text,
       href,
     });
@@ -74,14 +76,16 @@ const deleteBeta = async (id: string): Promise<Article | null> => {
  */
 const updateBeta = async (
   id: string,
-  link: ItemLink,
+  of: LinkType,
+  ref: string,
   text = '',
   href = '',
 ): Promise<Article[] | null> => {
   try {
     const response = await request.put('/beta/update', {
       id,
-      link,
+      of,
+      ref,
       text,
       href,
     });

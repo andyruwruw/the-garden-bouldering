@@ -2,7 +2,7 @@
 import mongoose from 'mongoose';
 
 /**
- * Climbing comment.
+ * Reference from guides to database items.
  */
 const schema = new mongoose.Schema({
   of: {
@@ -15,30 +15,25 @@ const schema = new mongoose.Schema({
     required: true,
   },
 
-  text: {
+  guide: {
     type: String,
     required: true,
   },
 
-  author: {
+  version: {
     type: String,
     required: true,
   },
 
-  created: {
-    type: Date,
-    required: new Date(),
+  id: {
+    type: String,
+    required: true,
   },
 
-  updated: {
-    type: Date,
-    required: new Date(),
-  },
-
-  removed: {
-    type: Date,
-    required: new Date(0),
+  name: {
+    type: String,
+    default: 'Unknown',
   },
 });
 
-export const Comment = mongoose.model('Comment', schema);
+export const Reference = mongoose.model('Reference', schema);

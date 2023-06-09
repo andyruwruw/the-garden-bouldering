@@ -5,16 +5,14 @@ import mongoose from 'mongoose';
  * Climbing articles.
  */
 const schema = new mongoose.Schema({
-  link: {
-    type: {
-      type: String,
-      required: true,
-    },
+  of: {
+    type: String,
+    required: true,
+  },
 
-    id: {
-      type: String,
-      required: true,
-    },
+  ref: {
+    type: String,
+    required: true,
   },
 
   type: {
@@ -22,36 +20,30 @@ const schema = new mongoose.Schema({
     default: 'history',
   },
 
+  title: {
+    type: String,
+    default: 'Article',
+  },
+
   content: {
     type: Array,
-    of: {
-      text: {
-        type: String,
-      },
-      href: {
-        type: String,
-      },
-      type: {
-        type: String,
-        default: 'paragraph',
-      },
-    },
+    of: Object,
     default: [],
   },
 
-  owner: {
+  author: {
     type: String,
     required: true,
   },
 
   created: {
     type: Date,
-    default: Date.now(),
+    default: new Date(),
   },
 
   updated: {
     type: Date,
-    default: Date.now(),
+    default: new Date(),
   },
 });
 

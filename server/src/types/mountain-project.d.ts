@@ -1,3 +1,6 @@
+/**
+ * Mountain project scraped item.
+ */
 export interface MountainProjectItem {
   elevation: number | null;
   pageViews: number | null;

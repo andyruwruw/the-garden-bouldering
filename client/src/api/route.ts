@@ -3,14 +3,9 @@ import request from './request';
 
 // Types
 import {
-  Area,
   AscentObject,
-  Coordinates,
-  DangerObject,
-  ExternalHrefs,
-  ExternalIds,
-  GradeObject,
-  RatingObject,
+  GradeOpinion,
+  RatingOpinion,
   RequestConfirmation,
   Route,
 } from '../types';
@@ -198,47 +193,42 @@ const getCragRoutes = async (id: string): Promise<Route[] | null> => {
 /**
  * Updates a route.
  *
- * @param {string} id Area's Id.
- * @param {string} name Area's name.
- * @param {string[]} altNames Alternate names for the area.
- * @param {ExternalIds} externalIds External Ids for the area.
- * @param {ExternalHrefs} externalHrefs External HREFs for the area.
- * @param {string[]} shape Shape of the area.
- * @param {Coordinates} location Location of the area.
  * @returns {Promise<Route | RequestConfirmation>} Confirmation of action.
  */
 const updateRoute = async (
-  id: string,
-  crag: string,
-  areas: string[],
-  boulders: string[],
-  externalIds: ExternalIds,
-  externalHrefs: ExternalHrefs,
   name: string,
-  altNames: string[],
-  location: number,
-  grade: GradeObject,
-  rating: RatingObject,
-  tags: string[],
-  ascents: AscentObject[],
-  danger: DangerObject,
+  crag: string,
+  boulders: string[],
+  altNames: string[] = [],
+  externalIds: Record<string, string> = {},
+  externalHrefs: Record<string, string> = {},
+  areas: string[] = [],
+  guides: string[] = [],
+  location = 1,
+  grade: Record<string, GradeOpinion> = {},
+  rating: Record<string, RatingOpinion> = {},
+  tags: string[] = [],
+  ascents: AscentObject[] = [],
+  danger: Record<string, number> = {},
+  images: string[] = [],
 ): Promise<Route | RequestConfirmation> => {
   try {
     const response = await request.put('/route/update', {
-      id,
+      name,
       crag,
-      areas,
       boulders,
+      altNames,
       externalIds,
       externalHrefs,
-      name,
-      altNames,
+      areas,
+      guides,
       location,
       grade,
       rating,
       tags,
       ascents,
       danger,
+      images,
     });
 
     if (response.status === 200) {

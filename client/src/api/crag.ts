@@ -4,10 +4,7 @@ import request from './request';
 // Types
 import {
   Area,
-  Coordinates,
   Crag,
-  ExternalHrefs,
-  ExternalIds,
   RequestConfirmation,
 } from '../types';
 
@@ -113,8 +110,8 @@ const getCrags = async (ids: string[]): Promise<Area[] | null> => {
  * @param {string} id Crag's Id.
  * @param {string} name Crag's name.
  * @param {string[]} altNames Alternate names for the crag.
- * @param {ExternalIds} externalIds External Ids for the crag.
- * @param {ExternalHrefs} externalHrefs External HREFs for the crag.
+ * @param {Record<string, string>} externalIds External Ids for the crag.
+ * @param {Record<string, string>} externalHrefs External HREFs for the crag.
  * @param {string[]} shape Shape of the crag.
  * @param {Coordinates} location Location of the crag.
  * @returns {Promise<RequestConfirmation>} Confirmation of action.
@@ -123,10 +120,12 @@ const updateCrag = async (
   id: string,
   name: string,
   altNames: string[],
-  externalIds: ExternalIds,
-  externalHrefs: ExternalHrefs,
+  externalIds: Record<string, string>,
+  externalHrefs: Record<string, string>,
   shape: string[],
-  location: Coordinates,
+  latitude: number,
+  longitude: number,
+  altitude: number,
 ): Promise<Crag | RequestConfirmation> => {
   try {
     const response = await request.put('/crag/update', {
@@ -136,7 +135,9 @@ const updateCrag = async (
       externalIds,
       externalHrefs,
       shape,
-      location,
+      latitude,
+      longitude,
+      altitude,
     });
 
     if (response.status === 200) {

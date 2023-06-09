@@ -5,29 +5,6 @@ import mongoose from 'mongoose';
  * Climbing routes.
  */
 const schema = new mongoose.Schema({
-  areas: {
-    type: Array,
-    of: String,
-    default: [],
-  },
-
-  boulders: {
-    type: Array,
-    of: String,
-    default: [],
-  },
-
-  guides: {
-    type: Array,
-    of: String,
-    default: [],
-  },
-
-  crag: {
-    type: String,
-    default: 'Unknown',
-  },
-
   name: {
     type: String,
     default: 'Unknown',
@@ -49,9 +26,32 @@ const schema = new mongoose.Schema({
     default: {},
   },
 
+  crag: {
+    type: String,
+    required: true,
+  },
+
+  areas: {
+    type: Array,
+    of: String,
+    default: [],
+  },
+
+  boulders: {
+    type: Array,
+    of: String,
+    default: [],
+  },
+
+  guides: {
+    type: Array,
+    of: String,
+    default: [],
+  },
+
   location: {
     type: Number,
-    default: 0,
+    default: -1,
   },
 
   grade: {
@@ -73,6 +73,17 @@ const schema = new mongoose.Schema({
   ascents: {
     type: Array,
     of: Object,
+    default: [],
+  },
+
+  danger: {
+    type: Object,
+    default: {},
+  },
+
+  images: {
+    type: Array,
+    of: String,
     default: [],
   },
 });

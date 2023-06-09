@@ -5,7 +5,7 @@ import request from './request';
 import {
   Interest,
   InterestType,
-  ItemLink,
+  LinkType,
   RequestConfirmation,
 } from '../types';
 
@@ -16,9 +16,15 @@ import {
  * @param {InterestType} type Type of interest.
  * @returns {Promise<Interest | RequestConfirmation>} Promise of the action.
  */
-const logInterest = async (link: ItemLink): Promise<Interest | RequestConfirmation> => {
+const logInterest = async (
+  of: LinkType,
+  ref: string,
+): Promise<Interest | RequestConfirmation> => {
   try {
-    const response = await request.post('/interest/log', { link });
+    const response = await request.post('/interest/log', {
+      of,
+      ref,
+    });
 
     if (response.status === 200) {
       return response.data.interest;

@@ -7,10 +7,11 @@ import { DataAccessObject } from './dao';
 
 // Types
 import {
+  ArticleComponent,
   Article as ArticleInterface,
   ArticleType,
   DataAccessObject as DataAccessObjectInterface,
-  ItemLink,
+  LinkType,
 } from '../../../types';
 
 /**
@@ -21,19 +22,24 @@ export class Article
   implements DataAccessObjectInterface<ArticleInterface> {
   /**
    * Creates an Article in the Database.
+   *
    * @returns {ArticleInterface} The article created.
    */
   async create(
-    link: ItemLink[],
-    owner: string,
+    of: LinkType,
+    ref: string,
+    author: string,
+    title = 'Untitled',
     type = 'history' as ArticleType,
-    content = [],
+    content = [] as ArticleComponent[],
     created = new Date(),
     updated = new Date(),
   ): Promise<ArticleInterface> {
     return this._create({
-      link,
-      owner,
+      of,
+      ref,
+      author,
+      title,
       type,
       content,
       created,

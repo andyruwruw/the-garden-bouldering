@@ -6,6 +6,7 @@ export { Boulder } from './boulder';
 export { Comment } from './comment';
 export { Crag } from './crag';
 export { Description } from './description';
+export { Image } from './image';
 export { Interest } from './interest';
 export { Process } from './process';
 export { Request } from './request';

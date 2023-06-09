@@ -4,9 +4,6 @@ import request from './request';
 // Types
 import {
   Area,
-  Coordinates,
-  ExternalHrefs,
-  ExternalIds,
   RequestConfirmation,
 } from '../types';
 
@@ -134,8 +131,8 @@ const getCragAreas = async (id: string): Promise<Area[] | null> => {
  * @param {string} id Area's Id.
  * @param {string} name Area's name.
  * @param {string[]} altNames Alternate names for the area.
- * @param {ExternalIds} externalIds External Ids for the area.
- * @param {ExternalHrefs} externalHrefs External HREFs for the area.
+ * @param {Record<string, string>} externalIds External Ids for the area.
+ * @param {Record<string, string>} externalHrefs External HREFs for the area.
  * @param {string[]} shape Shape of the area.
  * @param {Coordinates} location Location of the area.
  * @returns {Promise<RequestConfirmation>} Confirmation of action.
@@ -144,10 +141,12 @@ const updateArea = async (
   id: string,
   name: string,
   altNames: string[],
-  externalIds: ExternalIds,
-  externalHrefs: ExternalHrefs,
+  externalIds: Record<string, string>,
+  externalHrefs: Record<string, string>,
   shape: string[],
-  location: Coordinates,
+  latitude: number,
+  longitude: number,
+  altitude: number,
 ): Promise<RequestConfirmation> => {
   try {
     const response = await request.put('/area/update', {
@@ -157,7 +156,9 @@ const updateArea = async (
       externalIds,
       externalHrefs,
       shape,
-      location,
+      latitude,
+      longitude,
+      altitude,
     });
 
     if (response.status === 200) {

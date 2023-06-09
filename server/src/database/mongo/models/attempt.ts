@@ -2,7 +2,7 @@
 import mongoose from 'mongoose';
 
 /**
- * Climbing sends.
+ * Climbing attempts.
  */
 const schema = new mongoose.Schema({
   route: {
@@ -30,9 +30,19 @@ const schema = new mongoose.Schema({
     default: '',
   },
 
-  date: {
+  created: {
     type: String,
     default: '',
+  },
+
+  href: {
+    type: String,
+    default: '',
+  },
+
+  likes: {
+    type: Array,
+    of: String,
   },
 });
 

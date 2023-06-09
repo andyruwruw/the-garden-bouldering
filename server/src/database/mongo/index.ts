@@ -13,6 +13,7 @@ import {
   Comment,
   Crag,
   Description,
+  Image,
   Interest,
   Process,
   Request,
@@ -66,6 +67,11 @@ export class MongoDatabase extends Database {
   description: Description;
 
   /**
+   * Data access object for images.
+   */
+  image: Image;
+
+  /**
    * Data access object for interests.
    */
   interest: Interest;
@@ -114,6 +120,7 @@ export class MongoDatabase extends Database {
     this.crag = new Crag();
     this.description = new Description();
     this.process = new Process();
+    this.image = new Image();
     this.interest = new Interest();
     this.request = new Request();
     this.route = new Route();

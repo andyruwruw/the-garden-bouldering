@@ -5,26 +5,19 @@ import mongoose from 'mongoose';
  * Edit requests.
  */
 const schema = new mongoose.Schema({
-  link: {
-    type: {
-      type: String,
-      required: true,
-    },
+  of: {
+    type: String,
+    required: true,
+  },
 
-    id: {
-      type: String,
-      required: true,
-    },
+  ref: {
+    type: String,
+    required: true,
   },
 
   type: {
     type: String,
     default: 'description',
-  },
-
-  ref: {
-    type: String,
-    default: '',
   },
 
   text: {
@@ -37,7 +30,12 @@ const schema = new mongoose.Schema({
     required: true,
   },
 
-  date: {
+  created: {
+    type: String,
+    required: true,
+  },
+
+  approved: {
     type: String,
     required: true,
   },

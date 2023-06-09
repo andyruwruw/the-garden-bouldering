@@ -1,8 +1,14 @@
 <template>
   <v-app-bar
     :class="$style.component"
-    color="#343A3F"
-    app>
+    color="#1C1E1F"
+    app
+    flat>
+    <div :class="$style.content">
+      <span :class="$style.title">
+        The Garden Bouldering
+      </span>
+    </div>
   </v-app-bar>
 </template>
 
@@ -17,5 +23,14 @@ export default Vue.extend({
 <style lang="scss" module>
 .component {
   display: block;
+}
+
+.title {
+  color: white;
+}
+
+.content {
+  display: flex;
+  align-items: center;
 }
 </style>

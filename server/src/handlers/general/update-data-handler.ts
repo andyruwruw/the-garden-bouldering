@@ -11,6 +11,7 @@ import {
   GUIDE_IDS,
   MOUNTAIN_PROJECT_HREFS,
 } from '../../config';
+import { Crag } from '../../process/data-structures';
 import { JsonProcessor } from '../../process/json-processor';
 import { TexProcessor } from '../../process/tex-processor';
 import api from '../../api';
@@ -84,5 +85,14 @@ export class UpdateDataHandler extends AbstractHandler {
     } catch (error) {
       return history?.versions[GUIDE_IDS['mountain-project']] || '';
     }
+  }
+
+  async _processResultingCrag(crag: Crag) {
+    const id = Object.values(crag.getExternalIds())[0];
+    const existing = await AbstractHandler.database.crag?.findOne({
+      externalIds: {
+        
+      }
+    });
   }
 }

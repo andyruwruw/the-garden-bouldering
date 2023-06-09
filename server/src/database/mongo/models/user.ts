@@ -20,6 +20,11 @@ const schema = new mongoose.Schema({
     required: true,
   },
 
+  bio: {
+    type: String,
+    default: '',
+  },
+
   image: {
     type: String,
     default: '',
@@ -31,15 +36,8 @@ const schema = new mongoose.Schema({
   },
 
   maxGrade: {
-    grade: {
-      type: Number,
-      default: -1,
-    },
-
-    subGrade: {
-      type: Number,
-      default: 0,
-    },
+    type: Object,
+    default: {},
   },
 
   joined: {
@@ -60,6 +58,11 @@ const schema = new mongoose.Schema({
   admin: {
     type: Boolean,
     default: false,
+  },
+
+  privacy: {
+    type: String,
+    default: 'public',
   },
 });
 

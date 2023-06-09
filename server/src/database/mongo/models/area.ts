@@ -10,11 +10,6 @@ const schema = new mongoose.Schema({
     default: 'Unknown',
   },
 
-  crag: {
-    type: String,
-    default: '',
-  },
-
   altNames: {
     type: Array,
     of: String,
@@ -31,22 +26,52 @@ const schema = new mongoose.Schema({
     default: {},
   },
 
+  latitude: {
+    type: Number,
+    default: 0,
+  },
+
+  longitude: {
+    type: Number,
+    default: 0,
+  },
+
+  elevation: {
+    type: Number,
+    default: 0,
+  },
+
+  crag: {
+    type: String,
+    required: true,
+  },
+
+  areas: {
+    type: Array,
+    of: String,
+    default: [],
+  },
+
   shape: {
     type: Array,
     of: String,
     default: [],
   },
 
-  location: {
-    lat: {
-      type: Number,
-      default: 0,
-    },
+  routes: {
+    type: Number,
+    default: 0,
+  },
 
-    long: {
-      type: Number,
-      default: 0,
-    },
+  updated: {
+    type: Date,
+    default: new Date(),
+  },
+
+  images: {
+    type: Array,
+    of: String,
+    default: [],
   },
 });
 

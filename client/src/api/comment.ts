@@ -3,7 +3,7 @@ import request from './request';
 
 // Types
 import {
-  ItemLink,
+  LinkType,
   RequestConfirmation,
 } from '../types';
 
@@ -15,12 +15,14 @@ import {
  * @returns {Promise<Comment | RequestConfirmation>} Promise of the action.
  */
 const postComment = async (
-  link: ItemLink,
+  of: LinkType,
+  ref: string,
   text: string,
 ): Promise<Comment | RequestConfirmation> => {
   try {
     const response = await request.post('/comment/post', {
-      link,
+      of,
+      ref,
       text,
     });
 

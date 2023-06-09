@@ -1,439 +1,863 @@
-export type ItemType = 'area' | 'boulder' | 'route';
+/**
+ * Subobjects for physical representations.
+ */
 
-export type DescriptionType = 'beta' | 'description' | 'location' | 'ethics' | 'history' | 'protection';
-
-export type ShapeLinkType = 'hold' | 'user' | 'boulder' | 'area' | 'image';
-
-export type ImageType = 'topo' | 'boulder' | 'action' | 'beta' | 'area' | 'hold';
-
-export type ImageSize = 'small' | 'medium' | 'large';
-
-export interface ItemLink {
-  type: ItemType;
-
-  id: string;
-}
-
-export interface ExternalIds extends Record<string, string | undefined> {
-  child?: string;
-
-  oldGuide?: string;
-
-  mountainProject?: string;
-}
-
-export interface ExternalHrefs extends Record<string, string | undefined> {
-  mountainProject?: string;
-}
-
+/**
+ * Someone's opinion about the grade of a route.
+ */
 export interface GradeOpinion {
+  /**
+   * Base grade.
+   */
   grade: number;
 
+  /**
+   * Subgrade modifier.
+   */
   subGrade?: number;
 }
 
+/**
+ * Subjective rating of route.
+ */
+export interface RatingOpinion {
+  /**
+   * Rating provided.
+   */
+  average: number;
+
+  /**
+   * How many votes this was created using.
+   */
+  votes?: number;
+}
+
+/**
+ * Notable ascent types.
+ */
+export type AscentType = 'fa' | 'second';
+
+/**
+ * Notable ascents of the route.
+ */
 export interface AscentObject {
+  /**
+   * Guides this ascent is listed under.
+   */
   guides: string[];
 
-  type?: string;
+  /**
+   * Type of ascent.
+   */
+  type?: AscentType;
 
+  /**
+   * Name of climber.
+   */
   name: string;
 
+  /**
+   * Date this climb was made.
+   */
   date?: string;
 }
 
-export interface GradeObject extends Record<string, GradeOpinion | undefined> {
-  voted?: GradeOpinion;
+/**
+ * Database related extendable objects.
+ */
 
-  child?: GradeOpinion;
-
-  oldGuide?: GradeOpinion;
-
-  mountainProject?: GradeOpinion;
-}
-
-export interface RatingOpinion {
-  average: number;
-
-  votes: number;
-}
-
-export interface DangerObject extends Record<string, number | undefined> {
-  voted?: number;
-
-  child?: number;
-
-  mountainProject?: number;
-}
-
-export interface RatingObject extends Record<string, RatingOpinion | undefined> {
-  voted?: RatingOpinion;
-
-  child?: RatingOpinion;
-
-  mountainProject?: RatingOpinion;
-}
-
-export interface Coordinates {
-  lat: number;
-
-  long: number;
-}
-
-export interface ShapeLinks {
-  shape: string;
-
-  type: ShapeLinkType;
-
-  link: string;
-}
-
-export interface LocatableItem {
+/**
+ * Item from the database.
+ */
+export interface DatabaseItem {
+  /**
+   * Random Identifier.
+   */
   _id?: string;
+}
 
+/**
+ * Items with names.
+ */
+export interface NamedDatabaseItem extends DatabaseItem {
+  /**
+   * Name of the item.
+   */
   name: string;
+}
 
+/**
+ * Items with potentially multiple names.
+ */
+export interface NamableDatabaseItem extends NamedDatabaseItem {
+  /**
+   * Alternative names for the item.
+   */
   altNames: string[];
+}
 
-  externalIds: ExternalIds;
+/**
+ * Items with external links.
+ */
+export interface ReferenceableDatabaseItem extends NamableDatabaseItem {
+  /**
+   * Externally used identifiers for the item.
+   */
+  externalIds: Record<string, string>;
 
-  externalHrefs: ExternalHrefs;
+  /**
+   * Links to externally hosted instances of the item.
+   */
+  externalHrefs: Record<string, string>;
+}
 
+/**
+ * Locatable database item.
+ */
+export interface LocatableItem extends ReferenceableDatabaseItem {
+  /**
+   * Latitude coordinates of the item.
+   */
+  latitude: number;
+
+  /**
+   * Longitude coordinates of the item.
+   */
+  longitude: number;
+
+  /**
+   * Elevation of the crag.
+   */
+  elevation: number;
+}
+
+/**
+ * Link to another database object type.
+ */
+export type LinkType = 'crag' | 'boulder' | 'area' | 'route' | 'user' | 'comment' | 'article' | 'description' | 'image' | 'send' | 'attempt' | 'interest' | 'comment' | 'status';
+
+/**
+ * Item linking to another database item.
+ */
+export interface LinkItem extends DatabaseItem {
+  /**
+   * Type of item referenced to.
+   */
+  of: LinkType;
+
+  /**
+   * Identifier of the item referenced.
+   */
+  ref: string;
+}
+
+/**
+ * Climb and physical objects.
+ */
+
+/**
+ * Database crag type.
+ */
+export interface Crag extends LocatableItem {
+  /**
+   * SVG paths of the general shape of the item.
+   */
   shape: string[];
 
-  location: Coordinates;
+  /**
+   * Number of routes in the crag.
+   */
+  routes: number;
+
+  /**
+   * When the crag was updated.
+   */
+  updated: Date;
+
+  /**
+   * Images of the boulder.
+   */
+  images: string[];
 }
 
-export interface Crag extends LocatableItem {
-  guides: string[];
-}
-
+/**
+ * Database area type.
+ */
 export interface Area extends LocatableItem {
-  guides: string[];
-
+  /**
+   * Crag this area belongs to.
+   */
   crag: string;
+
+  /**
+   * Areas if any this area belongs to.
+   */
+  areas: string[];
+
+  /**
+   * SVG paths of the general shape of the item.
+   */
+  shape: string[];
+
+  /**
+   * Number of routes in the area.
+   */
+  routes: number;
+
+  /**
+   * When the area was updated.
+   */
+  updated: Date;
+
+  /**
+   * Images of the boulder.
+   */
+  images: string[];
 }
 
+/**
+ * Database boulder type.
+ */
 export interface Boulder extends LocatableItem {
-  guides: string[];
-
+  /**
+   * Crag this boulder belongs to.
+   */
   crag: string;
 
+  /**
+   * Areas if any this boulder belongs to.
+   */
   areas: string[];
+
+  /**
+   * SVG paths of the general shape of the item.
+   */
+  shape: string[];
+
+  /**
+   * Number of routes on the boulder.
+   */
+  routes: number;
+
+  /**
+   * When the boulder was updated.
+   */
+  updated: Date;
+
+  /**
+   * Images of the boulder.
+   */
+  images: string[];
 }
 
-export interface Route {
-  _id?: string;
-
-  guides: string[];
-
+/**
+ * Database Route type.
+ */
+export interface Route extends ReferenceableDatabaseItem {
+  /**
+   * Crag this route belongs to.
+   */
   crag: string;
 
+  /**
+   * Areas if any this route belongs to.
+   */
   areas: string[];
 
+  /**
+   * Boulders if any this route belongs to.
+   */
   boulders: string[];
 
-  externalIds: ExternalIds;
+  /**
+   * Guides this route is included in.
+   */
+  guides: string[];
 
-  externalHrefs: ExternalHrefs;
-
-  name: string;
-
-  altNames: string[];
-
+  /**
+   * Radial position of route on boulder shape.
+   */
   location: number;
 
-  grade: GradeObject;
+  /**
+   * Subjective grading of route.
+   */
+  grade: Record<string, GradeOpinion>;
 
-  rating: RatingObject;
+  /**
+   * Subjective rating of the route.
+   */
+  rating: Record<string, RatingOpinion>;
 
+  /**
+   * Provided tags for the route style.
+   */
   tags: string[];
 
+  /**
+   * Important ascents.
+   */
   ascents: AscentObject[];
 
-  danger: DangerObject;
+  /**
+   * Subjective danger ratings of the route.
+   */
+  danger: Record<string, number>;
+
+  /**
+   * Images of the route.
+   */
+  images: string[];
 }
 
-export interface Description {
-  _id?: string;
+/**
+ * General service objects.
+ */
 
-  guide: string;
-
-  link: ItemLink;
-
-  type: DescriptionType;
-
-  text: string;
-
-  owner: string;
-
-  date: string;
-
-  updated: Date;
-
-  href: string;
-}
-
-export type RequestType = 'name' | 'alt-names' | 'description' | 'grade' | 'tags';
-
-export interface Request {
-  _id?: string;
-
-  link: ItemLink;
-
-  type: RequestType;
-
-  ref: string;
-
-  text: string;
-
-  owner: string;
-
-  date: string;
-}
-
-export interface Comment {
-  _id?: string;
-
-  link: ItemLink;
-
-  text: string;
-
-  owner: string;
-
-  date: Date;
-
-  updated: Date;
-}
-
-export interface Image {
-  _id: string;
-
-  href: string;
-
-  link?: ItemLink;
-
-  type: ImageType;
-
-  shapes?: ShapeLinks[];
-
-  description?: string;
-
-  size: string;
-}
-
-export type SendType = 'redpoint';
-
-export interface Send {
-  _id?: string;
-
-  route: string;
-
-  climber: string;
-
-  attempts: number;
-
-  laps: number;
-
-  type: SendType;
-
-  notes?: string;
-
-  date: string;
-}
-
-export interface Attempt {
-  _id?: string;
-
-  route: string;
-
-  climber: string;
-
-  attempts: number;
-
-  type: SendType;
-
-  notes?: string;
-
-  date: string;
-}
-
+/**
+ * Instance of data collection.
+ */
 export interface Process {
+  /**
+   * Versions of guides.
+   */
   versions: Record<string, string>;
 
+  /**
+   * Date processing was done.
+   */
   updated: Date;
 }
 
-export type InterestType = 'project' | 'long-term-project' | 'interest';
+/**
+ * Links guide items to database items.
+ */
+export interface Reference extends LinkItem {
+  /**
+   * Identifier to the guide used.
+   */
+  guide: string;
 
-export interface Interest {
-  _id?: string;
+  /**
+   * Guide version.
+   */
+  version: string;
 
-  route: string;
+  /**
+   * Guide identifier of the item.
+   */
+  id: string;
 
-  climber: string;
-
-  type: InterestType;
-
-  date: string;
+  /**
+   * Name of the item in case references get confused.
+   */
+  name: string;
 }
 
-export interface Status {
-  link: ItemLink;
+/**
+ * User related objects.
+ */
 
-  type: string;
+/**
+ * Privacy settings for user.
+ */
+export type PrivacySetting = 'public' | 'unlisted' | 'private';
 
-  value: string[];
+/**
+ * Login users.
+ */
+export interface User extends NamedDatabaseItem {
+  /**
+   * User username.
+   */
+  username: string;
 
+  /**
+   * User password.
+   */
+  password?: string;
+
+  /**
+   * User bio.
+   */
+  bio: string;
+  
+  /**
+   * User image.
+   */
+  image: string;
+
+  /**
+   * Birthday of user.
+   */
+  birthday: Date;
+
+  /**
+   * Max grade sent by user.
+   */
+  maxGrade: GradeOpinion;
+
+  /**
+   * When the user joined the service.
+   */
+  joined: Date;
+
+  /**
+   * When the user started climbing.
+   */
+  started: Date;
+
+  /**
+   * Whether the user is banned.
+   */
+  banned: boolean;
+
+  /**
+   * Whether the user is an admin.
+   */
+  admin: boolean;
+
+  /**
+   * User privacy settings.
+   */
+  privacy: PrivacySetting;
+}
+
+/**
+ * Meta-data
+ */
+
+/**
+ * Topo for an image.
+ */
+export interface TopoObject {
+  /**
+   * Route given a topo.
+   */
+  route: string;
+
+  /**
+   * Shape of the topo.
+   */
+  shape: string[];
+}
+
+/**
+ * Types of images.
+ */
+export type ImageType = 'topo' | 'boulder' | 'action' | 'beta' | 'area' | 'hold' | 'historical';
+
+/**
+ * Images are stored separately and used broadly.
+ */
+export interface Image extends LinkItem {
+  /**
+   * Link to image.
+   */
+  href: string;
+
+  /**
+   * Type of image.
+   */
+  type: ImageType;
+
+  /**
+   * SVG path for outline of image.
+   */
+  shapes: string[];
+
+  /**
+   * Additional topos on image.
+   */
+  topos: TopoObject[];
+
+  /**
+   * Description of the image.
+   */
+  description: string;
+
+  /**
+   * Width of the image.
+   */
+  width: number;
+
+  /**
+   * Height of the image.
+   */
+  height: number;
+}
+
+/**
+ * Type of article.
+ */
+export type ArticleType = 'history' | 'story' | 'beta';
+
+/**
+ * Article component types.
+ */
+export type ArticleContentType = 'link' | 'image' | 'paragraph' | 'header' | 'sub-header';
+
+/**
+ * Article component.
+ */
+export interface ArticleComponent {
+  /**
+   * Type of component.
+   */
+  type: ArticleContentType;
+
+  /**
+   * Text content if needed.
+   */
+  text?: string[];
+
+  /**
+   * Image identifier if needed.
+   */
+  image?: string;
+
+  /**
+   * Link href if needed.
+   */
+  href?: string;
+}
+
+/**
+ * Article on items.
+ */
+export interface Article extends LinkItem {
+  /**
+   * Type of article.
+   */
+  type: ArticleType;
+
+  /**
+   * Title of the article.
+   */
+  title: string;
+
+  /**
+   * Components making up the article.
+   */
+  content: ArticleComponent[];
+
+  /**
+   * Author of the article.
+   */
+  author: string;
+
+  /**
+   * When the article was created.
+   */
+  created: Date;
+
+  /**
+   * When the article was updated.
+   */
+  updated: Date;
+}
+
+/**
+   * Type of description.
+   */
+export type DescriptionType = 'beta' | 'description' | 'location' | 'ethics' | 'history' | 'protection';
+
+/**
+ * Description of an item.
+ */
+export interface Description extends LinkItem {
+  /**
+   * Type of description.
+   */
+  type: DescriptionType;
+
+  /**
+   * Text making up the description.
+   */
+  text: string[];
+
+  /**
+   * Guide this description comes from.
+   */
+  guide?: string;
+
+  /**
+   * Version of the guide this description comes from.
+   */
+  version?: string;
+
+  /**
+   * Author of this description.
+   */
+  author: string;
+
+  /**
+   * When this description was created.
+   */
+  created?: string;
+
+  /**
+   * When this description was updated.
+   */
+  updated: Date;
+
+  /**
+   * Link if needed.
+   */
+  href?: string;
+}
+
+/**
+ * Type of request change.
+ */
+export type RequestType = 'name' | 'alt-names' | 'description' | 'grade' | 'tags';
+
+/**
+ * A request to change details.
+ */
+export interface ChangeRequest extends LinkItem {
+  /**
+   * Type of change.
+   */
+  type: RequestType;
+
+  /**
+   * New text.
+   */
+  text: string;
+
+  /**
+   * Identifier for user making request.
+   */
   owner: string;
 
+  /**
+   * When this request was created.
+   */
+  created: Date;
+
+  /**
+   * When this request was approved.
+   */
+  approved: Date;
+}
+
+/**
+ * Type of status report.
+ */
+export type StatusType = 'conditions' | 'cleanliness' | 'integrity';
+
+/**
+ * Status updates to an item.
+ */
+export interface Status extends LinkItem {
+  /**
+   * Type of status report.
+   */
+  type: StatusType;
+
+  /**
+   * Values of this status report.
+   */
+  values: string[];
+
+  /**
+   * Author of this status.
+   */
+  author: string;
+
+  /**
+   * When this status was submitted.
+   */
   date: Date;
 }
 
-export interface User {
-  _id?: string;
+/**
+ * User objects.
+ */
 
-  image: string;
-
-  name: string;
-
-  username: string;
-
-  password?: string;
-
-  joined: Date;
-
-  started: Date;
-
-  birthday: Date;
-
-  maxGrade: GradeOpinion;
-
-  banned: boolean;
-
-  admin: boolean;
-}
-
-export type ArticleType = 'history' | 'story' | 'beta';
-
-export type ArticleContentType = 'link' | 'image' | 'paragraph' | 'header' | 'sub-header';
-
-export interface ArticleContent {
+/**
+ * Comment on an item.
+ */
+export interface Comment extends LinkItem {
+  /**
+   * Text content of the comment.
+   */
   text: string;
 
-  href: string;
+  /**
+   * Identifier of author of comment.
+   */
+  author: string;
 
-  type: ArticleContentType;
-}
-
-export interface Article {
-  link: ItemLink[];
-
-  type: ArticleType;
-
-  content: ArticleContent[];
-
-  owner: string;
-
+  /**
+   * Date this comment was created.
+   */
   created: Date;
 
+  /**
+   * Date this comment was updated.
+   */
   updated: Date;
+
+  /**
+   * Date this comment was removed.
+   */
+  removed: Date;
 }
 
 /**
- * Types of data in the database.
+ * Types of interest.
  */
-export type DatabaseColumnTypes = string | number | boolean | Date | string[] | number[];
+export type InterestType = 'project' | 'long-term-project' | 'interest' | 'cleaning';
 
 /**
- * Filter object used to limit queries.
+ * Way for climbers to profess interest in a given route.
  */
-export interface QueryFilter {
-  [key: string]: DatabaseColumnTypes
-  | DatabaseColumnTypes[]
-  | Record<string, DatabaseColumnTypes
-  | DatabaseColumnTypes[]>;
+export interface Interest extends DatabaseItem {
+  /**
+   * Route in interest.
+   */
+  route: string;
+
+  /**
+   * Climber interested.
+   */
+  climber: string;
+
+  /**
+   * Type of interest.
+   */
+  type: InterestType;
+
+  /**
+   * When interest was professed.
+   */
+  created: Date;
+
+  /**
+   * Notes on interest.
+   */
+  notes: string;
 }
 
 /**
- * Projection on queries to limit columns.
+ * Types of attempts.
  */
-export type QueryProjection = Record<string, number> | string | string[];
+export type AttemptType = 'redpoint' | 'iso' | 'casual';
 
 /**
- * Update object used to update data in the database.
+ * Logs climbers attempts on a route.
  */
-export interface UpdateQuery {
-  [key: string]: DatabaseColumnTypes | Record<string, DatabaseColumnTypes>;
+export interface Attempt extends DatabaseItem {
+  /**
+   * Route attempted.
+   */
+  route: string;
+
+  /**
+   * Climber identifier.
+   */
+  climber: string;
+
+  /**
+   * Attempts made.
+   */
+  attempts: number;
+
+  /**
+   * Type of attempts
+   */
+  type: AttemptType;
+
+  /**
+   * Notes on attempts.
+   */
+  notes: string;
+
+  /**
+   * When this attempt was made.
+   */
+  created: Date;
+
+  /**
+   * Link if applicable.
+   */
+  href?: string;
+
+  /**
+   * Number of likes.
+   */
+  likes: string[];
 }
 
 /**
- * Interface for data access objects.
+ * Type of send.
  */
-export interface DataAccessObject<T> {
-  _create: (item: T) => Promise<T>;
-  create: (...args: any[]) => Promise<T>;
+export type SendType = 'redpoint' | 'roped';
 
-  findOne: (
-    filter?: QueryFilter,
-    projection?: QueryProjection,
-  ) => Promise<T | null>;
+/**
+ * Logs climbers send on a route.
+ */
+export interface Send extends DatabaseItem {
+  /**
+   * Route sent.
+   */
+  route: string;
 
-  find: (
-    filter?: QueryFilter,
-    projection?: QueryProjection,
-    offset?: number,
-    limit?: number,
-  ) => Promise<T[]>;
+  /**
+   * Climber identifier.
+   */
+  climber: string;
 
-  findById: (id: string) => Promise<T | null>;
+  /**
+   * Attempts made.
+   */
+  attempts: number;
 
-  delete: (filter?: QueryFilter) => Promise<number>;
+  /**
+   * Number of laps made.
+   */
+  laps: number;
 
-  deleteById: (id: string) => Promise<boolean>;
+  /**
+   * Type of send.
+   */
+  type: SendType;
 
-  updateOne: (
-    filter?: QueryFilter,
-    update?: UpdateQuery,
-    insertNew?: boolean,
-  ) => Promise<boolean>;
+  /**
+   * Notes on send.
+   */
+  notes: string;
 
-  updateMany: (
-    filter?: QueryFilter,
-    update?: UpdateQuery,
-    insertNew?: boolean,
-  ) => Promise<number>;
+  /**
+   * When this was sent.
+   */
+  created: Date;
 
-  clear: () => Promise<void>;
+  /**
+   * Link if applicable.
+   */
+  href?: string;
+
+  /**
+   * Number of likes.
+   */
+  likes: string[];
 }
 
-/**
- * Nullable type for abstract class.
- */
-export type NullableDataAccessObject<T> = DataAccessObject<T> | null;
-
-/**
- * Confirmation of a request.
- */
 export interface RequestConfirmation {
   success: boolean;
 }
 
-/**
- * Response to search request.
- */
 export interface SearchResponse {
-  crags?: Crag[];
+  areas: Area[];
 
-  area?: Area[];
+  articles: Article[];
 
-  boulder?: Boulder[];
+  boulders: Boulder[];
 
-  routes?: Route[];
+  crags: Crag[];
 
-  article?: Article[];
-
-  beta?: Description[];
-
-  user?: User[];
+  routes: Route[];
 }

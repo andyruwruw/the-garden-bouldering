@@ -4,12 +4,18 @@ import VueRouter, { RouteConfig } from 'vue-router';
 
 // Local Imports
 import Home from '../views/home/home-view.vue';
+import Landing from '../views/landing/landing-view.vue';
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
     path: '/',
+    name: 'landing',
+    component: Landing,
+  },
+  {
+    path: '/home',
     name: 'home',
     component: Home,
   },
@@ -42,6 +48,11 @@ const routes: Array<RouteConfig> = [
     path: '/user/:username',
     name: 'user',
     component: () => import('../views/user/user-view.vue'),
+  },
+  {
+    path: '/404',
+    name: '404',
+    component: () => import('../views/errors/404-view.vue'),
   },
 ];
 

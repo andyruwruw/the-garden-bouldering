@@ -9,7 +9,7 @@ import Vue from 'vue';
 import { mapActions } from 'vuex';
 
 export default Vue.extend({
-  name: 'home-view',
+  name: '404-view',
 
   created() {
     this.handlePageLoad({ name: this.$route.name });

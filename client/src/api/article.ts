@@ -4,9 +4,9 @@ import request from './request';
 // Types
 import {
   Article,
-  ArticleContent,
+  ArticleComponent,
   ArticleType,
-  ItemLink,
+  LinkType,
   RequestConfirmation,
 } from '../types';
 
@@ -173,17 +173,19 @@ const getRouteArticles = async (id: string): Promise<Article[] | null> => {
  *
  * @param {ItemLink[]} link Item the article links to.
  * @param {ArticleType} type Type of article.
- * @param {ArticleContent[]} content Content of article.
+ * @param {ArticleComponent[]} content Content of article.
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const postArticle = async (
-  link: ItemLink[],
+  of: LinkType,
+  ref: string,
   type: ArticleType,
-  content: ArticleContent[],
+  content: ArticleComponent[],
 ): Promise<RequestConfirmation> => {
   try {
     const response = await request.post('/article/post', {
-      link,
+      of,
+      ref,
       type,
       content,
     });
@@ -207,13 +209,15 @@ const postArticle = async (
  * @returns {Promise<RequestConfirmation>} Confirmation of action.
  */
 const updateArticle = async (
-  link: ItemLink[],
+  of: LinkType,
+  ref: string,
   type: ArticleType,
-  content: ArticleContent[],
+  content: ArticleComponent[],
 ): Promise<RequestConfirmation> => {
   try {
     const response = await request.put('/article/update', {
-      link,
+      of,
+      ref,
       type,
       content,
     });

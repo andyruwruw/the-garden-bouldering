@@ -9,7 +9,7 @@ import Vue from 'vue';
 import { mapActions } from 'vuex';
 
 export default Vue.extend({
-  name: 'home-view',
+  name: 'landing-view',
 
   created() {
     this.handlePageLoad({ name: this.$route.name });

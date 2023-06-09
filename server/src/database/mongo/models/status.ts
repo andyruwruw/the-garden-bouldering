@@ -5,29 +5,27 @@ import mongoose from 'mongoose';
  * Climbing status.
  */
 const schema = new mongoose.Schema({
-  link: {
-    type: {
-      type: String,
-      required: true,
-    },
+  of: {
+    type: String,
+    required: true,
+  },
 
-    id: {
-      type: String,
-      required: true,
-    },
+  ref: {
+    type: String,
+    required: true,
   },
 
   type: {
     type: String,
-    default: 'description',
+    default: 'conditions',
   },
 
-  value: {
+  values: {
     type: Array,
     of: String,
   },
 
-  owner: {
+  author: {
     type: String,
     required: true,
   },

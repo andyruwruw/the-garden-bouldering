@@ -3,7 +3,6 @@ import request from './request';
 
 // Types
 import {
-  ItemLink,
   RequestConfirmation,
   SendType,
 } from '../types';

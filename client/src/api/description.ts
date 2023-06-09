@@ -4,7 +4,7 @@ import request from './request';
 // Types
 import {
   Description,
-  ItemLink,
+  LinkType,
   RequestConfirmation,
 } from '../types';
 
@@ -17,13 +17,15 @@ import {
  * @returns {Promise<Description | RequestConfirmation>} Promise of the action.
  */
 const postDescription = async (
-  link: ItemLink,
+  of: LinkType,
+  ref: string,
   text = '',
   href = '',
 ): Promise<Description | RequestConfirmation> => {
   try {
     const response = await request.post('/description/post', {
-      link,
+      of,
+      ref,
       text,
       href,
     });
@@ -71,14 +73,12 @@ const deleteDescription = async (id: string): Promise<RequestConfirmation> => {
  * Updates a description.
  *
  * @param {string} id Id of the description.
- * @param {ItemLink} link Item the description is linked to.
  * @param {string} text Text of the description.
  * @param {string} href HREF for description.
  * @returns {Promise<Description | null>} Promise of description.
  */
 const updateDescription = async (
   id: string,
-  link: ItemLink,
   text = '',
   href = '',
 ): Promise<Description | null> => {
@@ -86,6 +86,7 @@ const updateDescription = async (
     const response = await request.put('/description/update', {
       id,
       text,
+      href,
     });
 
     if (response.status === 200) {

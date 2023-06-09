@@ -7,7 +7,6 @@ import { DataAccessObject } from './dao';
 
 // Types
 import {
-  Coordinates,
   Area as AreaInterface,
   DataAccessObject as DataAccessObjectInterface,
 } from '../../../types';
@@ -24,17 +23,19 @@ export class Area
    * @returns {AreaInterface} The area created.
    */
   async create(
-    crag = '',
+    crag: string,
     name = 'Unknown',
     altNames = [],
     externalIds = {},
     externalHrefs = {},
+    latitude = 0,
+    longitude = 0,
+    elevation = 0,
+    areas = [],
     shape = [],
-    location = {
-      lat: 0,
-      long: 0,
-    } as Coordinates,
-    guides = [],
+    routes = 0,
+    updated = new Date(),
+    images = [],
   ): Promise<AreaInterface> {
     return this._create({
       crag,
@@ -42,9 +43,14 @@ export class Area
       altNames,
       externalIds,
       externalHrefs,
+      latitude,
+      longitude,
+      elevation,
+      areas,
       shape,
-      location,
-      guides,
+      routes,
+      updated,
+      images,
     });
   }
 

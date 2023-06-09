@@ -3,7 +3,7 @@ import request from './request';
 
 // Types
 import {
-  ItemLink,
+  LinkType,
   RequestConfirmation,
   SearchResponse,
 } from '../types';
@@ -16,13 +16,15 @@ import {
  * @returns {Promise<RequestConfirmation>} Promise of the action.
  */
 const linkItems = async (
-  first: ItemLink,
-  second: ItemLink,
+  of: LinkType,
+  firstRef: string,
+  secondRef: string,
 ): Promise<RequestConfirmation> => {
   try {
     const response = await request.post('/general/link', {
-      first,
-      second,
+      of,
+      firstRef,
+      secondRef,
     });
 
     if (response.status === 200) {

@@ -21,7 +21,7 @@ const schema = new mongoose.Schema({
   },
 
   laps: {
-    type: String,
+    type: Number,
     default: 1,
   },
 
@@ -35,9 +35,19 @@ const schema = new mongoose.Schema({
     default: '',
   },
 
-  date: {
+  created: {
     type: String,
     default: '',
+  },
+
+  href: {
+    type: String,
+    default: '',
+  },
+
+  likes: {
+    type: Array,
+    of: String,
   },
 });
 
