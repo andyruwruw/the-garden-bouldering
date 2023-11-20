@@ -5,24 +5,19 @@ import {
 } from 'mongoose';
 
 const schema = new Schema({
-  id: {
-    type: String,
-    required: true,
-  },
-
   type: {
     type: String,
-    default: 'pdf',
+    default: 'route',
   },
 
   name: {
     type: String,
     required: true,
   },
-  
-  author: {
+
+  reference : {
     type: String,
-    default: '',
+    required: true,
   },
 
   date: {
@@ -30,10 +25,10 @@ const schema = new Schema({
     default: '',
   },
 
-  href: {
+  id: {
     type: String,
     default: '',
   },
 });
 
-export const ReferenceModel = model('Reference', schema);
+export const RouteModel = model('Route', schema);

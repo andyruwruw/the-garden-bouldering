@@ -1,104 +1,111 @@
 /* eslint @typescript-eslint/no-unused-vars: "off" */
 // Local Imports
-import { UsedAbstractDatabaseError } from '../errors/used-abstract-database-error';
-
-// Types
 import {
-  Area,
-  Article,
   Attempt,
-  Boulder,
-  Comment,
-  Crag,
-  Description,
+  Follow,
   Interest,
+  Location,
+  Medal,
+  Post,
+  Rating,
+  Review,
   Route,
-  Send,
-  Status,
+  Session,
+  Shoes,
+  Token,
   User,
-  Request,
-  NullableDataAccessObject,
-  Process,
+  DataAccessObjectInterface,
+  Area,
 } from '../types';
+import { DataAccessObject } from './dao';
+import { UsedAbstractDatabaseError } from '../errors/used-abstract-database-error';
 
 /**
  * Abstract Database interface, only implement inherited classes.
  */
 export class Database {
   /**
-   * Data access object for areas.
+   * Data access object for Areas.
    */
-  area: NullableDataAccessObject<Area> = null;
+  area: DataAccessObjectInterface<Area> = new DataAccessObject();
 
   /**
-   * Data access object for articles.
+   * Data access object for Attempts.
    */
-  article: NullableDataAccessObject<Article> = null;
+  attempt: DataAccessObjectInterface<Attempt> = new DataAccessObject();
 
   /**
-   * Data access object for attempts.
+   * Data access object for Follows.
    */
-  attempt: NullableDataAccessObject<Attempt> = null;
+  follow: DataAccessObjectInterface<Follow> = new DataAccessObject();
 
   /**
-   * Data access object for boulders.
+   * Data access object for Interests.
    */
-  boulder: NullableDataAccessObject<Boulder> = null;
+  interest: DataAccessObjectInterface<Interest> = new DataAccessObject();
 
   /**
-   * Data access object for comments.
+   * Data access object for Locations.
    */
-  comment: NullableDataAccessObject<Comment> = null;
+  location: DataAccessObjectInterface<Location> = new DataAccessObject();
 
   /**
-   * Data access object for crags.
+   * Data access object for Medals.
    */
-  crag: NullableDataAccessObject<Crag> = null;
+  medal: DataAccessObjectInterface<Medal> = new DataAccessObject();
 
   /**
-   * Data access object for descriptions.
+   * Data access object for Posts.
    */
-  description: NullableDataAccessObject<Description> = null;
+  post: DataAccessObjectInterface<Post> = new DataAccessObject();
 
   /**
-   * Data access object for interests.
+   * Data access object for Ratings.
    */
-  interest: NullableDataAccessObject<Interest> = null;
+  rating: DataAccessObjectInterface<Rating> = new DataAccessObject();
 
   /**
-   * Data access object for process history.
+   * Data access object for Reviews.
    */
-  process: NullableDataAccessObject<Process> = null;
+  review: DataAccessObjectInterface<Review> = new DataAccessObject();
 
   /**
-   * Data access object for requests.
+   * Data access object for Routes.
    */
-  request: NullableDataAccessObject<Request> = null;
+  route: DataAccessObjectInterface<Route> = new DataAccessObject();
 
   /**
-   * Data access object for routes.
+   * Data access object for Sessions.
    */
-  route: NullableDataAccessObject<Route> = null;
+  session: DataAccessObjectInterface<Session> = new DataAccessObject();
 
   /**
-   * Data access object for sends.
+   * Data access object for Shoess.
    */
-  send: NullableDataAccessObject<Send> = null;
+  shoes: DataAccessObjectInterface<Shoes> = new DataAccessObject();
 
   /**
-   * Data access object for status'.
+   * Data access object for Tokens.
    */
-  status: NullableDataAccessObject<Status> = null;
+  token: DataAccessObjectInterface<Token> = new DataAccessObject();
 
   /**
-   * Data access object for users.
+   * Data access object for Users.
    */
-  user: NullableDataAccessObject<User> = null;
+  user: DataAccessObjectInterface<User> = new DataAccessObject();
 
   /**
    * Connects to database.
+   *
+   * @param {string | undefined} [databaseUrl=''] Database URL.
+   * @param {string | undefined} [databaseUser=''] Database username.
+   * @param {string | undefined} [databasePassword=''] Database password.
    */
-  async connect(): Promise<void> {
+  async connect(
+    databaseUrl = '',
+    databaseUser = '',
+    databasePassword = '',
+  ): Promise<void> {
     throw new UsedAbstractDatabaseError();
   }
 

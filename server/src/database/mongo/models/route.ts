@@ -1,91 +1,24 @@
 // Packages
-import mongoose from 'mongoose';
+import {
+  model,
+  Schema,
+} from 'mongoose';
 
-/**
- * Climbing routes.
- */
-const schema = new mongoose.Schema({
+const schema = new Schema({
+  index: {
+    type: Number,
+    default: 0,
+  },
+
+  type: {
+    type: String,
+    default: 'boulder',
+  },
+
   name: {
     type: String,
-    default: 'Unknown',
-  },
-
-  altNames: {
-    type: Array,
-    of: String,
-    default: [],
-  },
-
-  externalIds: {
-    type: Object,
-    default: {},
-  },
-
-  externalHrefs: {
-    type: Object,
-    default: {},
-  },
-
-  crag: {
-    type: String,
-    required: true,
-  },
-
-  areas: {
-    type: Array,
-    of: String,
-    default: [],
-  },
-
-  boulders: {
-    type: Array,
-    of: String,
-    default: [],
-  },
-
-  guides: {
-    type: Array,
-    of: String,
-    default: [],
-  },
-
-  location: {
-    type: Number,
-    default: -1,
-  },
-
-  grade: {
-    type: Object,
-    default: {},
-  },
-
-  rating: {
-    type: Object,
-    default: {},
-  },
-
-  tags: {
-    type: Array,
-    of: String,
-    default: [],
-  },
-
-  ascents: {
-    type: Array,
-    of: Object,
-    default: [],
-  },
-
-  danger: {
-    type: Object,
-    default: {},
-  },
-
-  images: {
-    type: Array,
-    of: String,
-    default: [],
+    default: 'Unnamed',
   },
 });
 
-export const Route = mongoose.model('Route', schema);
+export const RouteModel = model('Route', schema);

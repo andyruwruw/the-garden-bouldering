@@ -18,9 +18,7 @@ export default async function (
   req: VercelRequest,
   res: VercelResponse,
 ): Promise<void> {
-  /**
-   * ID of endpoint.
-   */
+  // ID of endpoint.
   const {
     item,
     action,
@@ -34,14 +32,16 @@ export default async function (
     res,
   );
 
-  /**
-   * Retrieve desired endpoint.
-   */
-  const handler = await new ROUTES[item as string][action as string]();
+  if (req.method === 'OPTIONS') {
+    res.send(204);
+    return;
+  }
 
-  /**
-   * Execute function.
-   */
+  // Instantiate handler.
+  const handler = new ROUTES[item as string][action as string]();
+  await handler.connectDatabase();
+
+  // Execute function.
   await handler.execute(
     req,
     res,

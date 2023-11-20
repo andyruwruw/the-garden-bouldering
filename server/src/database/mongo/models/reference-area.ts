@@ -5,35 +5,35 @@ import {
 } from 'mongoose';
 
 const schema = new Schema({
-  id: {
+  reference: {
+    type: String,
+    required: true,
+  },
+
+  area: {
     type: String,
     required: true,
   },
 
   type: {
     type: String,
-    default: 'pdf',
-  },
-
-  name: {
-    type: String,
-    required: true,
-  },
-  
-  author: {
-    type: String,
-    default: '',
-  },
-
-  date: {
-    type: String,
-    default: '',
+    default: 'link',
   },
 
   href: {
     type: String,
     default: '',
   },
+
+  page: {
+    type: Number,
+    default: 0,
+  },
+
+  id: {
+    type: String,
+    default: '',
+  },
 });
 
-export const ReferenceModel = model('Reference', schema);
+export const ReferenceAreaModel = model('ReferenceArea', schema);
