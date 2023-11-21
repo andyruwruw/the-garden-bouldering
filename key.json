@@ -1,5 +1,43 @@
 {
   "andrew-child": "tgm",
   "cooper-doe": "gpr",
-  "paul-waters": "lwg"
+  "paul-waters": "lwg",
+  "e-browne": "gpr",
+  "tags": [
+    "dabby",
+    "high-ball",
+    "low-ball",
+    "slab",
+    "overhung",
+    "roof",
+    "dyno",
+    "crack",
+    "crimps",
+    "slopers",
+    "jugs",
+    "short",
+    "endurance",
+    "pockets",
+    "project",
+    "anchors",
+    "bad-landing"
+  ],
+  "fa": {
+    "name": "unknown",
+    "date": "unknown",
+    "reference": []
+  },
+  "project": false,
+  "contrived": false,
+  "sit": false,
+  "stand": false,
+  "eliminate": false,
+  "extension": false,
+  "early-exit": false,
+  "variation": "",
+  "tags": [],
+  "filters": [
+    "standard"
+  ],
+  "last": "Full Stroke"
 }
