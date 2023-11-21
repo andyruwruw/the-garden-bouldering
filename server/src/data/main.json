@@ -1,45 +1,63 @@
 {
+  "version": "1.0.0",
+  "author": "Andrew Young",
+  "updated": "11/2023",
   "name": "The Garden",
-  "state": "OR",
   "location": {
     "longitude": 44.44099624992865,
     "latitude": -122.57514060403899
   },
+  "state": "OR",
+  "locale": "Willamette Valley",
   "references": {
     "andrew-child": {
+      "type": "pdf",
       "author": "Andrew Child",
       "date": "11/21/2023",
-      "href": "https://github.com/AndrewChild/The-Garden-Guidebook/raw/main/guideBook.pdf"
+      "href": "https://github.com/AndrewChild/The-Garden-Guidebook/raw/main/guideBook.pdf",
+      "recievesUpdates": true
     },
     "andrew-young": {
+      "type": "contact",
       "author": "Andrew Young",
       "date": "",
-      "href": ""
+      "href": "",
+      "recievesUpdates": true
     },
     "cooper-doe": {
+      "type": "pdf",
       "author": "Cooper Doe",
       "date": "07/2019",
-      "href": ""
+      "href": "",
+      "recievesUpdates": false
     },
     "e-browne": {
+      "type": "pdf",
       "author": "E. Browne",
       "date": "2001",
-      "href": ""
+      "href": "",
+      "recievesUpdates": false
     },
     "mountain-project": {
+      "type": "website",
       "author": "Community Contributions",
       "date": "11/21/2023",
-      "href": "https://www.mountainproject.com/area/105818219/the-garden-boulders"
+      "href": "https://www.mountainproject.com/area/105818219/the-garden-boulders",
+      "recievesUpdates": true
     },
     "paul-waters": {
+      "type": "pdf",
       "author": "Paul Waters",
       "date": "2011",
-      "href": ""
+      "href": "",
+      "recievesUpdates": false
     },
     "paul-waters-2": {
+      "type": "paid-app",
       "author": "Paul Waters",
       "date": "2022",
-      "href": "https://nextascent.org/the-garden-bouldering-guidebook/"
+      "href": "https://nextascent.org/the-garden-bouldering-guidebook/",
+      "recievesUpdates": true
     }
   },
   "areas": [
@@ -76,7 +94,20 @@
           "reference": "mountain-project",
           "href": "https://www.mountainproject.com/area/105818219/the-garden-boulders",
           "id": "105818219",
-          "page": 0
+          "page": 0,
+          "match": {
+            "confidence": 0,
+            "based-on": true,
+            "provided-topo": false,
+            "topo-match": false,
+            "name-match": true,
+            "difficulty-match": false,
+            "description-match": true,
+            "provided-location": true,
+            "location-match": true,
+            "alternative-start": false,
+            "alternative-finish": false
+          }
         },
         {
           "index": 1,
@@ -84,7 +115,20 @@
           "reference": "andrew-child",
           "href": "",
           "id": "tgm",
-          "page": 10
+          "page": 10,
+          "match": {
+            "based-on": false,
+            "provided-topo": false,
+            "topo-match": false,
+            "name-match": true,
+            "difficulty-match": false,
+            "description-match": true,
+            "provided-location": true,
+            "location-match": true,
+            "alternative-start": false,
+            "alternative-finish": false
+          }
+          
         },
         {
           "index": 2,
@@ -92,7 +136,19 @@
           "reference": "paul-waters",
           "href": "",
           "id": "lwg",
-          "page": 2
+          "page": 2,
+          "match": {
+            "based-on": false,
+            "provided-topo": false,
+            "topo-match": false,
+            "name-match": true,
+            "difficulty-match": false,
+            "description-match": true,
+            "provided-location": true,
+            "location-match": true,
+            "alternative-start": false,
+            "alternative-finish": false
+          }
         },
         {
           "index": 3,
@@ -100,7 +156,19 @@
           "reference": "e-browne",
           "href": "",
           "id": "gpr",
-          "page": 2
+          "page": 2,
+          "match": {
+            "based-on": false,
+            "provided-topo": false,
+            "topo-match": false,
+            "name-match": true,
+            "difficulty-match": false,
+            "description-match": true,
+            "provided-location": true,
+            "location-match": true,
+            "alternative-start": false,
+            "alternative-finish": false
+          }
         },
         {
           "index": 4,
@@ -108,7 +176,19 @@
           "reference": "cooper-doe",
           "href": "",
           "id": "gpr",
-          "page": 5
+          "page": 5,
+          "match": {
+            "based-on": false,
+            "provided-topo": false,
+            "topo-match": false,
+            "name-match": true,
+            "difficulty-match": false,
+            "description-match": true,
+            "provided-location": true,
+            "location-match": true,
+            "alternative-start": false,
+            "alternative-finish": false
+          }
         }
       ],
       "areas": [
@@ -129,9 +209,20 @@
               "type": "pdf",
               "reference": "andrew-child",
               "page": 11,
-              "id": "tgm-A"
+              "id": "tgm-A",
+              "match": {
+                "based-on": true,
+                "provided-topo": false,
+                "topo-match": false,
+                "name-match": true,
+                "difficulty-match": false,
+                "description-match": true,
+                "provided-location": true,
+                "location-match": true
+              }
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
@@ -161,7 +252,17 @@
                   "reference": "mountain-project",
                   "href": "https://www.mountainproject.com/area/119940713/toilet-bowl-boulder",
                   "id": "119940713",
-                  "page": 0
+                  "page": 0,
+                  "match": {
+                    "based-on": false,
+                    "provided-topo": true,
+                    "topo-match": true,
+                    "name-match": true,
+                    "difficulty-match": true,
+                    "description-match": true,
+                    "provided-location": true,
+                    "location-match": true
+                  }
                 },
                 {
                   "index": 1,
@@ -169,7 +270,17 @@
                   "reference": "andrew-child",
                   "href": "",
                   "id": "",
-                  "page": 11
+                  "page": 11,
+                  "match": {
+                    "based-on": true,
+                    "provided-topo": true,
+                    "topo-match": true,
+                    "name-match": true,
+                    "difficulty-match": true,
+                    "description-match": true,
+                    "provided-location": true,
+                    "location-match": true
+                  }
                 },
                 {
                   "index": 3,
@@ -177,7 +288,17 @@
                   "reference": "cooper-doe",
                   "href": "",
                   "id": "gpr-1",
-                  "page": 6
+                  "page": 6,
+                  "match": {
+                    "based-on": false,
+                    "provided-topo": true,
+                    "topo-match": true,
+                    "name-match": true,
+                    "difficulty-match": true,
+                    "description-match": true,
+                    "provided-location": true,
+                    "location-match": true
+                  }
                 },
                 {
                   "index": 2,
@@ -185,7 +306,17 @@
                   "reference": "paul-waters",
                   "href": "",
                   "id": "lwg-1",
-                  "page": 5
+                  "page": 5,
+                  "match": {
+                    "based-on": false,
+                    "provided-topo": true,
+                    "topo-match": true,
+                    "name-match": true,
+                    "difficulty-match": true,
+                    "description-match": true,
+                    "provided-location": true,
+                    "location-match": true
+                  }
                 }
               ],
               "routes": [
@@ -236,6 +367,16 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      },
+                      "match": {
+                        "based-on": true,
+                        "provided-topo": true,
+                        "topo-match": true,
+                        "name-match": true,
+                        "difficulty-match": true,
+                        "description-match": true,
+                        "provided-location": true,
+                        "location-match": true
                       }
                     },
                     {
@@ -257,6 +398,16 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      },
+                      "match": {
+                        "based-on": false,
+                        "provided-topo": true,
+                        "topo-match": true,
+                        "name-match": true,
+                        "difficulty-match": true,
+                        "description-match": true,
+                        "provided-location": true,
+                        "location-match": true
                       }
                     },
                     {
@@ -278,6 +429,16 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      },
+                      "match": {
+                        "based-on": false,
+                        "provided-topo": true,
+                        "topo-match": true,
+                        "name-match": true,
+                        "difficulty-match": true,
+                        "description-match": true,
+                        "provided-location": true,
+                        "location-match": true
                       }
                     },
                     {
@@ -3625,7 +3786,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         },
         {
           "index": 1,
@@ -3661,6 +3823,7 @@
               "page": 2
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
@@ -7434,7 +7597,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         },
         {
           "index": 2,
@@ -7483,6 +7647,7 @@
               "page": 4
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
@@ -10125,7 +10290,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         },
         {
           "index": 3,
@@ -10161,6 +10327,7 @@
               "page": 8
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
@@ -14925,7 +15092,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         },
         {
           "index": 4,
@@ -14966,6 +15134,7 @@
               "page": 7
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
@@ -16645,7 +16814,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         },
         {
           "index": 5,
@@ -16709,6 +16879,7 @@
               "page": 6
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
@@ -19068,7 +19239,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         },
         {
           "index": 6,
@@ -19109,6 +19281,7 @@
               "page": 96
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
@@ -22224,7 +22397,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         },
         {
           "index": 7,
@@ -22260,6 +22434,7 @@
               "page": 5
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
@@ -23272,7 +23447,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         }
       ],
       "boulders": [],
@@ -23282,15 +23458,67 @@
       "index": 1,
       "id": "ptb",
       "name": "Pink Tag Boulders",
-      "nameHistory": [],
-      "hrefs": [],
+      "nameHistory": [
+        {
+          "name": "Pink Tag Boulders",
+          "reference": "mountain-project",
+          "date": "2019"
+        },
+        {
+          "name": "Pink Tag Boulders",
+          "reference": "andrew-child",
+          "date": "2023"
+        },
+        {
+          "name": "Pink Tag",
+          "reference": "cooper-doe",
+          "date": "2019"
+        }
+      ],
+      "hrefs": [
+        {
+          "index": 0,
+          "type": "link",
+          "reference": "mountain-project",
+          "href": "https://www.mountainproject.com/area/117679860/pink-tag-boulders",
+          "id": "117679860",
+          "page": 0
+        },
+        {
+          "index": 1,
+          "type": "pdf",
+          "reference": "andrew-child",
+          "href": "",
+          "id": "ptb",
+          "page": 47
+        },
+        {
+          "index": 2,
+          "type": "pdf",
+          "reference": "cooper-doe",
+          "href": "",
+          "id": "ptb",
+          "page": 17
+        }
+      ],
       "areas": [],
       "boulders": [
         {
           "index": 0,
           "id": "ptb-pis",
           "name": "Pissing Boulder",
-          "nameHistory": [],
+          "nameHistory": [
+            {
+              "name": "Pissing Boulder",
+              "reference": "andrew-child",
+              "date": "2023"
+            },
+            {
+              "name": "Pink Tag",
+              "reference": "cooper-doe",
+              "date": "2019"
+            }
+          ],
           "hrefs": [
             {
               "index": 0,
@@ -23299,6 +23527,14 @@
               "href": "",
               "id": "",
               "page": 48
+            },
+            {
+              "index": 1,
+              "type": "pdf",
+              "reference": "cooper-doe",
+              "href": "",
+              "id": "ptb-2",
+              "page": 17
             }
           ],
           "routes": [
@@ -23307,7 +23543,18 @@
               "id": "ptb-pis-tps",
               "type": "boulder",
               "name": "Territorial Pissings",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Territorial Pissings",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Territorial Pissings",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
@@ -23316,6 +23563,27 @@
                   "href": "",
                   "id": "ptb-1",
                   "page": 48,
+                  "grade": {
+                    "value": 5,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": -1,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-2-1",
+                  "page": 17,
                   "grade": {
                     "value": 5,
                     "subValue": 0,
@@ -23364,6 +23632,9 @@
               "contrived": false,
               "sit": false,
               "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "",
               "tags": [],
               "filters": []
@@ -23374,7 +23645,18 @@
           "index": 1,
           "id": "ptb-jdr",
           "name": "Jonah's Dab Rig",
-          "nameHistory": [],
+          "nameHistory": [
+            {
+              "name": "Jonah's Dab Rig",
+              "reference": "andrew-child",
+              "date": "2023"
+            },
+            {
+              "name": "Squeeze Bloc",
+              "reference": "cooper-doe",
+              "date": "2019"
+            }
+          ],
           "hrefs": [
             {
               "index": 0,
@@ -23383,6 +23665,14 @@
               "href": "",
               "id": "",
               "page": 48
+            },
+            {
+              "index": 1,
+              "type": "pdf",
+              "reference": "cooper-doe",
+              "href": "",
+              "id": "ptb-3",
+              "page": 17
             }
           ],
           "routes": [
@@ -23391,15 +23681,73 @@
               "id": "ptb-jdr-jdr",
               "type": "boulder",
               "name": "Jonah's Dab Rig",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Jonah's Dab Rig",
+                  "reference": "mountain-project",
+                  "date": "2021"
+                },
+                {
+                  "name": "Jonah's Dab Rig",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Jonah's Dab Rig",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
+                  "type": "link",
+                  "reference": "mountain-project",
+                  "href": "https://www.mountainproject.com/route/120626448/jonahs-dab-rig",
+                  "id": "120626448",
+                  "page": 0,
+                  "grade": {
+                    "value": 9,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 3,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
                   "href": "",
                   "id": "ptb-2",
                   "page": 48,
+                  "grade": {
+                    "value": 9,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 2,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 2,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-3-4",
+                  "page": 17,
                   "grade": {
                     "value": 9,
                     "subValue": 0,
@@ -23448,6 +23796,9 @@
               "contrived": false,
               "sit": false,
               "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "",
               "tags": [],
               "filters": []
@@ -23457,10 +23808,47 @@
               "id": "ptb-jdr-wrk",
               "type": "boulder",
               "name": "Workshop 68",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Workshop 68",
+                  "reference": "mountain-project",
+                  "date": "2021"
+                },
+                {
+                  "name": "Workshop 68",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Workshop 68",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
+                  "type": "link",
+                  "reference": "mountain-project",
+                  "href": "https://www.mountainproject.com/route/120626475/workshop-68",
+                  "id": "120626475",
+                  "page": 0,
+                  "grade": {
+                    "value": 11,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 4,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
                   "href": "",
@@ -23473,6 +23861,27 @@
                   },
                   "stars": {
                     "value": 2,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 2,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-3-5",
+                  "page": 17,
+                  "grade": {
+                    "value": 11,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 4,
                     "max": 5
                   },
                   "danger": {
@@ -23512,8 +23921,11 @@
               },
               "project": false,
               "contrived": false,
-              "sit": true,
-              "stand": false,
+              "sit": false,
+              "stand": true,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "ptb-jdr-jdr",
               "tags": [],
               "filters": []
@@ -23523,8 +23935,19 @@
         {
           "index": 2,
           "id": "ptb-frh",
-          "name": "Frat House",
-          "nameHistory": [],
+          "name": "Frat House Boulder",
+          "nameHistory": [
+            {
+              "name": "Frat House",
+              "reference": "andrew-child",
+              "date": "2023"
+            },
+            {
+              "name": "The Theater",
+              "reference": "cooper-doe",
+              "date": "2019"
+            }
+          ],
           "hrefs": [
             {
               "index": 0,
@@ -23533,6 +23956,14 @@
               "href": "",
               "id": "",
               "page": 48
+            },
+            {
+              "index": 1,
+              "type": "pdf",
+              "reference": "andrew-child",
+              "href": "",
+              "id": "ptb-4",
+              "page": 18
             }
           ],
           "routes": [
@@ -23541,7 +23972,18 @@
               "id": "ptb-frh-frh",
               "type": "boulder",
               "name": "Frat House",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Frat House",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Frat House",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
@@ -23561,6 +24003,27 @@
                   },
                   "danger": {
                     "value": 2,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-4-9",
+                  "page": 18,
+                  "grade": {
+                    "value": 2,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 3,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
                     "max": 5
                   }
                 }
@@ -23598,6 +24061,9 @@
               "contrived": false,
               "sit": false,
               "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "",
               "tags": [],
               "filters": []
@@ -23607,7 +24073,18 @@
               "id": "ptb-frh-frm",
               "type": "boulder",
               "name": "Frat Mouse",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Frat Mouse",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Frat Mouse",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
@@ -23627,6 +24104,27 @@
                   },
                   "danger": {
                     "value": 1,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-4-10",
+                  "page": 18,
+                  "grade": {
+                    "value": 1,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 2,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
                     "max": 5
                   }
                 }
@@ -23664,6 +24162,9 @@
               "contrived": false,
               "sit": false,
               "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "",
               "tags": [],
               "filters": []
@@ -23673,10 +24174,47 @@
               "id": "ptb-frh-bls",
               "type": "boulder",
               "name": "Belushi",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Belushi",
+                  "reference": "mountain-project",
+                  "date": "2021"
+                },
+                {
+                  "name": "Belushi",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Belushi",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
+                  "type": "link",
+                  "reference": "mountain-project",
+                  "href": "https://www.mountainproject.com/route/120626530/belushi",
+                  "id": "120626530",
+                  "page": 0,
+                  "grade": {
+                    "value": 5,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 2,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
                   "href": "",
@@ -23693,6 +24231,27 @@
                   },
                   "danger": {
                     "value": 1,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 2,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-4-12",
+                  "page": 18,
+                  "grade": {
+                    "value": 5,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 2,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
                     "max": 5
                   }
                 }
@@ -23730,6 +24289,9 @@
               "contrived": false,
               "sit": false,
               "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "",
               "tags": [],
               "filters": []
@@ -23739,7 +24301,18 @@
               "id": "ptb-frh-kig",
               "type": "boulder",
               "name": "Knowledge is Good",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Knowledge is Good",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Knowledge is Good",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
@@ -23755,6 +24328,27 @@
                   },
                   "stars": {
                     "value": -1,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-4-14",
+                  "page": 18,
+                  "grade": {
+                    "value": 7,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 3,
                     "max": 5
                   },
                   "danger": {
@@ -23793,9 +24387,12 @@
                 "date": "unknown"
               },
               "project": false,
-              "contrived": false,
+              "contrived": true,
               "sit": false,
               "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "ptb-frh-bls",
               "tags": [],
               "filters": []
@@ -23805,7 +24402,18 @@
               "id": "ptb-frh-lps",
               "type": "boulder",
               "name": "Lippity Split",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Lippity Split",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Lippity Split",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
@@ -23821,6 +24429,27 @@
                   },
                   "stars": {
                     "value": -1,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-4-13",
+                  "page": 18,
+                  "grade": {
+                    "value": 5,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 2,
                     "max": 5
                   },
                   "danger": {
@@ -23862,6 +24491,9 @@
               "contrived": false,
               "sit": false,
               "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "",
               "tags": [],
               "filters": []
@@ -23871,10 +24503,47 @@
               "id": "ptb-frh-llt",
               "type": "boulder",
               "name": "Le Lemét",
-              "nameHistory": [],
+              "nameHistory": [
+                {
+                  "name": "Le Lemet",
+                  "reference": "mountain-project",
+                  "date": "2021"
+                },
+                {
+                  "name": "Le Lemét",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Le Lemét",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
+                  "type": "link",
+                  "reference": "mountain-project",
+                  "href": "https://www.mountainproject.com/route/120626517/le-lemet",
+                  "id": "120626517",
+                  "page": 0,
+                  "grade": {
+                    "value": 9,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 2,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
                   "href": "",
@@ -23893,58 +24562,13 @@
                     "value": 0,
                     "max": 5
                   }
-                }
-              ],
-              "grade": {
-                "value": 9,
-                "subValue": 0,
-                "system": "v-scale"
-              },
-              "stars": {
-                "value": -1,
-                "max": 5
-              },
-              "danger": {
-                "value": 0,
-                "max": 5
-              },
-              "height": 0,
-              "pads": {
-                "count": -1,
-                "subCount": 0,
-                "spotter": -1,
-                "subSpotter": 0
-              },
-              "description": [],
-              "fa": {
-                "name": "unknown",
-                "date": "unknown"
-              },
-              "sa": {
-                "name": "unknown",
-                "date": "unknown"
-              },
-              "project": false,
-              "contrived": false,
-              "sit": false,
-              "stand": false,
-              "variation": "",
-              "tags": [],
-              "filters": []
-            },
-            {
-              "index": 6,
-              "id": "ptb-frh-fpr",
-              "type": "boulder",
-              "name": "Farley Prep",
-              "nameHistory": [],
-              "hrefs": [
+                },
                 {
-                  "index": 0,
+                  "index": 2,
                   "type": "pdf",
                   "reference": "andrew-child",
                   "href": "",
-                  "id": "ptb-8",
+                  "id": "ptb-4-15",
                   "page": 49,
                   "grade": {
                     "value": 9,
@@ -23952,7 +24576,7 @@
                     "system": "v-scale"
                   },
                   "stars": {
-                    "value": -1,
+                    "value": 3,
                     "max": 5
                   },
                   "danger": {
@@ -23994,6 +24618,136 @@
               "contrived": false,
               "sit": false,
               "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
+              "variation": "",
+              "tags": [],
+              "filters": []
+            },
+            {
+              "index": 6,
+              "id": "ptb-frh-fpr",
+              "type": "boulder",
+              "name": "Farley Prep",
+              "nameHistory": [
+                {
+                  "name": "Farley Prep",
+                  "reference": "mountain-project",
+                  "date": "2019"
+                },
+                {
+                  "name": "Farley Prep",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Farley Prep",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                }
+              ],
+              "hrefs": [
+                {
+                  "index": 0,
+                  "type": "link",
+                  "reference": "mountain-project",
+                  "href": "https://www.mountainproject.com/route/118035833/farley-prep",
+                  "id": "118035833",
+                  "page": 0,
+                  "grade": {
+                    "value": 9,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 3,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 1,
+                  "type": "pdf",
+                  "reference": "andrew-child",
+                  "href": "",
+                  "id": "ptb-8",
+                  "page": 49,
+                  "grade": {
+                    "value": 9,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": -1,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                },
+                {
+                  "index": 2,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "ptb-4-16",
+                  "page": 18,
+                  "grade": {
+                    "value": 9,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 3,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  }
+                }
+              ],
+              "grade": {
+                "value": 9,
+                "subValue": 0,
+                "system": "v-scale"
+              },
+              "stars": {
+                "value": -1,
+                "max": 5
+              },
+              "danger": {
+                "value": 0,
+                "max": 5
+              },
+              "height": 0,
+              "pads": {
+                "count": -1,
+                "subCount": 0,
+                "spotter": -1,
+                "subSpotter": 0
+              },
+              "description": [],
+              "fa": {
+                "name": "unknown",
+                "date": "unknown"
+              },
+              "sa": {
+                "name": "unknown",
+                "date": "unknown"
+              },
+              "project": false,
+              "contrived": false,
+              "sit": false,
+              "stand": false,
+              "eliminate": false,
+              "extension": false,
+              "early-exit": false,
               "variation": "",
               "tags": [],
               "filters": []
@@ -24010,17 +24764,91 @@
       "nameHistory": [
         {
           "name": "Armageddon",
+          "reference": "mountain-project",
+          "date": "2021"
+        },
+        {
+          "name": "Upper Garden",
+          "reference": "andrew-child",
+          "date": "2023"
+        },
+        {
+          "name": "Armageddon",
+          "reference": "andrew-child",
+          "date": "2023"
+        },
+        {
+          "name": "The Clear Cut",
+          "reference": "andrew-child",
+          "date": "2023"
+        },
+        {
+          "name": "Armageddon",
           "reference": "cooper-doe",
           "date": "2019"
+        },
+        {
+          "name": "Upper Garden",
+          "reference": "paul-waters",
+          "date": "2011"
+        },
+        {
+          "name": "New garden",
+          "reference": "e-browne",
+          "date": "2001"
+        },
+        {
+          "name": "Apocalypse Now",
+          "reference": "e-browne",
+          "date": "2001"
         }
       ],
-      "hrefs": [],
+      "hrefs": [
+        {
+          "index": 0,
+          "type": "link",
+          "reference": "mountain-project",
+          "href": "https://www.mountainproject.com/area/120808574/armageddon",
+          "id": "120808574",
+          "page": 0
+        },
+        {
+          "index": 1,
+          "type": "pdf",
+          "reference": "andrew-child",
+          "href": "",
+          "id": "upg",
+          "page": 57
+        },
+        {
+          "index": 2,
+          "type": "pdf",
+          "reference": "cooper-doe",
+          "href": "",
+          "id": "arg",
+          "page": 19
+        },
+        {
+          "index": 3,
+          "type": "pdf",
+          "reference": "paul-waters",
+          "href": "",
+          "id": "upg",
+          "page": 179
+        }
+      ],
       "areas": [
         {
           "index": 0,
           "id": "upg-entr",
           "name": "Entrance Area",
-          "nameHistory": [],
+          "nameHistory": [
+            {
+              "name": "Entrance Area",
+              "reference": "andrew-child",
+              "date": "2023"
+            }
+          ],
           "hrefs": [
             {
               "index": 0,
@@ -24034,16 +24862,66 @@
             {
               "index": 0,
               "id": "upg-entr-pmk",
-              "name": "Pumpkin",
-              "nameHistory": [],
+              "name": "Pumpkin Boulder",
+              "nameHistory": [
+                {
+                  "name": "Pumpkin",
+                  "reference": "mountain-project",
+                  "date": "2022"
+                },
+                {
+                  "name": "Pumpkin",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Intro Boulder",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                },
+                {
+                  "name": "World War",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                },
+                {
+                  "name": "Pumpkin",
+                  "reference": "paul-waters",
+                  "date": "2011"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
+                  "type": "link",
+                  "reference": "mountain-project",
+                  "href": "https://www.mountainproject.com/area/123468130/pumpkin",
+                  "id": "123468130",
+                  "page": 0
+                },
+                {
+                  "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
                   "href": "",
                   "id": "",
                   "page": 59
+                },
+                {
+                  "index": 2,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "arg-1",
+                  "page": 19
+                },
+                {
+                  "index": 3,
+                  "type": "pdf",
+                  "reference": "paul-waters",
+                  "href": "",
+                  "id": "upg-81",
+                  "page": 197
                 }
               ],
               "routes": [
@@ -24052,10 +24930,47 @@
                   "id": "upg-entr-pmk-pks",
                   "type": "boulder",
                   "name": "Pumpkin Spice",
-                  "nameHistory": [],
+                  "nameHistory": [
+                    {
+                      "name": "Pumpkin Spice",
+                      "reference": "mountain-project",
+                      "date": "2022"
+                    },
+                    {
+                      "name": "Pumpkin Spice",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Pumpkin Steep Project",
+                      "reference": "paul-waters",
+                      "date": "2011"
+                    }
+                  ],
                   "hrefs": [
                     {
                       "index": 0,
+                      "type": "link",
+                      "reference": "mountain-project",
+                      "href": "https://www.mountainproject.com/route/123468159/pumpkin-spice",
+                      "id": "123468159",
+                      "page": 0,
+                      "grade": {
+                        "value": 7,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 2.5,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 1,
                       "type": "pdf",
                       "reference": "andrew-child",
                       "href": "",
@@ -24069,6 +24984,27 @@
                       "stars": {
                         "value": 2,
                         "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "type": "pdf",
+                      "reference": "paul-waters",
+                      "href": "",
+                      "id": "upg-81-#",
+                      "page": 198,
+                      "grade": {
+                        "value": -2,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
                       },
                       "danger": {
                         "value": 0,
@@ -24113,20 +25049,110 @@
                   "stand": false,
                   "eliminate": false,
                   "extension": false,
+                  "early-exit": false,
                   "variation": "",
                   "tags": [],
                   "filters": [
                     "standard"
+                  ]
+                },
+                {
+                  "index": 1,
+                  "id": "upg-entr-pmk-isp",
+                  "type": "boulder",
+                  "name": "Ice Spice",
+                  "nameHistory": [
+                    {
+                      "name": "Ice Spice",
+                      "reference": "mountain-project",
+                      "date": "2023"
+                    }
                   ],
-                  "filters": []
+                  "hrefs": [
+                    {
+                      "index": 0,
+                      "type": "link",
+                      "reference": "mountain-project",
+                      "href": "https://www.mountainproject.com/route/123886769/ice-spice",
+                      "id": "123886769",
+                      "page": 0,
+                      "grade": {
+                        "value": 7,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 3,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    }
+                  ],
+                  "grade": {
+                    "value": 7,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "stars": {
+                    "value": 3,
+                    "max": 5
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 5
+                  },
+                  "height": 0,
+                  "pads": {
+                    "count": -1,
+                    "subCount": 0,
+                    "spotter": -1,
+                    "subSpotter": 0
+                  },
+                  "description": [],
+                  "fa": {
+                    "name": "unknown",
+                    "date": "unknown",
+                    "reference": []
+                  },
+                  "sa": {
+                    "name": "unknown",
+                    "date": "unknown",
+                    "reference": []
+                  },
+                  "project": false,
+                  "contrived": false,
+                  "sit": true,
+                  "stand": false,
+                  "eliminate": false,
+                  "extension": false,
+                  "early-exit": false,
+                  "variation": "upg-entr-pmk-pks",
+                  "tags": [],
+                  "filters": [
+                    "standard"
+                  ]
                 }
               ]
             },
             {
               "index": 1,
               "id": "upg-entr-bsb",
-              "name": "Baseball",
-              "nameHistory": [],
+              "name": "Baseball Boulder",
+              "nameHistory": [
+                {
+                  "name": "Baseball",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Baseball",
+                  "reference": "paul-waters",
+                  "date": "2011"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
@@ -24135,6 +25161,14 @@
                   "href": "",
                   "id": "",
                   "page": 59
+                },
+                {
+                  "index": 1,
+                  "type": "pdf",
+                  "reference": "paul-waters",
+                  "href": "",
+                  "id": "upg-80",
+                  "page": 194
                 }
               ],
               "routes": [
@@ -24143,7 +25177,18 @@
                   "id": "upg-entr-bsb-bsb",
                   "type": "boulder",
                   "name": "Baseball",
-                  "nameHistory": [],
+                  "nameHistory": [
+                    {
+                      "name": "Baseball",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Baseball",
+                      "reference": "paul-waters",
+                      "date": "2011"
+                    }
+                  ],
                   "hrefs": [
                     {
                       "index": 0,
@@ -24160,6 +25205,27 @@
                       "stars": {
                         "value": 1,
                         "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 1,
+                      "type": "pdf",
+                      "reference": "paul-waters",
+                      "href": "",
+                      "id": "upg-80-316",
+                      "page": 194,
+                      "grade": {
+                        "value": 1,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
                       },
                       "danger": {
                         "value": 0,
@@ -24204,12 +25270,12 @@
                   "stand": false,
                   "eliminate": false,
                   "extension": false,
+                  "early-exit": false,
                   "variation": "",
                   "tags": [],
                   "filters": [
                     "standard"
-                  ],
-                  "filters": []
+                  ]
                 },
                 {
                   "index": 1,
@@ -24291,8 +25357,14 @@
         {
           "index": 1,
           "id": "upg-brl",
-          "name": "The Bread Loaves / Scratch and Spliff",
-          "nameHistory": [],
+          "name": "The Bread Loaves Area",
+          "nameHistory": [
+            {
+              "name": "The Bread Loaves/Scratch and Spliff",
+              "reference": "andrew-child",
+              "date": "2023"
+            }
+          ],
           "hrefs": [
             {
               "index": 0,
@@ -24302,20 +25374,71 @@
               "id": "upg-B"
             }
           ],
+          "areas": [],
           "boulders": [
             {
               "index": 0,
               "id": "upg-brl-brl",
-              "name": "The Bread Loaf Boulder",
-              "nameHistory": [],
+              "name": "Bread Loaf Boulder",
+              "nameHistory": [
+                {
+                  "name": "Breadloaf Boulder",
+                  "reference": "mountain-project",
+                  "date": "2021"
+                },
+                {
+                  "name": "Bread Loaf",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Breadloaf",
+                  "reference": "cooper-doe",
+                  "date": "2019"
+                },
+                {
+                  "name": "Scratch and Spliff",
+                  "reference": "paul-waters",
+                  "date": "2011"
+                },
+                {
+                  "name": "Buddha's Belly",
+                  "reference": "paul-waters",
+                  "date": "2011"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
+                  "type": "link",
+                  "reference": "mountain-project",
+                  "href": "https://www.mountainproject.com/area/120808602/breadloaf-boulder",
+                  "id": "120808602",
+                  "page": 0
+                },
+                {
+                  "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
                   "href": "",
                   "id": "",
                   "page": 60
+                },
+                {
+                  "index": 2,
+                  "type": "pdf",
+                  "reference": "cooper-doe",
+                  "href": "",
+                  "id": "arg-2",
+                  "page": 20
+                },
+                {
+                  "index": 3,
+                  "type": "pdf",
+                  "reference": "paul-waters",
+                  "href": "",
+                  "id": "upg-77",
+                  "page": 186
                 }
               ],
               "routes": [
@@ -24324,10 +25447,52 @@
                   "id": "upg-brl-brl-bll",
                   "type": "boulder",
                   "name": "Bread Loaf Left",
-                  "nameHistory": [],
+                  "nameHistory": [
+                    {
+                      "name": "Breadloaf Left",
+                      "reference": "mountain-project",
+                      "date": "2021"
+                    },
+                    {
+                      "name": "Bread Loaf Left",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Breadloaf Left",
+                      "reference": "cooper-doe",
+                      "date": "2019"
+                    },
+                    {
+                      "name": "Buddha's Belly",
+                      "reference": "paul-waters",
+                      "date": "2011"
+                    }
+                  ],
                   "hrefs": [
                     {
                       "index": 0,
+                      "type": "link",
+                      "reference": "mountain-project",
+                      "href": "https://www.mountainproject.com/route/120808886/breadloaf-left",
+                      "id": "120808886",
+                      "page": 0,
+                      "grade": {
+                        "value": 4,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 3.5,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 1,
                       "type": "pdf",
                       "reference": "andrew-child",
                       "href": "",
@@ -24345,6 +25510,48 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "type": "pdf",
+                      "reference": "cooper-doe",
+                      "href": "",
+                      "id": "arg-2a-4",
+                      "page": 20,
+                      "grade": {
+                        "value": 4,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 3,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 3,
+                      "type": "pdf",
+                      "reference": "cooper-doe",
+                      "href": "",
+                      "id": "upg-77-302",
+                      "page": 187,
+                      "grade": {
+                        "value": 4,
+                        "subValue": 2,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 1
                       }
                     }
                   ],
@@ -24385,22 +25592,64 @@
                   "stand": false,
                   "eliminate": false,
                   "extension": false,
+                  "early-exit": false,
                   "variation": "",
                   "tags": [],
                   "filters": [
                     "standard"
-                  ],
-                  "filters": []
+                  ]
                 },
                 {
                   "index": 1,
                   "id": "upg-brl-brl-bwr",
                   "type": "boulder",
                   "name": "Breadwinner",
-                  "nameHistory": [],
+                  "nameHistory": [
+                    {
+                      "name": "Breadwinner",
+                      "reference": "mountain-project",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Breadwinner",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Breadloaf Face Proj",
+                      "reference": "cooper-doe",
+                      "date": "2019"
+                    },
+                    {
+                      "name": "Anicca",
+                      "reference": "paul-waters",
+                      "date": "2011"
+                    }
+                  ],
                   "hrefs": [
                     {
                       "index": 0,
+                      "type": "link",
+                      "reference": "mountain-project",
+                      "href": "https://www.mountainproject.com/route/123886714/breadwinner",
+                      "id": "123886714",
+                      "page": 0,
+                      "grade": {
+                        "value": 10,
+                        "subValue": -1,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 3,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 1,
                       "type": "pdf",
                       "reference": "andrew-child",
                       "href": "",
@@ -24418,6 +25667,48 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "type": "pdf",
+                      "reference": "cooper-doe",
+                      "href": "",
+                      "id": "arg-2a-7",
+                      "page": 20,
+                      "grade": {
+                        "value": -2,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 3,
+                      "type": "pdf",
+                      "reference": "paul-waters",
+                      "href": "",
+                      "id": "upg-77-300",
+                      "page": 187,
+                      "grade": {
+                        "value": -2,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 1
                       }
                     }
                   ],
@@ -24453,27 +25744,64 @@
                     "reference": []
                   },
                   "project": false,
-                  "contrived": false,
+                  "contrived": true,
                   "sit": false,
                   "stand": false,
                   "eliminate": false,
                   "extension": false,
+                  "early-exit": false,
                   "variation": "",
                   "tags": [],
                   "filters": [
                     "standard"
-                  ],
-                  "filters": []
+                  ]
                 },
                 {
                   "index": 2,
                   "id": "upg-brl-brl-blt",
                   "type": "boulder",
                   "name": "Bread Loaf Traverse",
-                  "nameHistory": [],
+                  "nameHistory": [
+                    {
+                      "name": "Breadloaf Traverse",
+                      "reference": "mountain-project",
+                      "date": "2021"
+                    },
+                    {
+                      "name": "Bread Loaf Traverse",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Breadloaf Traverse",
+                      "reference": "cooper-doe",
+                      "date": "2019"
+                    }
+                  ],
                   "hrefs": [
                     {
                       "index": 0,
+                      "type": "link",
+                      "reference": "mountain-project",
+                      "href": "https://www.mountainproject.com/route/120808924/breadloaf-traverse",
+                      "id": "120808924",
+                      "page": 0,
+                      "grade": {
+                        "value": 5,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 2.8,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 1,
                       "type": "pdf",
                       "reference": "andrew-child",
                       "href": "",
@@ -24486,6 +25814,27 @@
                       },
                       "stars": {
                         "value": 2,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "type": "pdf",
+                      "reference": "cooper-doe",
+                      "href": "",
+                      "id": "arg-2a-6",
+                      "page": 20,
+                      "grade": {
+                        "value": 6,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 3,
                         "max": 5
                       },
                       "danger": {
@@ -24526,27 +25875,64 @@
                     "reference": []
                   },
                   "project": false,
-                  "contrived": false,
+                  "contrived": true,
                   "sit": false,
                   "stand": false,
                   "eliminate": false,
                   "extension": false,
+                  "early-exit": false,
                   "variation": "",
                   "tags": [],
                   "filters": [
                     "standard"
-                  ],
-                  "filters": []
+                  ]
                 },
                 {
                   "index": 3,
                   "id": "upg-brl-brl-bkd",
                   "type": "boulder",
-                  "name": "Baker’s Dozen",
-                  "nameHistory": [],
+                  "name": "Baker's Dozen",
+                  "nameHistory": [
+                    {
+                      "name": "Baker's Dozen",
+                      "reference": "mountain-project",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Baker's Dozen",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Baker's Dozen",
+                      "reference": "cooper-doe",
+                      "date": "2019"
+                    }
+                  ],
                   "hrefs": [
                     {
                       "index": 0,
+                      "type": "link",
+                      "reference": "mountain-project",
+                      "href": "https://www.mountainproject.com/route/123894860/bakers-dozen",
+                      "id": "123894860",
+                      "page": 0,
+                      "grade": {
+                        "value": 8,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 2,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 1,
                       "type": "pdf",
                       "reference": "andrew-child",
                       "href": "",
@@ -24559,6 +25945,27 @@
                       },
                       "stars": {
                         "value": -1,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "type": "pdf",
+                      "reference": "cooper-doe",
+                      "href": "",
+                      "id": "arg-2a-5",
+                      "page": 20,
+                      "grade": {
+                        "value": 8,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 2,
                         "max": 5
                       },
                       "danger": {
@@ -24599,9 +26006,12 @@
                     "reference": []
                   },
                   "project": false,
-                  "contrived": false,
-                  "sit": false,
+                  "contrived": true,
+                  "sit": true,
                   "stand": false,
+                  "eliminate": false,
+                  "extension": false,
+                  "early-exit": false,
                   "variation": "upg-brl-brl-blt",
                   "tags": [],
                   "filters": []
@@ -24611,7 +26021,23 @@
                   "id": "upg-brl-brl-wrf",
                   "type": "boulder",
                   "name": "Worf",
-                  "nameHistory": [],
+                  "nameHistory": [
+                    {
+                      "name": "Worf",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Not Enough Air",
+                      "reference": "cooper-doe",
+                      "date": "2019"
+                    },
+                    {
+                      "name": "Worf",
+                      "reference": "paul-waters",
+                      "date": "2011"
+                    }
+                  ],
                   "hrefs": [
                     {
                       "index": 0,
@@ -24632,6 +26058,48 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      }
+                    },
+                    {
+                      "index": 1,
+                      "type": "pdf",
+                      "reference": "cooper-doe",
+                      "href": "",
+                      "id": "arg-2-8",
+                      "page": 20,
+                      "grade": {
+                        "value": 5,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "type": "pdf",
+                      "reference": "paul-waters",
+                      "href": "",
+                      "id": "upg-77-304",
+                      "page": 188,
+                      "grade": {
+                        "value": 3,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 1
                       }
                     }
                   ],
@@ -24672,28 +26140,60 @@
                   "stand": false,
                   "eliminate": false,
                   "extension": false,
+                  "early-exit": false,
                   "variation": "",
                   "tags": [],
                   "filters": [
                     "standard"
-                  ],
-                  "filters": []
+                  ]
                 }
               ]
             },
             {
               "index": 1,
               "id": "upg-brl-sns",
-              "name": "Scratch and Spliff",
-              "nameHistory": [],
+              "name": "Scratch and Spliff Boulder",
+              "nameHistory": [
+                {
+                  "name": "Scratch and Spliff Boulder",
+                  "reference": "mountain-project",
+                  "date": "2023"
+                },
+                {
+                  "name": "Scratch and Spliff",
+                  "reference": "andrew-child",
+                  "date": "2023"
+                },
+                {
+                  "name": "Scratch and Spliff",
+                  "reference": "paul-waters",
+                  "date": "2011"
+                }
+              ],
               "hrefs": [
                 {
                   "index": 0,
+                  "type": "link",
+                  "reference": "mountain-project",
+                  "href": "https://www.mountainproject.com/area/120808678/scratch-and-spliff",
+                  "id": "120808678",
+                  "page": 0
+                },
+                {
+                  "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
                   "href": "",
                   "id": "",
                   "page": 62
+                },
+                {
+                  "index": 2,
+                  "type": "pdf",
+                  "reference": "paul-waters",
+                  "href": "",
+                  "id": "upg-77",
+                  "page": 181
                 }
               ],
               "routes": [
@@ -24702,10 +26202,47 @@
                   "id": "upg-brl-sns-sst",
                   "type": "boulder",
                   "name": "Scratch and Spliff Traverse",
-                  "nameHistory": [],
+                  "nameHistory": [
+                    {
+                      "name": "Scratch and Spliff Traverse",
+                      "reference": "mountain-project",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Scratch and Spliff Traverse",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
+                    {
+                      "name": "Scratch and Spliff Traverse",
+                      "reference": "paul-waters",
+                      "date": "2011"
+                    }
+                  ],
                   "hrefs": [
                     {
                       "index": 0,
+                      "type": "link",
+                      "reference": "mountain-project",
+                      "href": "https://www.mountainproject.com/route/120808986/scratch-and-spliff-traverse",
+                      "id": "120808986",
+                      "page": 0,
+                      "grade": {
+                        "value": 3,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 3.3,
+                        "max": 4
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 1,
                       "type": "pdf",
                       "reference": "andrew-child",
                       "href": "",
@@ -24723,6 +26260,27 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "type": "pdf",
+                      "reference": "paul-waters",
+                      "href": "",
+                      "id": "upg-77-289",
+                      "page": 182,
+                      "grade": {
+                        "value": 1,
+                        "subValue": 1,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 1
                       }
                     }
                   ],
@@ -24763,12 +26321,12 @@
                   "stand": false,
                   "eliminate": false,
                   "extension": false,
+                  "early-exit": false,
                   "variation": "",
                   "tags": [],
                   "filters": [
                     "standard"
-                  ],
-                  "filters": []
+                  ]
                 },
                 {
                   "index": 1,
@@ -25278,7 +26836,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "routes": []
         },
         {
           "index": 2,
