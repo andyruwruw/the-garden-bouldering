@@ -1040,11 +1040,11 @@
                       },
                       "stars": {
                         "value": 1,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
                       },
                       "match": {
                         "primary": true,
@@ -1080,7 +1080,7 @@
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 4
                       },
                       "match": {
                         "primary": false,
@@ -1112,11 +1112,11 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
                       },
                       "match": {
                         "primary": false,
@@ -1148,11 +1148,11 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 0
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
                       },
                       "match": {
                         "primary": false,
@@ -1174,11 +1174,11 @@
                   },
                   "rating": {
                     "value": 1,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -1236,11 +1236,11 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
                       },
                       "match": {
                         "primary": true,
@@ -1262,11 +1262,11 @@
                   },
                   "rating": {
                     "value": 2,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -1433,7 +1433,8 @@
                     "count": -1,
                     "subCount": 0,
                     "spotter": -1,
-                    "subSpotter": 0
+                    "subSpotter": 0,
+                    "rope": false
                   },
                   "description": [],
                   "fa": {
@@ -1456,6 +1457,92 @@
                   "filters": [
                     "standard"
                   ]
+                },
+                {
+                  "index": 3,
+                  "id": "tgm-entr-tb-plg",
+                  "type": "boulder",
+                  "name": "P-Lunger",
+                  "hrefs": [
+                    {
+                      "index": 0,
+                      "type": "pdf",
+                      "reference": "paul-waters",
+                      "date": "2011",
+                      "names": [
+                        "P-Lunger"
+                      ],
+                      "href": "",
+                      "id": "lwg-1-3",
+                      "page": 5,
+                      "grade": {
+                        "value": 1,
+                        "subValue": 1,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
+                      }
+                    }
+                  ],
+                  "grade": {
+                    "value": 1,
+                    "subValue": 1,
+                    "system": "v-scale"
+                  },
+                  "rating": {
+                    "value": -1,
+                    "max": 4
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 4
+                  },
+                  "height": 0,
+                  "protection": {
+                    "count": -1,
+                    "subCount": 0,
+                    "spotter": -1,
+                    "subSpotter": 0,
+                    "rope": false
+                  },
+                  "description": [],
+                  "fa": {
+                    "name": "unknown",
+                    "date": "unknown",
+                    "reference": []
+                  },
+                  "sa": {
+                    "name": "unknown",
+                    "date": "unknown",
+                    "reference": []
+                  },
+                  "project": false,
+                  "contrived": false,
+                  "sit": false,
+                  "stand": false,
+                  "extension": false,
+                  "variation": "",
+                  "tags": [],
+                  "filters": [
+                    "historical"
+                  ]
                 }
               ]
             },
@@ -1463,34 +1550,52 @@
               "index": 1,
               "id": "tgm-entr-oh",
               "name": "Overhand Boulder",
-              "nameHistory": [
-                {
-                  "name": "Overhand Boulder",
-                  "reference": "mountain-project",
-                  "date": "2023"
-                },
-                {
-                  "name": "Overhand",
-                  "reference": "andrew-child",
-                  "date": "2023"
-                }
-              ],
               "hrefs": [
                 {
                   "index": 0,
                   "type": "link",
                   "reference": "mountain-project",
+                  "date": "06/02/2023",
+                  "names": [
+                    "Overhand Boulder"
+                  ],
                   "href": "https://www.mountainproject.com/area/124332333/overhand-boulder",
                   "id": "124332333",
-                  "page": 0
+                  "page": 0,
+                  "match": {
+                    "primary": false,
+                    "topo": -1,
+                    "name": 0,
+                    "grade": -2,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  }
                 },
                 {
                   "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
+                  "date": "2023",
+                  "names": [
+                    "Overhand"
+                  ],
                   "href": "",
                   "id": "",
-                  "page": 11
+                  "page": 11,
+                  "match": {
+                    "primary": true,
+                    "topo": 0,
+                    "name": 0,
+                    "grade": 0,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  },
                 }
               ],
               "routes": [
@@ -1499,23 +1604,15 @@
                   "id": "tgm-entr-oh-oh",
                   "type": "boulder",
                   "name": "Overhand",
-                  "nameHistory": [
-                    {
-                      "name": "Overhand",
-                      "reference": "mountain-project",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Overhand",
-                      "reference": "andrew-child",
-                      "date": "2023"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "link",
                       "reference": "mountain-project",
+                      "date": "06/02/2023",
+                      "names": [
+                        "Overhand"
+                      ],
                       "href": "https://www.mountainproject.com/route/124332417/overhand",
                       "id": "124332417",
                       "page": 0,
@@ -1531,6 +1628,17 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": -1,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
@@ -1538,7 +1646,7 @@
                       "type": "pdf",
                       "reference": "andrew-child",
                       "href": "",
-                      "id": "A-3",
+                      "id": "tgm-A-3",
                       "page": 11,
                       "grade": {
                         "value": 8,
@@ -1552,6 +1660,17 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     }
                   ],
@@ -1562,18 +1681,19 @@
                   },
                   "rating": {
                     "value": 2,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
                     "count": 4,
                     "subCount": 1,
                     "spotter": -1,
-                    "subSpotter": 0
+                    "subSpotter": 0,
+                    "rope": false
                   },
                   "description": [],
                   "fa": {
@@ -1603,65 +1723,121 @@
               "index": 2,
               "id": "tgm-entr-biw",
               "name": "Boys in the Woods Boulder",
-              "nameHistory": [
-                {
-                  "name": "Boys in the Woods Boulder",
-                  "reference": "mountain-project",
-                  "date": "2020"
-                },
-                {
-                  "name": "Boys in the Woods",
-                  "reference": "andrew-child",
-                  "date": "2023"
-                },
-                {
-                  "name": "Boys in the Woods",
-                  "reference": "cooper-doe",
-                  "date": "2019"
-                },
-                {
-                  "name": "Boys in the Woods",
-                  "reference": "paul-waters",
-                  "date": "2011"
-                },
-                {
-                  "name": "Boyz in the woods",
-                  "reference": "andrew-child",
-                  "date": "2001"
-                }
-              ],
               "hrefs": [
                 {
                   "index": 0,
                   "type": "link",
                   "reference": "mountain-project",
+                  "date": "11/19/2020",
+                  "names": [
+                    "Boys in the Woods Boulder"
+                  ],
                   "href": "https://www.mountainproject.com/area/119940668/boys-in-the-woods-boulder",
                   "id": "119940668",
-                  "page": 0
+                  "page": 0,
+                  "match": {
+                    "primary": false,
+                    "topo": -1,
+                    "name": 0,
+                    "grade": -2,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  }
                 },
                 {
                   "index": 1,
                   "type": "pdf",
                   "reference": "andrew-child",
+                  "date": "2023",
+                  "names": [
+                    "Boys in the Woods"
+                  ],
                   "href": "",
                   "id": "",
-                  "page": 12
+                  "page": 12,
+                  "match": {
+                    "primary": true,
+                    "topo": 0,
+                    "name": 0,
+                    "grade": 0,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  }
                 },
                 {
                   "index": 2,
                   "type": "pdf",
                   "reference": "cooper-doe",
+                  "date": "2019",
+                  "names": [
+                    "Boys in the Woods"
+                  ],
                   "href": "",
                   "id": "gpr-3",
-                  "page": 6
+                  "page": 6,
+                  "match": {
+                    "primary": false,
+                    "topo": 0,
+                    "name": 0,
+                    "grade": -2,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  }
                 },
                 {
                   "index": 3,
                   "type": "pdf",
                   "reference": "paul-waters",
+                  "date": "2011",
+                  "names": [
+                    "Boys in the Woods"
+                  ],
                   "href": "",
                   "id": "lwg-6",
-                  "page": 12
+                  "page": 12,
+                  "match": {
+                    "primary": false,
+                    "topo": 0,
+                    "name": 0,
+                    "grade": -2,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  }
+                },
+                {
+                  "index": 4,
+                  "type": "pdf",
+                  "reference": "e-browne",
+                  "date": "2001",
+                  "names": [
+                    "Boyz in the woods"
+                  ],
+                  "href": "",
+                  "id": "",
+                  "page": 9,
+                  "match": {
+                    "primary": false,
+                    "topo": -1,
+                    "name": 1,
+                    "grade": -2,
+                    "description": -1,
+                    "location": -1,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": "Not provided, but the namesake route is mentioned."
+                  }
                 }
               ],
               "routes": [
@@ -1670,33 +1846,15 @@
                   "id": "tgm-entr-biw-biw",
                   "type": "boulder",
                   "name": "Boys in the Woods",
-                  "nameHistory": [
-                    {
-                      "name": "Boys in the Woods",
-                      "reference": "andrew-child",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Boys in the Woods",
-                      "reference": "cooper-doe",
-                      "date": "2019"
-                    },
-                    {
-                      "name": "Boys in the Woods",
-                      "reference": "paul-waters",
-                      "date": "2011"
-                    },
-                    {
-                      "name": "Boyz in the woods",
-                      "reference": "andrew-child",
-                      "date": "2001"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "pdf",
                       "reference": "andrew-child",
+                      "date": "2023",
+                      "names": [
+                        "Boys in the Woods"
+                      ],
                       "href": "",
                       "id": "tgm-A-4",
                       "page": 12,
@@ -1707,17 +1865,32 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 1,
                       "type": "pdf",
                       "reference": "cooper-doe",
+                      "date": "2019",
+                      "names": [
+                        "Boys in the Woods"
+                      ],
                       "href": "",
                       "id": "gpr-3-7",
                       "page": 6,
@@ -1728,17 +1901,32 @@
                       },
                       "stars": {
                         "value": 1,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 2,
                       "type": "pdf",
                       "reference": "paul-waters",
+                      "date": "2011",
+                      "names": [
+                        "Boys in the Woods"
+                      ],
                       "href": "",
                       "id": "lwg-6-20",
                       "page": 13,
@@ -1749,17 +1937,32 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 0
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 1,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": true,
+                        "notes": "Doesn't mention going left, which is a common reference in other guides."
                       }
                     },
                     {
                       "index": 3,
                       "type": "pdf",
                       "reference": "e-browne",
+                      "date": "2001",
+                      "names": [
+                        "Boyz in the woods"
+                      ],
                       "href": "",
                       "id": "gpr-mtl-48",
                       "page": 9,
@@ -1770,11 +1973,22 @@
                       },
                       "stars": {
                         "value": 4,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": -1,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": -1,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     }
                   ],
@@ -1785,18 +1999,19 @@
                   },
                   "rating": {
                     "value": 2,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
                     "count": 1,
                     "subCount": 0,
                     "spotter": 0,
-                    "subSpotter": 0
+                    "subSpotter": 0,
+                    "rope": false
                   },
                   "description": [],
                   "fa": {
@@ -1815,7 +2030,9 @@
                   "stand": false,
                   "extension": false,
                   "variation": "",
-                  "tags": [],
+                  "tags": [
+                    "mantle"
+                  ],
                   "filters": [
                     "standard",
                     "classic"
@@ -1826,38 +2043,16 @@
                   "type": "boulder",
                   "id": "tgm-entr-biw-tt",
                   "name": "Tabor Tots",
-                  "nameHistory": [
-                    {
-                      "name": "Tabor Tots",
-                      "reference": "andrew-child",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Boys in the Woods Left",
-                      "reference": "cooper-doe",
-                      "date": "2019"
-                    },
-                    {
-                      "name": "Boys in the Woods Left",
-                      "reference": "paul-waters",
-                      "date": "2011"
-                    },
-                    {
-                      "name": "Tabor tots",
-                      "reference": "e-browne",
-                      "date": "2001"
-                    },
-                    {
-                      "name": "A boy and his wood",
-                      "reference": "andrew-child",
-                      "date": "2023"
-                    },
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "pdf",
                       "reference": "andrew-child",
+                      "date": "2023",
+                      "names": [
+                        "Tabor Tots",
+                        "A Boy and His Wood"
+                      ],
                       "href": "",
                       "id": "tgm-A-4a",
                       "page": 12,
@@ -1868,17 +2063,32 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
-                      }
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
+                      },
                     },
                     {
                       "index": 1,
                       "type": "pdf",
                       "reference": "cooper-doe",
+                      "date": "2019",
+                      "names": [
+                        "Boys in the Woods Left"
+                      ],
                       "href": "",
                       "id": "gpr-3-8",
                       "page": 6,
@@ -1889,17 +2099,32 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 2,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": "Clarifies the apex is 10 feet away."
                       }
                     },
                     {
                       "index": 2,
                       "type": "pdf",
                       "reference": "paul-waters",
+                      "date": "2011",
+                      "names": [
+                        "Boys in the Woods Left"
+                      ],
                       "href": "",
                       "id": "lwg-6-19",
                       "page": 13,
@@ -1910,17 +2135,32 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 0
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 1,
+                        "name": 2,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": true,
+                        "notes": "Mentions an early top out as opposed to manuvering to the apex of the boulder."
                       }
                     },
                     {
                       "index": 3,
                       "type": "pdf",
                       "reference": "e-browne",
+                      "date": "2001",
+                      "names": [
+                        "Tabor tots"
+                      ],
                       "href": "",
                       "id": "gpr-mtl-49",
                       "page": 9,
@@ -1931,11 +2171,22 @@
                       },
                       "stars": {
                         "value": 4,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": -1,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": -1,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     }
                   ],
@@ -1946,18 +2197,19 @@
                   },
                   "rating": {
                     "value": -1,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
                     "count": -1,
                     "subCount": 0,
                     "spotter": -1,
-                    "subSpotter": 0
+                    "subSpotter": 0,
+                    "rope": false
                   },
                   "description": [],
                   "fa": {
@@ -1978,7 +2230,6 @@
                   "variation": "tgm-entr-biw-biw",
                   "tags": [],
                   "filters": [
-                    "historical",
                     "standard"
                   ]
                 },

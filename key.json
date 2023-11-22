@@ -1,8 +1,24 @@
 {
-  "andrew-child": "upg",
-  "cooper-doe": "arg",
-  "paul-waters": "upg",
-  "e-browne": "arg",
+  "andrew-child": {
+    "danger": 3,
+    "rating": 3
+  },
+  "cooper-doe": {
+    "danger": 0,
+    "rating": 4
+  },
+  "paul-waters": {
+    "danger": 0,
+    "rating": 0
+  },
+  "e-browne": {
+    "danger": 3,
+    "rating": 4
+  },
+  "mountain-project": {
+    "danger": 4,
+    "rating": 4
+  },
   "tags": [
     "dabby",
     "high-ball",
