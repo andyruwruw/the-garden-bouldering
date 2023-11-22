@@ -33,7 +33,7 @@
     },
     "e-browne": {
       "type": "pdf",
-      "author": "E. Browne",
+      "author": "Eric Browne",
       "date": "2001",
       "href": "",
       "recievesUpdates": false
@@ -58,6 +58,99 @@
       "date": "2022",
       "href": "https://nextascent.org/the-garden-bouldering-guidebook/",
       "recievesUpdates": true
+    }
+  },
+  "schema": {
+    "Area": {
+      "index": {
+        "type": "number",
+        "description": "Arbutrary index for ordering."
+      },
+      "id": {
+        "type": "string",
+        "description": "Unique identifier that builds, chosen for this specific guide, usually abreviated name."
+      },
+      "name": {
+        "type": "name",
+        "description": "Chosen name of area for this guide."
+      },
+      "nameHistory": {
+        "type": "NameHistory",
+        "description": "Alternative names used in other guides, could be casual references to previous names."
+      },
+      "hrefs": {
+        "type": "Href",
+        "description": "Links to other guides, topos, or references."
+      }
+    },
+    "NameHistory": {
+      "name": {
+        "type": "string",
+        "description": "Name used or mentioned in other guide.."
+      },
+      "reference": {
+        "type": "string",
+        "description": "Unique identifier for reference name was found in."
+      },
+      "date": {
+        "type": "string",
+        "description": "Estimated date of varying accuracy of reference written date."
+      }
+    },
+    "Href": {
+      "index": {
+        "type": "number",
+        "description": "Arbutrary index for ordering."
+      },
+      "type": {
+        "type": "string",
+        "description": "Type of reference.",
+        "options": [
+          {
+            "value": "link",
+            "description": "Link to an alternative live site."
+          },
+          {
+            "value": "pdf",
+            "description": "PDF guidebook."
+          }
+        ]
+      },
+      "reference": {
+        "type": "string",
+        "description": "Unique identifier for reference."
+      },
+      "href": {
+        "type": "string",
+        "description": "Link to reference if available, this doesn't apply to PDF links, only links specifically to this item."
+      },
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for this item based on reference it was drawn from, this means using that references own ID system, or creating one for it. Usually compound of area/boulder IDs and route abbreviations."
+      },
+      "page": {
+        "type": "number",
+        "description": "Page number of reference this item was found on if available."
+      },
+      "grade": {
+        "type": "GradingSuggestion",
+        "description": "Suggested grade for this item based on reference."
+      },
+      "stars": {
+        "type": "RatingSuggestion",
+        "description": "Suggested rating for this item based on reference."
+      },
+      "danger": {
+        "type": "RatingSuggestion",
+        "description": "Suggested danger rating for this item based on reference."
+      },
+      "match": {
+        "type": "MatchConfidence",
+        "description": "How well this item matches the reference this element was based on."
+      },
+    },
+    "MatchConfidence": {
+
     }
   },
   "areas": [
@@ -1100,7 +1193,12 @@
                       "name": "Tabor tots",
                       "reference": "e-browne",
                       "date": "2001"
-                    }
+                    },
+                    {
+                      "name": "A boy and his wood",
+                      "reference": "andrew-child",
+                      "date": "2023"
+                    },
                   ],
                   "hrefs": [
                     {
@@ -1541,11 +1639,6 @@
                       "name": "Ice Cubes Shiny Jerry Curl",
                       "reference": "paul-waters",
                       "date": "2011"
-                    },
-                    {
-                      "name": "Straight out of Sweethome",
-                      "reference": "e-browne",
-                      "date": "2001"
                     }
                   ],
                   "hrefs": [
@@ -1626,27 +1719,6 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
-                      },
-                      "danger": {
-                        "value": 0,
-                        "max": 5
-                      }
-                    },
-                    {
-                      "index": 4,
-                      "type": "pdf",
-                      "reference": "e-browne",
-                      "href": "",
-                      "id": "gpr-mtl-46",
-                      "page": 9,
-                      "grade": {
-                        "value": 0,
-                        "subValue": 0,
-                        "system": "everything-3"
-                      },
-                      "stars": {
-                        "value": 3,
                         "max": 5
                       },
                       "danger": {
@@ -15381,6 +15453,11 @@
                       "name": "Bitchin Corners Sit",
                       "reference": "andrew-child",
                       "date": "2023"
+                    },
+                    {
+                      "name": "Ty fighter",
+                      "reference": "e-browne",
+                      "date": "2001"
                     }
                   ],
                   "hrefs": [
@@ -15416,6 +15493,27 @@
                         "value": 6,
                         "subValue": 0,
                         "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": 2,
+                        "max": 5
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "index": 0,
+                      "type": "pdf",
+                      "reference": "e-browne",
+                      "href": "",
+                      "id": "gpr-ct-3",
+                      "page": 7,
+                      "grade": {
+                        "value": 0,
+                        "subValue": 0,
+                        "system": "everything-3"
                       },
                       "stars": {
                         "value": 2,
@@ -16173,6 +16271,11 @@
                       "name": "Sharma Cave",
                       "reference": "paul-waters",
                       "date": "2011"
+                    },
+                    {
+                      "name": "The Good Project",
+                      "reference": "andrew-child",
+                      "date": "2023"
                     }
                   ],
                   "hrefs": [
@@ -18852,6 +18955,11 @@
                     },
                     {
                       "name": "K&#%*'s hairy crack",
+                      "reference": "e-browne",
+                      "date": "2001"
+                    },
+                    {
+                      "name": "K's hairy crack",
                       "reference": "e-browne",
                       "date": "2001"
                     }
@@ -22450,6 +22558,11 @@
                   "name": "Big Fred",
                   "reference": "paul-waters",
                   "date": "2011"
+                },
+                {
+                  "name": "Big Frank",
+                  "reference": "e-browne",
+                  "date": "2001"
                 }
               ],
               "hrefs": [
@@ -24945,6 +25058,11 @@
                       "name": "Pumpkin Steep Project",
                       "reference": "paul-waters",
                       "date": "2011"
+                    },
+                    {
+                      "name": "Pocket Monkey",
+                      "reference": "andrew-child",
+                      "date": "2023"
                     }
                   ],
                   "hrefs": [
@@ -25467,6 +25585,11 @@
                       "name": "Buddha's Belly",
                       "reference": "paul-waters",
                       "date": "2011"
+                    },
+                    {
+                      "name": "Andrew Problem",
+                      "reference": "andrew-child",
+                      "date": "2023"
                     }
                   ],
                   "hrefs": [
