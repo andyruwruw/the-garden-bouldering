@@ -63,16 +63,178 @@
   },
 
   "match": {
-    "confidence": 0,
-    "based-on": true,
-    "provided-topo": false,
-    "topo-match": false,
-    "name-match": true,
-    "difficulty-match": false,
-    "description-match": true,
-    "provided-location": true,
-    "location-match": true,
+    "primary": false,
+    "topo": 0,
+    "name": 0,
+    "grade": 0,
+    "description": 0,
+    "location": 0,
     "alternative-start": false,
-    "alternative-finish": false
-  }
+    "alternative-finish": false,
+    "notes": ""
+  },
+  "MatchConfidence": {
+    "primary": {
+      "type": "boolean",
+      "description": "Whether this entry was based on this reference. Primary will have all other values as false."
+    },
+    "topo": {
+      "type": "number",
+      "description": "How different the topo is from the original. Higher is more difference. Ranges from -2 to 3.",
+      "options": [
+        {
+          "value": -2,
+          "description": "Original did not include a topo."
+        },
+        {
+          "value": -1,
+          "description": "No topo provided."
+        },
+        {
+          "value": 0,
+          "description": "Topo provided and is an absolute match."
+        },
+        {
+          "value": 1,
+          "description": "Topo provided and matching for the most part."
+        },
+        {
+          "value": 2,
+          "description": "Topo has some clear deviations, but looks simular."
+        },
+        {
+          "value": 3,
+          "description": "Very different topo than what is described, most likely the name carried to another route."
+        }
+      ]
+    },
+    "name": {
+      "type": "number",
+      "description": "How different the name is from the original. Higher is more difference. Ranges from -2 to 3.",
+      "options": [
+        {
+          "value": -2,
+          "description": "Original left out a name."
+        },
+        {
+          "value": -1,
+          "description": "No name provided."
+        },
+        {
+          "value": 0,
+          "description": "Name provided and is an absolute match."
+        },
+        {
+          "value": 1,
+          "description": "Name matching for the most part, minor differences."
+        },
+        {
+          "value": 2,
+          "description": "Name has changed but there are clear similarities."
+        },
+        {
+          "value": 3,
+          "description": "The name is entirely different."
+        }
+      ]
+    },
+    "grade": {
+      "type": "number",
+      "description": "How different the grade is from the original. Higher is more difference. Ranges from -2 to 3.",
+      "options": [
+        {
+          "value": -2,
+          "description": "Original did not provide a grade."
+        },
+        {
+          "value": -1,
+          "description": "No grade provided."
+        },
+        {
+          "value": 0,
+          "description": "Grade provided and is in the same range."
+        },
+        {
+          "value": 1,
+          "description": "Grade seems a bit different, could be sandbagged, soft, or different route."
+        },
+        {
+          "value": 2,
+          "description": "Grade is entirely different, casts doubt on match, or author."
+        }
+      ]
+    },
+    "description": {
+      "type": "number",
+      "description": "How different the description is from the original. Higher is more difference. Ranges from -2 to 3.",
+      "options": [
+        {
+          "value": -2,
+          "description": "Original did not provide a description."
+        },
+        {
+          "value": -1,
+          "description": "No description provided."
+        },
+        {
+          "value": 0,
+          "description": "Description provided is a good match for the original."
+        },
+        {
+          "value": 1,
+          "description": "Description is simular enough to tell it's the same route, but large differences in starts or other details."
+        },
+        {
+          "value": 2,
+          "description": "Description almost seems like a different route."
+        },
+        {
+          "value": 3,
+          "description": "Description makes me wonder if this is even the same rock."
+        }
+      ]
+    },
+    "location": {
+      "type": "number",
+      "description": "How different the location is from the original. Location just has to do position on maps. Higher is more difference. Ranges from -2 to 3.",
+      "options": [
+        {
+          "value": -2,
+          "description": "Original did not provide a Location."
+        },
+        {
+          "value": -1,
+          "description": "No Location provided."
+        },
+        {
+          "value": 0,
+          "description": "Location provided is a good match for the original."
+        },
+        {
+          "value": 1,
+          "description": "Location is on the right face and rock but hard to tell. Could be a tad different or different proportions."
+        },
+        {
+          "value": 2,
+          "description": "Location looks a bit off from the original."
+        },
+        {
+          "value": 3,
+          "description": "Location is absolutely wrong."
+        }
+      ]
+    },
+    "alternative-start": {
+      "type": "boolean",
+      "description": "If the route is clearly a match but with a different start."
+    },
+    "alternative-finish": {
+      "type": "boolean",
+      "description": "If the route is clearly a match but with a different finish."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Notes on why this match was chosen if needed."
+    }
+  },
 }
