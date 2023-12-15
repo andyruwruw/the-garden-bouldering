@@ -21961,28 +21961,6 @@
                   "id": "tgm-met-met-oct",
                   "type": "boulder",
                   "name": "Octernal",
-                  "nameHistory": [
-                    {
-                      "name": "Octernal",
-                      "reference": "a-child",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Octernal",
-                      "reference": "c-doe",
-                      "date": "2019"
-                    },
-                    {
-                      "name": "Tom's Psychedelic Trip",
-                      "reference": "p-waters",
-                      "date": "2011"
-                    },
-                    {
-                      "name": "Tom's bad trip",
-                      "reference": "e-browne",
-                      "date": "2001"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
@@ -21992,8 +21970,7 @@
                       "names": [
                         "Octernal",
                         "Tom's Psychedelic Trip",
-                        "Octurnal",
-                        "Octenal"
+                        "Octurnal"
                       ],
                       "href": "https://www.mountainproject.com/route/106298323/octernal",
                       "id": "106298323",
@@ -22010,6 +21987,17 @@
                       "danger": {
                         "value": 0,
                         "max": 4
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": -1,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
@@ -22030,11 +22018,22 @@
                       },
                       "stars": {
                         "value": 3,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
@@ -22055,11 +22054,22 @@
                       },
                       "stars": {
                         "value": 4,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 1,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
@@ -22080,11 +22090,22 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 3,
+                        "grade": 1,
+                        "description": 1,
+                        "location": 0,
+                        "alternative-start": true,
+                        "alternative-finish": false,
+                        "notes": "References stand for start, mentions optional sit start. Seems to be based on stand."
                       }
                     },
                     {
@@ -22110,6 +22131,17 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": -1,
+                        "name": 3,
+                        "grade": 2,
+                        "description": 0,
+                        "location": -1,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": "Not too specific about starting holds, but clearly the same climb."
                       }
                     }
                   ],
@@ -22120,16 +22152,16 @@
                   },
                   "rating": {
                     "value": 3,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
-                    "count": 1,
-                    "subCount": 0,
+                    "count": 2,
+                    "subCount": 1,
                     "spotter": 1,
                     "subSpotter": 0,
                     "rope": false
@@ -22154,7 +22186,8 @@
                   "variation": "",
                   "tags": [],
                   "filters": [
-                    "standard"
+                    "standard",
+                    "classic"
                   ]
                 },
                 {
@@ -22162,38 +22195,15 @@
                   "id": "tgm-met-met-ocd",
                   "type": "boulder",
                   "name": "Octernal Direct",
-                  "nameHistory": [
-                    {
-                      "name": "Octernal (Direct Variation)",
-                      "reference": "mountain-project",
-                      "date": "2017"
-                    },
-                    {
-                      "name": "Octernal Direct Exit",
-                      "reference": "a-child",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Octernal Direct",
-                      "reference": "c-doe",
-                      "date": "2019"
-                    },
-                    {
-                      "name": "Meth Lab Dyno Sit Start",
-                      "reference": "p-waters",
-                      "date": "2011"
-                    },
-                    {
-                      "name": "Underpants gnomes",
-                      "reference": "e-browne",
-                      "date": "2001"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "link",
                       "reference": "mountain-project",
+                      "date": "05/29/2017",
+                      "names": [
+                        "Octernal (Direct Variation)"
+                      ],
                       "href": "https://www.mountainproject.com/route/113021495/octernal-direct-variation",
                       "id": "113021495",
                       "page": 0,
@@ -22209,12 +22219,27 @@
                       "danger": {
                         "value": 0,
                         "max": 4
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": -1,
+                        "name": 1,
+                        "grade": 0,
+                        "description": 1,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": "Suggests a transition to right face, if required differs slightly."
                       }
                     },
                     {
                       "index": 1,
                       "type": "pdf",
                       "reference": "a-child",
+                      "date": "2023",
+                      "names": [
+                        "Octernal Direct Exit"
+                      ],
                       "href": "",
                       "id": "tgm-D-8a",
                       "page": 26,
@@ -22230,12 +22255,27 @@
                       "danger": {
                         "value": 0,
                         "max": 5
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 2,
                       "type": "pdf",
                       "reference": "c-doe",
+                      "date": "2019",
+                      "names": [
+                        "Octurnal Direct"
+                      ],
                       "href": "",
                       "id": "gpr-7-21",
                       "page": 8,
@@ -22246,17 +22286,32 @@
                       },
                       "stars": {
                         "value": 4,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 1,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 3,
                       "type": "pdf",
                       "reference": "p-waters",
+                      "date": "2011",
+                      "names": [
+                        "Meth Lab Dyno (Sit Start)"
+                      ],
                       "href": "",
                       "id": "lwg-10-43",
                       "page": 18,
@@ -22267,17 +22322,32 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 0
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 3,
+                        "grade": 2,
+                        "description": 1,
+                        "location": 0,
+                        "alternative-start": true,
+                        "alternative-finish": false,
+                        "notes": "Unbelievably sandbagged for the stand. Route is from stand, suggests sit bumps the grade."
                       }
                     },
                     {
                       "index": 4,
                       "type": "pdf",
                       "reference": "e-browne",
+                      "date": "2001",
+                      "names": [
+                        "Underpants gnomes"
+                      ],
                       "href": "",
                       "id": "gpr-mtl-9",
                       "page": 8,
@@ -22288,11 +22358,22 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 1,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": -1,
+                        "name": 3,
+                        "grade": 2,
+                        "description": 0,
+                        "location": -1,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": "Matches description, gives skull possibly for the spook factor."
                       }
                     }
                   ],
@@ -22303,11 +22384,11 @@
                   },
                   "rating": {
                     "value": 3,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -22345,23 +22426,15 @@
                   "id": "tgm-met-met-occ",
                   "type": "boulder",
                   "name": "Octernal Center Exit",
-                  "nameHistory": [
-                    {
-                      "name": "Octernal Center Exit",
-                      "reference": "a-child",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Your mama was a troll",
-                      "reference": "e-browne",
-                      "date": "2001"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "pdf",
                       "reference": "a-child",
+                      "date": "2023",
+                      "names": [
+                        "Octernal Center Exit"
+                      ],
                       "href": "",
                       "id": "tgm-D-8b",
                       "page": 26,
@@ -22372,17 +22445,32 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 1,
                       "type": "pdf",
                       "reference": "e-browne",
+                      "date": "2001",
+                      "names": [
+                        "Your mama was a troll"
+                      ],
                       "href": "",
                       "id": "gpr-mtl-10",
                       "page": 8,
@@ -22393,11 +22481,22 @@
                       },
                       "stars": {
                         "value": 3,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": -1,
+                        "name": 3,
+                        "grade": 1,
+                        "description": 0,
+                        "location": -1,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": "Accurate, exit left side of ledge."
                       }
                     }
                   ],
@@ -22408,11 +22507,11 @@
                   },
                   "rating": {
                     "value": 3,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -22435,27 +22534,30 @@
                   },
                   "project": false,
                   "contrived": false,
+                  "sit": false,
+                  "stand": false,
+                  "extension": false,
+                  "early-exit": true,
                   "variation": "tgm-met-met-oct",
-                  "stand": "",
-                  "tags": []
+                  "tags": [],
+                  "filters": [
+                    "standard"
+                  ]
                 },
                 {
                   "index": 14,
                   "id": "tgm-met-met-sht",
                   "type": "boulder",
                   "name": "The Sweet Home Traverse",
-                  "nameHistory": [
-                    {
-                      "name": "Sweet Home Traverse",
-                      "reference": "a-child",
-                      "date": "2023"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "pdf",
                       "reference": "a-child",
+                      "date": "2023",
+                      "names": [
+                        "Sweet Home Traverse"
+                      ],
                       "href": "",
                       "id": "tgm-D-8c",
                       "page": 26,
@@ -22466,11 +22568,22 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     }
                   ],
@@ -22481,11 +22594,11 @@
                   },
                   "rating": {
                     "value": 2,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -22523,12 +22636,15 @@
                   "id": "tgm-met-met-oss",
                   "type": "boulder",
                   "name": "Octernal Stand Start",
-                  "nameHistory": [],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "link",
                       "reference": "mountain-project",
+                      "date": "11/09/2008",
+                      "names": [
+                        "Octernal Stand Start"
+                      ],
                       "href": "https://www.mountainproject.com/route/106298323/octernal",
                       "id": "106298323",
                       "page": 0,
@@ -22554,11 +22670,11 @@
                   },
                   "rating": {
                     "value": 3,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -22596,33 +22712,15 @@
                   "id": "tgm-met-met-tbs",
                   "type": "boulder",
                   "name": "Two Blows, One Stroke",
-                  "nameHistory": [
-                    {
-                      "name": "2 blows, 1 stroke",
-                      "reference": "mountain-project",
-                      "date": "2018"
-                    },
-                    {
-                      "name": "Two Blows One Stroke",
-                      "reference": "a-child",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Bad Habits",
-                      "reference": "c-doe",
-                      "date": "2019"
-                    },
-                    {
-                      "name": "Acacia Berlandieri",
-                      "reference": "p-waters",
-                      "date": "2011"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "link",
                       "reference": "mountain-project",
+                      "date": "08/19/2018",
+                      "names": [
+                        "2 blows, 1 stroke"
+                      ],
                       "href": "https://www.mountainproject.com/route/114977859/2-blows-1-stroke",
                       "id": "114977859",
                       "page": 0,
@@ -22638,12 +22736,27 @@
                       "danger": {
                         "value": 0,
                         "max": 4
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 1,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": "Descriptions roughly match."
                       }
                     },
                     {
                       "index": 1,
                       "type": "pdf",
                       "reference": "a-child",
+                      "date": "2023",
+                      "names": [
+                        "Two Blows One Stroke"
+                      ],
                       "href": "",
                       "id": "tgm-D-9",
                       "page": 28,
@@ -22654,17 +22767,32 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 2,
                       "type": "pdf",
                       "reference": "c-doe",
+                      "date": "2019",
+                      "names": [
+                        "Bad Habits"
+                      ],
                       "href": "",
                       "id": "gpr-7-22",
                       "page": 8,
@@ -22675,17 +22803,32 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 4
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 3,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": "Not much description of start holds, but same line."
                       }
                     },
                     {
                       "index": 3,
                       "type": "pdf",
                       "reference": "p-waters",
+                      "date": "2011",
+                      "names": [
+                        "Acacia Berlandieri"
+                      ],
                       "href": "",
                       "id": "lwg-10-46",
                       "page": 18,
@@ -22696,11 +22839,22 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 0
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 2,
+                        "name": 3,
+                        "grade": 2,
+                        "description": 2,
+                        "location": 0,
+                        "alternative-start": true,
+                        "alternative-finish": true,
+                        "notes": "Not much of a description, incredibly sandbagged, and line shows no rightward trend. Same starting spot roughly and only climb on the face."
                       }
                     }
                   ],
@@ -22711,11 +22865,11 @@
                   },
                   "rating": {
                     "value": -1,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -22747,30 +22901,24 @@
                   "early-exit": false,
                   "variation": "",
                   "tags": [],
-                  "filters": []
+                  "filters": [
+                    "standard"
+                  ]
                 },
                 {
                   "index": 17,
                   "id": "tgm-met-met-war",
                   "type": "boulder",
                   "name": "West Arête",
-                  "nameHistory": [
-                    {
-                      "name": "West Arête",
-                      "reference": "a-child",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Descent",
-                      "reference": "p-waters",
-                      "date": "2011"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "pdf",
                       "reference": "a-child",
+                      "date": "2023",
+                      "names": [
+                        "West Arête"
+                      ],
                       "href": "",
                       "id": "tgm-D-10",
                       "page": 28,
@@ -22781,17 +22929,32 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 1,
                       "type": "pdf",
                       "reference": "p-waters",
+                      "date": "2011",
+                      "names": [
+                        "Meth Descent"
+                      ],
                       "href": "",
                       "id": "lwg-10-47",
                       "page": 20,
@@ -22802,11 +22965,22 @@
                       },
                       "stars": {
                         "value": -1,
-                        "max": 5
+                        "max": 0
                       },
                       "danger": {
                         "value": 0,
-                        "max": 5
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 3,
+                        "grade": 1,
+                        "description": 2,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": "Same climb, just offered as an offwidth."
                       }
                     }
                   ],
@@ -22817,11 +22991,11 @@
                   },
                   "rating": {
                     "value": 2,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 0,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -22860,23 +23034,15 @@
                   "id": "tgm-met-met-sdc",
                   "type": "boulder",
                   "name": "Southern Discomfort",
-                  "nameHistory": [
-                    {
-                      "name": "Southern Discomfort",
-                      "reference": "mountain-project",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Southern Discomfort",
-                      "reference": "a-child",
-                      "date": "2023"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "link",
                       "reference": "mountain-project",
+                      "date": "06/17/2023",
+                      "names": [
+                        "Southern Discomfort"
+                      ],
                       "href": "https://www.mountainproject.com/route/124420614/southern-discomfort",
                       "id": "124420614",
                       "page": 0,
@@ -22892,12 +23058,27 @@
                       "danger": {
                         "value": 0,
                         "max": 4
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 1,
                       "type": "pdf",
                       "reference": "a-child",
+                      "date": "2023",
+                      "names": [
+                        "Southern Discomfort"
+                      ],
                       "href": "",
                       "id": "tgm-D-11",
                       "page": 28,
@@ -22913,6 +23094,17 @@
                       "danger": {
                         "value": 1,
                         "max": 5
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     }
                   ],
@@ -22923,11 +23115,11 @@
                   },
                   "rating": {
                     "value": 2,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 1,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -22960,7 +23152,8 @@
                   "variation": "",
                   "tags": [],
                   "filters": [
-                    "standard"
+                    "standard",
+                    "modern"
                   ]
                 },
                 {
@@ -22968,23 +23161,15 @@
                   "id": "tgm-met-met-sdd",
                   "type": "boulder",
                   "name": "Southern Discomfort Direct",
-                  "nameHistory": [
-                    {
-                      "name": "Southern Discomfort Direct",
-                      "reference": "mountain-project",
-                      "date": "2023"
-                    },
-                    {
-                      "name": "Southern Discomfort Direct",
-                      "reference": "a-child",
-                      "date": "2023"
-                    }
-                  ],
                   "hrefs": [
                     {
                       "index": 0,
                       "type": "link",
                       "reference": "mountain-project",
+                      "date": "06/10/2023",
+                      "names": [
+                        "Southern Discomfort Direct"
+                      ],
                       "href": "https://www.mountainproject.com/route/124378728/southern-discomfort-direct",
                       "id": "124378728",
                       "page": 0,
@@ -23000,12 +23185,27 @@
                       "danger": {
                         "value": 0,
                         "max": 4
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     },
                     {
                       "index": 1,
                       "type": "pdf",
                       "reference": "a-child",
+                      "date": "2023",
+                      "names": [
+                        "Southern Discomfort Direct"
+                      ],
                       "href": "",
                       "id": "tgm-D-11a",
                       "page": 28,
@@ -23016,11 +23216,22 @@
                       },
                       "stars": {
                         "value": 2,
-                        "max": 5
+                        "max": 3
                       },
                       "danger": {
                         "value": 1,
-                        "max": 5
+                        "max": 3
+                      },
+                      "match": {
+                        "primary": false,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
                       }
                     }
                   ],
@@ -23031,11 +23242,11 @@
                   },
                   "rating": {
                     "value": 2,
-                    "max": 5
+                    "max": 4
                   },
                   "danger": {
                     "value": 1,
-                    "max": 5
+                    "max": 4
                   },
                   "height": 0,
                   "protection": {
@@ -23072,6 +23283,182 @@
                   "filters": [
                     "standard"
                   ]
+                },
+                {
+                  "index": 20,
+                  "id": "tgm-met-met-mtm",
+                  "type": "boulder",
+                  "name": "Meth Myth",
+                  "hrefs": [
+                    {
+                      "index": 0,
+                      "type": "pdf",
+                      "reference": "p-waters",
+                      "date": "2011",
+                      "names": [
+                        "Meth Myth, (In Oregon There Is No)"
+                      ],
+                      "href": "",
+                      "id": "lwg-10-41",
+                      "page": 18,
+                      "grade": {
+                        "value": 7,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
+                      }
+                    }
+                  ],
+                  "grade": {
+                    "value": -2,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "rating": {
+                    "value": -1,
+                    "max": 4
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 4
+                  },
+                  "height": 0,
+                  "protection": {
+                    "count": -1,
+                    "subCount": 0,
+                    "spotter": -1,
+                    "subSpotter": 0,
+                    "rope": false
+                  },
+                  "description": [],
+                  "fa": {
+                    "name": "unknown",
+                    "date": "unknown",
+                    "reference": []
+                  },
+                  "sa": {
+                    "name": "unknown",
+                    "date": "unknown",
+                    "reference": []
+                  },
+                  "project": false,
+                  "contrived": false,
+                  "sit": false,
+                  "stand": true,
+                  "eliminate": false,
+                  "extension": false,
+                  "early-exit": false,
+                  "variation": "",
+                  "tags": [],
+                  "filters": [
+                    "historical"
+                  ]
+                },
+                {
+                  "index": 21,
+                  "id": "tgm-met-met-mdr",
+                  "type": "boulder",
+                  "name": "Meth Lab Dyno Right Finish",
+                  "hrefs": [
+                    {
+                      "index": 0,
+                      "type": "pdf",
+                      "reference": "p-waters",
+                      "date": "2011",
+                      "names": [
+                        "Right Finish, Meth Lab Dyno"
+                      ],
+                      "href": "",
+                      "id": "lwg-10-45",
+                      "page": 20,
+                      "grade": {
+                        "value": 6,
+                        "subValue": 0,
+                        "system": "v-scale"
+                      },
+                      "stars": {
+                        "value": -1,
+                        "max": 0
+                      },
+                      "danger": {
+                        "value": 0,
+                        "max": 0
+                      },
+                      "match": {
+                        "primary": true,
+                        "topo": 0,
+                        "name": 0,
+                        "grade": 0,
+                        "description": 0,
+                        "location": 0,
+                        "alternative-start": false,
+                        "alternative-finish": false,
+                        "notes": ""
+                      }
+                    }
+                  ],
+                  "grade": {
+                    "value": -2,
+                    "subValue": 0,
+                    "system": "v-scale"
+                  },
+                  "rating": {
+                    "value": -1,
+                    "max": 4
+                  },
+                  "danger": {
+                    "value": 0,
+                    "max": 4
+                  },
+                  "height": 0,
+                  "protection": {
+                    "count": -1,
+                    "subCount": 0,
+                    "spotter": -1,
+                    "subSpotter": 0,
+                    "rope": false
+                  },
+                  "description": [],
+                  "fa": {
+                    "name": "unknown",
+                    "date": "unknown",
+                    "reference": []
+                  },
+                  "sa": {
+                    "name": "unknown",
+                    "date": "unknown",
+                    "reference": []
+                  },
+                  "project": false,
+                  "contrived": false,
+                  "sit": false,
+                  "stand": true,
+                  "eliminate": false,
+                  "extension": false,
+                  "early-exit": false,
+                  "variation": "",
+                  "tags": [],
+                  "filters": [
+                    "historical"
+                  ]
                 }
               ]
             },
@@ -23079,52 +23466,75 @@
               "index": 1,
               "id": "tgm-met-swm",
               "name": "Swollen Member Boulder",
-              "nameHistory": [
-                {
-                  "name": "Swollen Member",
-                  "reference": "mountain-project",
-                  "date": "2008"
-                },
-                {
-                  "name": "Swollen Member",
-                  "reference": "a-child",
-                  "date": "2023"
-                },
-                {
-                  "name": "Swollen Member",
-                  "reference": "c-doe",
-                  "date": "2019"
-                },
-                {
-                  "name": "Swollen Member",
-                  "reference": "p-waters",
-                  "date": "2011"
-                }
-              ],
               "hrefs": [
                 {
                   "index": 0,
                   "type": "pdf",
                   "reference": "a-child",
+                  "date": "2023",
+                  "names": [
+                    "Swollen Member"
+                  ],
                   "href": "",
                   "id": "",
-                  "page": 29
+                  "page": 29,
+                  "match": {
+                    "primary": true,
+                    "topo": 0,
+                    "name": 0,
+                    "grade": -2,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  }
                 },
                 {
                   "index": 1,
                   "type": "pdf",
                   "reference": "c-doe",
+                  "date": "2019",
+                  "names": [
+                    "Swollen Member"
+                  ],
                   "href": "",
                   "id": "gpr-16",
-                  "page": 9
+                  "page": 9,
+                  "match": {
+                    "primary": false,
+                    "topo": 0,
+                    "name": 0,
+                    "grade": -2,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  }
                 },
                 {
                   "index": 2,
                   "type": "pdf",
                   "reference": "p-waters",
+                  "date": "2011",
+                  "names": [
+                    "Swollen Member"
+                  ],
                   "href": "",
                   "id": "lwg-30",
-                  "page": 51
+                  "page": 51,
+                  "match": {
+                    "primary": false,
+                    "topo": -1,
+                    "name": 0,
+                    "grade": -2,
+                    "description": 0,
+                    "location": 0,
+                    "alternative-start": false,
+                    "alternative-finish": false,
+                    "notes": ""
+                  }
                 }
               ],
               "routes": [
